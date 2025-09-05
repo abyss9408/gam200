@@ -1,4 +1,5 @@
 Bass'N'Kick – 2D Narrative Rhythm Game
+
 GAM200/250 Software Engineering Project | Team of 8 | Role: Technical Lead
 
 Developed a Muse Dash–inspired rhythm game using a custom-built game engine created from scratch. As Technical Lead, I contributed by:
