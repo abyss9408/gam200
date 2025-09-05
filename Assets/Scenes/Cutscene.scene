@@ -1,0 +1,1559 @@
+{
+    "entities": [
+        {
+            "id": 0,
+            "tag": "Background",
+            "layer": "Background",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 1920.0,
+                    "y": 1080.0
+                },
+                "rotation": 0.0
+            },
+            "render": {
+                "isActive": true,
+                "mesh": 1,
+                "shader_name": "default_shader",
+                "texture_name": "Cutscene_BG",
+                "use_instancing": false,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0,
+                "texture_width": 1920,
+                "texture_height": 1080,
+                "enable_nine_slice": false,
+                "nine_slice_borders": {
+                    "left": 1.0,
+                    "right": 1.0,
+                    "top": 1.0,
+                    "bottom": 1.0
+                }
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": true,
+                "parentId": 1
+            }
+        },
+        {
+            "id": 1,
+            "tag": "Images",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": true,
+                "parentId": -1
+            }
+        },
+        {
+            "id": 2,
+            "tag": "CutsceneImage",
+            "layer": "Cutscene",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 1920.0,
+                    "y": 1080.0
+                },
+                "rotation": 0.0
+            },
+            "render": {
+                "isActive": true,
+                "mesh": 1,
+                "shader_name": "default_shader",
+                "texture_name": "Cutscene_1_Prolouge_1",
+                "use_instancing": false,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0,
+                "texture_width": 1920,
+                "texture_height": 1080,
+                "enable_nine_slice": false,
+                "nine_slice_borders": {
+                    "left": 1.0,
+                    "right": 1.0,
+                    "top": 1.0,
+                    "bottom": 1.0
+                }
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": true,
+                "parentId": 1
+            }
+        },
+        {
+            "id": 3,
+            "tag": "CutsceneManager",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "logic": {
+                "isActive": true,
+                "name": "BassNKick::CutsceneManager",
+                "scriptLang": 1,
+                "bools": {},
+                "ints": {},
+                "floats": {
+                    "timePerCutscene": 0.0
+                },
+                "doubles": {},
+                "chars": {},
+                "strings": {
+                    "cutsceneFile": "cutscenes.json",
+                    "cutsceneToPlay": "Cutscene_1_Prolouge_1"
+                },
+                "entities": {
+                    "cutsceneImageObj": 2,
+                    "textObj": 4,
+                    "cameraControllerObj": 5,
+                    "dialogueUIObj": 7,
+                    "cutsceneAudioController": 14
+                },
+                "prefabs": {},
+                "components": {},
+                "boolLists": {},
+                "intLists": {},
+                "floatLists": {},
+                "doubleLists": {},
+                "charLists": {},
+                "stringLists": {},
+                "entityLists": {},
+                "prefabLists": {},
+                "componentLists": {}
+            }
+        },
+        {
+            "id": 4,
+            "tag": "debugText",
+            "layer": "Cutscene",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": -764.0,
+                    "y": -471.0
+                },
+                "scale": {
+                    "x": 378.0,
+                    "y": 110.0
+                },
+                "rotation": 0.0
+            },
+            "text": {
+                "isActive": true,
+                "text": "",
+                "font_name": "NovaFlat",
+                "size": 32,
+                "color": {
+                    "r": 0.7941176891326904,
+                    "g": 1.0,
+                    "b": 0.0
+                },
+                "alpha": 1.0
+            }
+        },
+        {
+            "id": 5,
+            "tag": "Camera Controller",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "logic": {
+                "isActive": true,
+                "name": "BassNKick::CutsceneCameraController",
+                "scriptLang": 1,
+                "bools": {
+                    "isDone": false
+                },
+                "ints": {},
+                "floats": {
+                    "originalCamZoom": 540.0,
+                    "tweenTime": 1.0,
+                    "originalCamPosX": 0.0,
+                    "originalCamPosY": 0.0
+                },
+                "doubles": {},
+                "chars": {},
+                "strings": {},
+                "entities": {},
+                "prefabs": {},
+                "components": {},
+                "boolLists": {},
+                "intLists": {},
+                "floatLists": {},
+                "doubleLists": {},
+                "charLists": {},
+                "stringLists": {},
+                "entityLists": {},
+                "prefabLists": {},
+                "componentLists": {}
+            }
+        },
+        {
+            "id": 11,
+            "tag": "C1_Beep",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "audio": {
+                "isActive": true,
+                "name": "C1_Beep",
+                "volume": 1.0,
+                "mute": false,
+                "loop": false,
+                "bpm": 0.0,
+                "timeSig": {
+                    "top": 0,
+                    "bot": 0
+                },
+                "playOnAwake": false,
+                "grp": 2
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": true,
+                "parentId": 14
+            }
+        },
+        {
+            "id": 12,
+            "tag": "C1_Vibrate",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "audio": {
+                "isActive": true,
+                "name": "C1_Vibrate",
+                "volume": 1.0,
+                "mute": false,
+                "loop": false,
+                "bpm": 0.0,
+                "timeSig": {
+                    "top": 0,
+                    "bot": 0
+                },
+                "playOnAwake": false,
+                "grp": 2
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": true,
+                "parentId": 14
+            }
+        },
+        {
+            "id": 13,
+            "tag": "C2_AngryFire",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "audio": {
+                "isActive": true,
+                "name": "C2_AngryFire",
+                "volume": 1.0,
+                "mute": false,
+                "loop": false,
+                "bpm": 0.0,
+                "timeSig": {
+                    "top": 0,
+                    "bot": 0
+                },
+                "playOnAwake": false,
+                "grp": 2
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": true,
+                "parentId": 14
+            }
+        },
+        {
+            "id": 14,
+            "tag": "AudioController",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "logic": {
+                "isActive": true,
+                "name": "BassNKick::CutsceneAudioController",
+                "scriptLang": 1,
+                "bools": {},
+                "ints": {},
+                "floats": {
+                    "volumeTweenTime": 0.30000001192092898,
+                    "softenedVol": 0.5,
+                    "softenedVolGuitar": 0.30000001192092898,
+                    "softenedVolDrums": 0.6000000238418579
+                },
+                "doubles": {},
+                "chars": {},
+                "strings": {},
+                "entities": {},
+                "prefabs": {},
+                "components": {},
+                "boolLists": {},
+                "intLists": {},
+                "floatLists": {},
+                "doubleLists": {},
+                "charLists": {},
+                "stringLists": {
+                    "specialBGM": {
+                        "0": "Music_Cutscene_Level3_Band",
+                        "1": "Music_Cutscene_Level3_Guitar",
+                        "2": "Music_Cutscene_Level3_Drums"
+                    }
+                },
+                "entityLists": {
+                    "AudioObj": {
+                        "0": 11,
+                        "1": 12,
+                        "2": 13,
+                        "3": 15,
+                        "4": 16,
+                        "5": 17,
+                        "6": 18,
+                        "7": 19,
+                        "8": 20,
+                        "9": 21,
+                        "10": 22,
+                        "11": 23,
+                        "12": 24,
+                        "13": 25,
+                        "14": 26,
+                        "15": 27,
+                        "16": 28,
+                        "17": 29,
+                        "18": 30,
+                        "19": 31,
+                        "20": 32,
+                        "21": 33,
+                        "22": 34,
+                        "23": 35,
+                        "24": 36,
+                        "25": 37,
+                        "26": 38,
+                        "27": 39
+                    }
+                },
+                "prefabLists": {},
+                "componentLists": {}
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": true,
+                "parentId": -1
+            }
+        },
+        {
+            "id": 15,
+            "tag": "C2_AngryGuitar",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "audio": {
+                "isActive": true,
+                "name": "C2_AngryGuitar",
+                "volume": 1.0,
+                "mute": false,
+                "loop": false,
+                "bpm": 0.0,
+                "timeSig": {
+                    "top": 0,
+                    "bot": 0
+                },
+                "playOnAwake": false,
+                "grp": 2
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": true,
+                "parentId": 14
+            }
+        },
+        {
+            "id": 16,
+            "tag": "C2_HangUpBeep",
+            "group": "",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "audio": {
+                "isActive": true,
+                "name": "C2_HangUpBeep",
+                "volume": 1.0,
+                "mute": false,
+                "loop": false,
+                "bpm": 0.0,
+                "timeSig": {
+                    "top": 0,
+                    "bot": 0
+                },
+                "playOnAwake": false,
+                "grp": 2
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": true,
+                "parentId": 14
+            }
+        },
+        {
+            "id": 17,
+            "tag": "C3_DoorOpen",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "audio": {
+                "isActive": true,
+                "name": "C3_DoorOpen",
+                "volume": 1.0,
+                "mute": false,
+                "loop": false,
+                "bpm": 0.0,
+                "timeSig": {
+                    "top": 0,
+                    "bot": 0
+                },
+                "playOnAwake": false,
+                "grp": 2
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": true,
+                "parentId": 14
+            }
+        },
+        {
+            "id": 18,
+            "tag": "C3_Rummaging",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "audio": {
+                "isActive": true,
+                "name": "C3_Rummaging",
+                "volume": 1.0,
+                "mute": false,
+                "loop": false,
+                "bpm": 0.0,
+                "timeSig": {
+                    "top": 0,
+                    "bot": 0
+                },
+                "playOnAwake": false,
+                "grp": 2
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": true,
+                "parentId": 14
+            }
+        },
+        {
+            "id": 19,
+            "tag": "C4_RUN",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "audio": {
+                "isActive": true,
+                "name": "C4_RUN",
+                "volume": 1.0,
+                "mute": false,
+                "loop": false,
+                "bpm": 0.0,
+                "timeSig": {
+                    "top": 0,
+                    "bot": 0
+                },
+                "playOnAwake": false,
+                "grp": 2
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": true,
+                "parentId": 14
+            }
+        },
+        {
+            "id": 20,
+            "tag": "C5_CityNoise",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "audio": {
+                "isActive": true,
+                "name": "C5_CityNoise",
+                "volume": 1.0,
+                "mute": false,
+                "loop": false,
+                "bpm": 0.0,
+                "timeSig": {
+                    "top": 0,
+                    "bot": 0
+                },
+                "playOnAwake": false,
+                "grp": 2
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": true,
+                "parentId": 14
+            }
+        },
+        {
+            "id": 21,
+            "tag": "C5_ManaGasp",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "audio": {
+                "isActive": true,
+                "name": "C5_ManaGasp",
+                "volume": 1.0,
+                "mute": false,
+                "loop": false,
+                "bpm": 0.0,
+                "timeSig": {
+                    "top": 0,
+                    "bot": 0
+                },
+                "playOnAwake": false,
+                "grp": 2
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": true,
+                "parentId": 14
+            }
+        },
+        {
+            "id": 22,
+            "tag": "C5_VineBoom",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "audio": {
+                "isActive": true,
+                "name": "C5_VineBoom",
+                "volume": 1.0,
+                "mute": false,
+                "loop": false,
+                "bpm": 0.0,
+                "timeSig": {
+                    "top": 0,
+                    "bot": 0
+                },
+                "playOnAwake": false,
+                "grp": 2
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": true,
+                "parentId": 14
+            }
+        },
+        {
+            "id": 23,
+            "tag": "C6_SubwayIntro",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "audio": {
+                "isActive": true,
+                "name": "C6_SubwayIntro",
+                "volume": 1.0,
+                "mute": false,
+                "loop": false,
+                "bpm": 0.0,
+                "timeSig": {
+                    "top": 0,
+                    "bot": 0
+                },
+                "playOnAwake": false,
+                "grp": 2
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": true,
+                "parentId": 14
+            }
+        },
+        {
+            "id": 24,
+            "tag": "C7_RunningFootsteps",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "audio": {
+                "isActive": true,
+                "name": "C7_RunningFootsteps",
+                "volume": 1.0,
+                "mute": false,
+                "loop": false,
+                "bpm": 0.0,
+                "timeSig": {
+                    "top": 0,
+                    "bot": 0
+                },
+                "playOnAwake": false,
+                "grp": 2
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": true,
+                "parentId": 14
+            }
+        },
+        {
+            "id": 25,
+            "tag": "C9_FastRunningFootsteps",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "audio": {
+                "isActive": true,
+                "name": "C9_FastRunningFootsteps",
+                "volume": 1.0,
+                "mute": false,
+                "loop": false,
+                "bpm": 0.0,
+                "timeSig": {
+                    "top": 0,
+                    "bot": 0
+                },
+                "playOnAwake": false,
+                "grp": 2
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": true,
+                "parentId": 14
+            }
+        },
+        {
+            "id": 26,
+            "tag": "C10_ManaCooked",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "audio": {
+                "isActive": true,
+                "name": "C10_ManaCooked",
+                "volume": 1.0,
+                "mute": false,
+                "loop": false,
+                "bpm": 0.0,
+                "timeSig": {
+                    "top": 0,
+                    "bot": 0
+                },
+                "playOnAwake": false,
+                "grp": 2
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": true,
+                "parentId": 14
+            }
+        },
+        {
+            "id": 27,
+            "tag": "C14_DoorOpen",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "audio": {
+                "isActive": true,
+                "name": "C14_DoorOpen",
+                "volume": 1.0,
+                "mute": false,
+                "loop": false,
+                "bpm": 0.0,
+                "timeSig": {
+                    "top": 0,
+                    "bot": 0
+                },
+                "playOnAwake": false,
+                "grp": 2
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": true,
+                "parentId": 14
+            }
+        },
+        {
+            "id": 28,
+            "tag": "C14_ThumbsUp",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "audio": {
+                "isActive": true,
+                "name": "C14_ThumbsUp",
+                "volume": 1.0,
+                "mute": false,
+                "loop": false,
+                "bpm": 0.0,
+                "timeSig": {
+                    "top": 0,
+                    "bot": 0
+                },
+                "playOnAwake": false,
+                "grp": 2
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": true,
+                "parentId": 14
+            }
+        },
+        {
+            "id": 29,
+            "tag": "C14_YazStop",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "audio": {
+                "isActive": true,
+                "name": "C14_YazStop",
+                "volume": 1.0,
+                "mute": false,
+                "loop": false,
+                "bpm": 0.0,
+                "timeSig": {
+                    "top": 0,
+                    "bot": 0
+                },
+                "playOnAwake": false,
+                "grp": 2
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": true,
+                "parentId": 14
+            }
+        },
+        {
+            "id": 30,
+            "tag": "C15_YazHuggyy",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "audio": {
+                "isActive": true,
+                "name": "C15_YazHuggyy",
+                "volume": 1.0,
+                "mute": false,
+                "loop": false,
+                "bpm": 0.0,
+                "timeSig": {
+                    "top": 0,
+                    "bot": 0
+                },
+                "playOnAwake": false,
+                "grp": 2
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": true,
+                "parentId": 14
+            }
+        },
+        {
+            "id": 31,
+            "tag": "C17_YattaMusic",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "audio": {
+                "isActive": true,
+                "name": "C17_YattaMusic",
+                "volume": 1.0,
+                "mute": false,
+                "loop": false,
+                "bpm": 0.0,
+                "timeSig": {
+                    "top": 0,
+                    "bot": 0
+                },
+                "playOnAwake": false,
+                "grp": 2
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": true,
+                "parentId": 14
+            }
+        },
+        {
+            "id": 32,
+            "tag": "CodeB_2_neutral",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "audio": {
+                "isActive": true,
+                "name": "CodeB_2_neutral",
+                "volume": 1.0,
+                "mute": false,
+                "loop": false,
+                "bpm": 0.0,
+                "timeSig": {
+                    "top": 0,
+                    "bot": 0
+                },
+                "playOnAwake": false,
+                "grp": 2
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": true,
+                "parentId": 14
+            }
+        },
+        {
+            "id": 33,
+            "tag": "CodeB_4_happychirp",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "audio": {
+                "isActive": true,
+                "name": "CodeB_4_happychirp",
+                "volume": 1.0,
+                "mute": false,
+                "loop": false,
+                "bpm": 0.0,
+                "timeSig": {
+                    "top": 0,
+                    "bot": 0
+                },
+                "playOnAwake": false,
+                "grp": 2
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": true,
+                "parentId": 14
+            }
+        },
+        {
+            "id": 34,
+            "tag": "CodeB_5_calculating",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "audio": {
+                "isActive": true,
+                "name": "CodeB_5_calculating",
+                "volume": 1.0,
+                "mute": false,
+                "loop": false,
+                "bpm": 0.0,
+                "timeSig": {
+                    "top": 0,
+                    "bot": 0
+                },
+                "playOnAwake": false,
+                "grp": 2
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": true,
+                "parentId": 14
+            }
+        },
+        {
+            "id": 35,
+            "tag": "Music_Cutscene_Level1",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "audio": {
+                "isActive": true,
+                "name": "Music_Cutscene_Level1",
+                "volume": 1.0,
+                "mute": false,
+                "loop": false,
+                "bpm": 0.0,
+                "timeSig": {
+                    "top": 0,
+                    "bot": 0
+                },
+                "playOnAwake": false,
+                "grp": 1
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": true,
+                "parentId": 14
+            }
+        },
+        {
+            "id": 36,
+            "tag": "Music_Cutscene_Level2",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "audio": {
+                "isActive": true,
+                "name": "Music_Cutscene_Level2",
+                "volume": 1.0,
+                "mute": false,
+                "loop": false,
+                "bpm": 0.0,
+                "timeSig": {
+                    "top": 0,
+                    "bot": 0
+                },
+                "playOnAwake": false,
+                "grp": 1
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": true,
+                "parentId": 14
+            }
+        },
+        {
+            "id": 37,
+            "tag": "Music_Cutscene_Level3_Band",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "audio": {
+                "isActive": true,
+                "name": "Music_Cutscene_Level3_Band",
+                "volume": 1.0,
+                "mute": false,
+                "loop": false,
+                "bpm": 0.0,
+                "timeSig": {
+                    "top": 0,
+                    "bot": 0
+                },
+                "playOnAwake": false,
+                "grp": 1
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": true,
+                "parentId": 14
+            }
+        },
+        {
+            "id": 38,
+            "tag": "Music_Cutscene_Level3_Drums",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "audio": {
+                "isActive": true,
+                "name": "Music_Cutscene_Level3_Drums",
+                "volume": 1.0,
+                "mute": false,
+                "loop": false,
+                "bpm": 0.0,
+                "timeSig": {
+                    "top": 0,
+                    "bot": 0
+                },
+                "playOnAwake": false,
+                "grp": 1
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": true,
+                "parentId": 14
+            }
+        },
+        {
+            "id": 39,
+            "tag": "Music_Cutscene_Level3_Guitar",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "audio": {
+                "isActive": true,
+                "name": "Music_Cutscene_Level3_Guitar",
+                "volume": 1.0,
+                "mute": false,
+                "loop": false,
+                "bpm": 0.0,
+                "timeSig": {
+                    "top": 0,
+                    "bot": 0
+                },
+                "playOnAwake": false,
+                "grp": 1
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": true,
+                "parentId": 14
+            }
+        },
+        {
+            "id": 6,
+            "tag": "fpscounter",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 880.0,
+                    "y": 490.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "text": {
+                "isActive": true,
+                "text": "FPS: 00",
+                "font_name": "Closeness",
+                "size": 32,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0
+            },
+            "logic": {
+                "isActive": true,
+                "name": "BassNKick::FPSCounter",
+                "scriptLang": 1,
+                "bools": {},
+                "ints": {},
+                "floats": {},
+                "doubles": {},
+                "chars": {},
+                "strings": {},
+                "entities": {},
+                "prefabs": {},
+                "components": {},
+                "boolLists": {},
+                "intLists": {},
+                "floatLists": {},
+                "doubleLists": {},
+                "charLists": {},
+                "stringLists": {},
+                "entityLists": {},
+                "prefabLists": {},
+                "componentLists": {}
+            }
+        },
+        {
+            "id": 7,
+            "tag": "GameSystem",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "logic": {
+                "isActive": true,
+                "name": "BassNKick::GameSystem",
+                "scriptLang": 1,
+                "bools": {},
+                "ints": {},
+                "floats": {},
+                "doubles": {},
+                "chars": {},
+                "strings": {},
+                "entities": {
+                    "settingObj": -1
+                },
+                "prefabs": {},
+                "components": {},
+                "boolLists": {},
+                "intLists": {},
+                "floatLists": {},
+                "doubleLists": {},
+                "charLists": {},
+                "stringLists": {},
+                "entityLists": {},
+                "prefabLists": {},
+                "componentLists": {}
+            }
+        }
+    ],
+    "child_relationships": [
+        {
+            "parentId": 1,
+            "childrenIds": [
+                0,
+                2
+            ]
+        },
+        {
+            "parentId": 14,
+            "childrenIds": [
+                11,
+                12,
+                13,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39
+            ]
+        }
+    ],
+    "layers": [
+        {
+            "name": "Background",
+            "order": 0,
+            "active": true,
+            "entities": [
+                0
+            ]
+        },
+        {
+            "name": "Cutscene",
+            "order": 1,
+            "active": true,
+            "entities": [
+                2,
+                4
+            ]
+        },
+        {
+            "name": "Dialogue",
+            "order": 2,
+            "active": true,
+            "entities": []
+        }
+    ],
+    "layer_interactions": {
+        "Cutscene": {
+            "Background": true,
+            "Dialogue": true
+        },
+        "Background": {
+            "Cutscene": true,
+            "Dialogue": true
+        },
+        "Dialogue": {
+            "Background": true,
+            "Cutscene": true
+        }
+    },
+    "camera_settings": {
+        "position": {
+            "x": 0.0,
+            "y": 0.0
+        },
+        "zoom": 540.0
+    }
+}

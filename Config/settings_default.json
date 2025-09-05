@@ -1,0 +1,12 @@
+{
+    "volume master": 1.0,
+    "volume music": 0.3,
+    "volume all sfx": 0.3,
+    "custom speed": 20.0,
+    "custom offset": 0.0,
+    "custom audio offset": 0.0,
+    "custom overlay opacity": 0.5,
+    "custom top button": 82,
+    "custom mid button": 70,
+    "custom bot button": 86
+}

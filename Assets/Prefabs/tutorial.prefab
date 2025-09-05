@@ -1,0 +1,158 @@
+{
+    "prefab": {
+        "name": "Tutorial",
+        "components": {
+            "id": 0,
+            "tag": "Tutorial",
+            "layer": "tutorial",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "logic": {
+                "isActive": true,
+                "name": "BassNKick::TutorialUI",
+                "scriptLang": 1,
+                "bools": {},
+                "ints": {},
+                "floats": {},
+                "doubles": {},
+                "chars": {},
+                "strings": {},
+                "entities": {
+                    "tutorial": 2,
+                    "button1": 3,
+                    "button2": 4,
+                    "button3": 5,
+                    "buttonLeft": 6,
+                    "buttonRight": 7,
+                    "buttonBack": 8
+                },
+                "prefabs": {},
+                "components": {},
+                "boolLists": {},
+                "intLists": {},
+                "floatLists": {},
+                "doubleLists": {},
+                "charLists": {},
+                "stringLists": {},
+                "entityLists": {},
+                "prefabLists": {},
+                "componentLists": {}
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": true,
+                "parentId": -1
+            }
+        },
+        "childPrefabs": [
+            {
+                "path": "Tutorial_1.prefab",
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 1920.0,
+                    "y": 1080.0
+                },
+                "rotation": 0.0
+            },
+            {
+                "path": "Tutorial_2.prefab",
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 1920.0,
+                    "y": 1080.0
+                },
+                "rotation": 0.0
+            },
+            {
+                "path": "Tutorial_3.prefab",
+                "position": {
+                    "x": -440.0,
+                    "y": 150.0
+                },
+                "scale": {
+                    "x": 210.0,
+                    "y": 132.0
+                },
+                "rotation": 0.0
+            },
+            {
+                "path": "Tutorial_4.prefab",
+                "position": {
+                    "x": -440.0,
+                    "y": -40.0
+                },
+                "scale": {
+                    "x": 210.0,
+                    "y": 132.0
+                },
+                "rotation": 0.0
+            },
+            {
+                "path": "Tutorial_5.prefab",
+                "position": {
+                    "x": -440.0,
+                    "y": -230.0
+                },
+                "scale": {
+                    "x": 210.0,
+                    "y": 132.0
+                },
+                "rotation": 0.0
+            },
+            {
+                "path": "Tutorial_6.prefab",
+                "position": {
+                    "x": -900.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 74.0,
+                    "y": 84.0
+                },
+                "rotation": 0.0
+            },
+            {
+                "path": "Tutorial_7.prefab",
+                "position": {
+                    "x": 900.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 74.0,
+                    "y": 84.0
+                },
+                "rotation": 0.0
+            },
+            {
+                "path": "Tutorial_8.prefab",
+                "position": {
+                    "x": 0.0,
+                    "y": -480.0
+                },
+                "scale": {
+                    "x": 227.0,
+                    "y": 65.0
+                },
+                "rotation": 0.0
+            }
+        ]
+    }
+}

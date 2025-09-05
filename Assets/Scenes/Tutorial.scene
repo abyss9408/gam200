@@ -1,0 +1,751 @@
+{
+    "entities": [
+        {
+            "id": 0,
+            "tag": "Tutorial",
+            "layer": "tutorial",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "logic": {
+                "isActive": true,
+                "name": "BassNKick::TutorialUI",
+                "scriptLang": 1,
+                "bools": {
+                    "isTutorialScene": true
+                },
+                "ints": {},
+                "floats": {},
+                "doubles": {},
+                "chars": {},
+                "strings": {
+                    "nextScene": "Track1"
+                },
+                "entities": {
+                    "tutorial": 2,
+                    "button1": 3,
+                    "button2": 4,
+                    "button3": 5,
+                    "buttonLeft": 6,
+                    "buttonRight": 7,
+                    "buttonBack": 8,
+                    "buttonSFX": 11
+                },
+                "prefabs": {},
+                "components": {},
+                "boolLists": {},
+                "intLists": {},
+                "floatLists": {},
+                "doubleLists": {},
+                "charLists": {},
+                "stringLists": {},
+                "entityLists": {},
+                "prefabLists": {},
+                "componentLists": {}
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": true,
+                "parentId": -1
+            }
+        },
+        {
+            "id": 1,
+            "tag": "tutorial_Bg",
+            "layer": "tutorial",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 1920.0,
+                    "y": 1080.0
+                },
+                "rotation": 0.0
+            },
+            "render": {
+                "isActive": true,
+                "mesh": 1,
+                "shader_name": "default_shader",
+                "texture_name": "UI_HowToPlay_LevelSelect",
+                "use_instancing": false,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0,
+                "texture_width": 1920,
+                "texture_height": 1080,
+                "enable_nine_slice": false,
+                "nine_slice_borders": {
+                    "left": 1.0,
+                    "right": 1.0,
+                    "top": 1.0,
+                    "bottom": 1.0
+                }
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": false,
+                "parentId": 0
+            }
+        },
+        {
+            "id": 2,
+            "tag": "tutorial",
+            "group": "",
+            "layer": "tutorial",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 1920.0,
+                    "y": 1080.0
+                },
+                "rotation": 0.0
+            },
+            "render": {
+                "isActive": true,
+                "mesh": 1,
+                "shader_name": "default_shader",
+                "texture_name": "UI_HowToPlay_1",
+                "use_instancing": false,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0,
+                "texture_width": 1920,
+                "texture_height": 1080,
+                "enable_nine_slice": false,
+                "nine_slice_borders": {
+                    "left": 1.0,
+                    "right": 1.0,
+                    "top": 1.0,
+                    "bottom": 1.0
+                }
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": false,
+                "parentId": 0
+            }
+        },
+        {
+            "id": 3,
+            "tag": "tutorial_R",
+            "layer": "buttons",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": -440.0,
+                    "y": 150.0
+                },
+                "scale": {
+                    "x": 210.0,
+                    "y": 132.0
+                },
+                "rotation": 0.0
+            },
+            "render": {
+                "isActive": true,
+                "mesh": 1,
+                "shader_name": "animation_shader",
+                "texture_name": "UI_HowToPlay_R_spritesheet",
+                "use_instancing": false,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0,
+                "texture_width": 420,
+                "texture_height": 132,
+                "enable_nine_slice": false,
+                "nine_slice_borders": {
+                    "left": 1.0,
+                    "right": 1.0,
+                    "top": 1.0,
+                    "bottom": 1.0
+                }
+            },
+            "animation": {
+                "isActive": true,
+                "sprite_sheet_size": {
+                    "width": 420.0,
+                    "height": 132.0
+                },
+                "playOnce": false,
+                "animation_state": {
+                    "anim": {
+                        "start_frame": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "end_frame": {
+                            "x": 1,
+                            "y": 0
+                        },
+                        "frame_size": {
+                            "width": 210.0,
+                            "height": 132.0
+                        },
+                        "animation_speed": 1.0
+                    }
+                }
+            },
+            "parent": {
+                "inheritActive": false,
+                "inheritTransform": false,
+                "parentId": 0
+            }
+        },
+        {
+            "id": 4,
+            "tag": "tutorial_F",
+            "group": "",
+            "layer": "buttons",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": -440.0,
+                    "y": -40.0
+                },
+                "scale": {
+                    "x": 210.0,
+                    "y": 132.0
+                },
+                "rotation": 0.0
+            },
+            "render": {
+                "isActive": true,
+                "mesh": 1,
+                "shader_name": "animation_shader",
+                "texture_name": "UI_HowToPlay_F_spritesheet",
+                "use_instancing": false,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0,
+                "texture_width": 420,
+                "texture_height": 132,
+                "enable_nine_slice": false,
+                "nine_slice_borders": {
+                    "left": 1.0,
+                    "right": 1.0,
+                    "top": 1.0,
+                    "bottom": 1.0
+                }
+            },
+            "animation": {
+                "isActive": true,
+                "sprite_sheet_size": {
+                    "width": 420.0,
+                    "height": 132.0
+                },
+                "playOnce": false,
+                "animation_state": {
+                    "anim": {
+                        "start_frame": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "end_frame": {
+                            "x": 1,
+                            "y": 0
+                        },
+                        "frame_size": {
+                            "width": 210.0,
+                            "height": 132.0
+                        },
+                        "animation_speed": 1.0
+                    }
+                }
+            },
+            "parent": {
+                "inheritActive": false,
+                "inheritTransform": false,
+                "parentId": 0
+            }
+        },
+        {
+            "id": 5,
+            "tag": "tutorial_V",
+            "group": "",
+            "layer": "buttons",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": -440.0,
+                    "y": -230.0
+                },
+                "scale": {
+                    "x": 210.0,
+                    "y": 132.0
+                },
+                "rotation": 0.0
+            },
+            "render": {
+                "isActive": true,
+                "mesh": 1,
+                "shader_name": "animation_shader",
+                "texture_name": "UI_HowToPlay_V_spritesheet",
+                "use_instancing": false,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0,
+                "texture_width": 420,
+                "texture_height": 132,
+                "enable_nine_slice": false,
+                "nine_slice_borders": {
+                    "left": 1.0,
+                    "right": 1.0,
+                    "top": 1.0,
+                    "bottom": 1.0
+                }
+            },
+            "animation": {
+                "isActive": true,
+                "sprite_sheet_size": {
+                    "width": 420.0,
+                    "height": 132.0
+                },
+                "playOnce": false,
+                "animation_state": {
+                    "anim": {
+                        "start_frame": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "end_frame": {
+                            "x": 1,
+                            "y": 0
+                        },
+                        "frame_size": {
+                            "width": 210.0,
+                            "height": 132.0
+                        },
+                        "animation_speed": 1.0
+                    }
+                }
+            },
+            "parent": {
+                "inheritActive": false,
+                "inheritTransform": false,
+                "parentId": 0
+            }
+        },
+        {
+            "id": 6,
+            "tag": "tutorial_left",
+            "layer": "buttons",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": -900.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 74.0,
+                    "y": 84.0
+                },
+                "rotation": 0.0
+            },
+            "render": {
+                "isActive": true,
+                "mesh": 1,
+                "shader_name": "animation_shader",
+                "texture_name": "UI_HowToPlay_LeftArrow_spritesheet",
+                "use_instancing": false,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0,
+                "texture_width": 148,
+                "texture_height": 84,
+                "enable_nine_slice": false,
+                "nine_slice_borders": {
+                    "left": 1.0,
+                    "right": 1.0,
+                    "top": 1.0,
+                    "bottom": 1.0
+                }
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": false,
+                "parentId": 0
+            },
+            "ui": {
+                "isActive": true,
+                "uiType": "BUTTON",
+                "onClickActions": [
+                    "None"
+                ],
+                "hasHoverEffect": true,
+                "frameX": 0,
+                "frameY": 0,
+                "hoverFrameX": 1,
+                "hoverFrameY": 0,
+                "totalColumns": 2,
+                "totalRows": 1,
+                "sheetWidth": 148.0,
+                "sheetHeight": 84.0
+            }
+        },
+        {
+            "id": 7,
+            "tag": "tutorial_right",
+            "group": "",
+            "layer": "buttons",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 900.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 74.0,
+                    "y": 84.0
+                },
+                "rotation": 0.0
+            },
+            "render": {
+                "isActive": true,
+                "mesh": 1,
+                "shader_name": "animation_shader",
+                "texture_name": "UI_HowToPlay_RightArrow_spritesheet",
+                "use_instancing": false,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0,
+                "texture_width": 148,
+                "texture_height": 84,
+                "enable_nine_slice": false,
+                "nine_slice_borders": {
+                    "left": 1.0,
+                    "right": 1.0,
+                    "top": 1.0,
+                    "bottom": 1.0
+                }
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": false,
+                "parentId": 0
+            },
+            "ui": {
+                "isActive": true,
+                "uiType": "BUTTON",
+                "onClickActions": [
+                    "None"
+                ],
+                "hasHoverEffect": true,
+                "frameX": 0,
+                "frameY": 0,
+                "hoverFrameX": 1,
+                "hoverFrameY": 0,
+                "totalColumns": 2,
+                "totalRows": 1,
+                "sheetWidth": 148.0,
+                "sheetHeight": 84.0
+            }
+        },
+        {
+            "id": 8,
+            "tag": "tutorial_confirm",
+            "group": "",
+            "layer": "buttons",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": -480.0
+                },
+                "scale": {
+                    "x": 227.0,
+                    "y": 65.0
+                },
+                "rotation": 0.0
+            },
+            "render": {
+                "isActive": true,
+                "mesh": 1,
+                "shader_name": "animation_shader",
+                "texture_name": "UI_Button_Confirm_spritesheet",
+                "use_instancing": false,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0,
+                "texture_width": 908,
+                "texture_height": 130,
+                "enable_nine_slice": false,
+                "nine_slice_borders": {
+                    "left": 1.0,
+                    "right": 1.0,
+                    "top": 1.0,
+                    "bottom": 1.0
+                }
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": false,
+                "parentId": 0
+            },
+            "ui": {
+                "isActive": true,
+                "uiType": "BUTTON",
+                "onClickActions": [
+                    "None"
+                ],
+                "hasHoverEffect": true,
+                "frameX": 0,
+                "frameY": 0,
+                "hoverFrameX": 1,
+                "hoverFrameY": 0,
+                "totalColumns": 2,
+                "totalRows": 1,
+                "sheetWidth": 908.0,
+                "sheetHeight": 130.0
+            }
+        },
+        {
+            "id": 9,
+            "tag": "fpscounter",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 880.0,
+                    "y": 490.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "text": {
+                "isActive": true,
+                "text": "FPS: 00",
+                "font_name": "Closeness",
+                "size": 32,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0
+            },
+            "logic": {
+                "isActive": true,
+                "name": "BassNKick::FPSCounter",
+                "scriptLang": 1,
+                "bools": {},
+                "ints": {},
+                "floats": {},
+                "doubles": {},
+                "chars": {},
+                "strings": {},
+                "entities": {},
+                "prefabs": {},
+                "components": {},
+                "boolLists": {},
+                "intLists": {},
+                "floatLists": {},
+                "doubleLists": {},
+                "charLists": {},
+                "stringLists": {},
+                "entityLists": {},
+                "prefabLists": {},
+                "componentLists": {}
+            },
+            "prefab_instance": {
+                "prefab_name": "fpscounter",
+                "sync_prefab": false
+            }
+        },
+        {
+            "id": 10,
+            "tag": "GameSystem",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "logic": {
+                "isActive": true,
+                "name": "BassNKick::GameSystem",
+                "scriptLang": 1,
+                "bools": {},
+                "ints": {},
+                "floats": {},
+                "doubles": {},
+                "chars": {},
+                "strings": {},
+                "entities": {
+                    "settingObj": -1
+                },
+                "prefabs": {},
+                "components": {},
+                "boolLists": {},
+                "intLists": {},
+                "floatLists": {},
+                "doubleLists": {},
+                "charLists": {},
+                "stringLists": {},
+                "entityLists": {},
+                "prefabLists": {},
+                "componentLists": {}
+            },
+            "prefab_instance": {
+                "prefab_name": "GameSystem",
+                "sync_prefab": false
+            }
+        },
+        {
+            "id": 11,
+            "tag": "buttonSFX",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "audio": {
+                "isActive": true,
+                "name": "punchy",
+                "volume": 1.0,
+                "mute": false,
+                "loop": false,
+                "bpm": 0.0,
+                "timeSig": {
+                    "top": 0,
+                    "bot": 0
+                },
+                "playOnAwake": false,
+                "grp": 2
+            }
+        }
+    ],
+    "child_relationships": [
+        {
+            "parentId": 0,
+            "childrenIds": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+            ]
+        }
+    ],
+    "layers": [
+        {
+            "name": "tutorial",
+            "order": 0,
+            "active": true,
+            "entities": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "name": "buttons",
+            "order": 1,
+            "active": true,
+            "entities": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+            ]
+        }
+    ],
+    "layer_interactions": {
+        "buttons": {
+            "tutorial": true
+        },
+        "tutorial": {
+            "buttons": true
+        }
+    },
+    "camera_settings": {
+        "position": {
+            "x": 0.0,
+            "y": 0.0
+        },
+        "zoom": 540.0
+    }
+}

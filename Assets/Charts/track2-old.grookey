@@ -1,0 +1,12 @@
+{
+    "name": "track2",
+    "duration": 10.0,
+    "bpm": 130.0,
+    "time sig top": 4,
+    "time sig bot": 4,
+    "audio file path": "TurnItUp-130bpm(v1).wav",
+    "save file path": "",
+    "notes": [
+
+    ]
+}

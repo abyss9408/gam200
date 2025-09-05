@@ -1,0 +1,60 @@
+{
+    "prefab": {
+        "name": "fpscounter",
+        "components": {
+            "id": 16,
+            "tag": "fpscounter",
+            "group": "ui",
+            "layer": "ui",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 880.0,
+                    "y": 490.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "text": {
+                "isActive": true,
+                "text": "FPS: 00",
+                "font_name": "Closeness",
+                "size": 32,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0
+            },
+            "logic": {
+                "isActive": true,
+                "name": "BassNKick::FPSCounter",
+                "scriptLang": 1,
+                "bools": {},
+                "ints": {},
+                "floats": {},
+                "doubles": {},
+                "chars": {},
+                "strings": {},
+                "entities": {},
+                "prefabs": {},
+                "components": {},
+                "boolLists": {},
+                "intLists": {},
+                "floatLists": {},
+                "doubleLists": {},
+                "charLists": {},
+                "stringLists": {},
+                "entityLists": {},
+                "prefabLists": {},
+                "componentLists": {}
+            }
+        }
+    }
+}

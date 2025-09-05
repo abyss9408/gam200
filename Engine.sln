@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Team_Popplio", "Team_Popplio\Team_Popplio.vcxproj", "{4BFEF482-1707-4762-B6C8-46B0D176B1A8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{42D8A280-4194-4C47-9597-38E44F75D938} = {42D8A280-4194-4C47-9597-38E44F75D938}
+		{D0D6F8D7-A88B-4002-9511-EDD2FD16678D} = {D0D6F8D7-A88B-4002-9511-EDD2FD16678D}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Team_Popplio_Script", "Team_Popplio_Script\Team_Popplio_Script.csproj", "{42D8A280-4194-4C47-9597-38E44F75D938}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Team_Popplio_PreDLL", "Team_Popplio_PreDLL\Team_Popplio_PreDLL.vcxproj", "{D0D6F8D7-A88B-4002-9511-EDD2FD16678D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+		Release-Game|x64 = Release-Game|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BFEF482-1707-4762-B6C8-46B0D176B1A8}.Debug|x64.ActiveCfg = Debug|x64
+		{4BFEF482-1707-4762-B6C8-46B0D176B1A8}.Debug|x64.Build.0 = Debug|x64
+		{4BFEF482-1707-4762-B6C8-46B0D176B1A8}.Release|x64.ActiveCfg = Release|x64
+		{4BFEF482-1707-4762-B6C8-46B0D176B1A8}.Release|x64.Build.0 = Release|x64
+		{4BFEF482-1707-4762-B6C8-46B0D176B1A8}.Release-Game|x64.ActiveCfg = Release-Game|x64
+		{4BFEF482-1707-4762-B6C8-46B0D176B1A8}.Release-Game|x64.Build.0 = Release-Game|x64
+		{42D8A280-4194-4C47-9597-38E44F75D938}.Debug|x64.ActiveCfg = Debug|x64
+		{42D8A280-4194-4C47-9597-38E44F75D938}.Debug|x64.Build.0 = Debug|x64
+		{42D8A280-4194-4C47-9597-38E44F75D938}.Release|x64.ActiveCfg = Release|x64
+		{42D8A280-4194-4C47-9597-38E44F75D938}.Release|x64.Build.0 = Release|x64
+		{42D8A280-4194-4C47-9597-38E44F75D938}.Release-Game|x64.ActiveCfg = Release-Game|x64
+		{42D8A280-4194-4C47-9597-38E44F75D938}.Release-Game|x64.Build.0 = Release-Game|x64
+		{D0D6F8D7-A88B-4002-9511-EDD2FD16678D}.Debug|x64.ActiveCfg = Debug|x64
+		{D0D6F8D7-A88B-4002-9511-EDD2FD16678D}.Debug|x64.Build.0 = Debug|x64
+		{D0D6F8D7-A88B-4002-9511-EDD2FD16678D}.Release|x64.ActiveCfg = Release|x64
+		{D0D6F8D7-A88B-4002-9511-EDD2FD16678D}.Release|x64.Build.0 = Release|x64
+		{D0D6F8D7-A88B-4002-9511-EDD2FD16678D}.Release-Game|x64.ActiveCfg = Release-Game|x64
+		{D0D6F8D7-A88B-4002-9511-EDD2FD16678D}.Release-Game|x64.Build.0 = Release-Game|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A9FE4DFC-A777-4AE7-8B7C-3822FC023EB6}
+	EndGlobalSection
+EndGlobal

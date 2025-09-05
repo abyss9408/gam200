@@ -1,0 +1,53 @@
+{
+    "prefab": {
+        "name": "Systems",
+        "components": {
+            "id": 12,
+            "tag": "Systems",
+            "group": "system",
+            "layer": "System",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "logic": {
+                "isActive": true,
+                "name": "BassNKick::GameSystem",
+                "scriptLang": 1,
+                "bools": {},
+                "ints": {},
+                "floats": {},
+                "doubles": {},
+                "chars": {},
+                "strings": {},
+                "entities": {},
+                "prefabs": {},
+                "scripts": {},
+                "boolLists": {},
+                "intLists": {},
+                "floatLists": {},
+                "doubleLists": {},
+                "charLists": {},
+                "stringLists": {},
+                "entityLists": {},
+                "prefabLists": {},
+                "scriptLists": {}
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": true,
+                "parentId": -1
+            }
+        }
+    }
+}

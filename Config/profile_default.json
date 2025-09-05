@@ -1,0 +1,15 @@
+{
+    "id": 0,
+    "name": "Guest",
+    "noob": true,
+    "avatar": 0,
+    "level": 0,
+    "exp": 0.0,
+    "1_score": 0,
+    "1_unlocked": false,
+    "2_score": 0,
+    "2_unlocked": false,
+    "3_score": 0,
+    "3_unlocked": false,
+    "current cutscene": ""
+}

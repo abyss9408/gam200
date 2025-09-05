@@ -1,0 +1,148 @@
+{
+	"cutscenes": [
+		{
+			"name": "Cutscene_1_Prolouge_1",
+			"texture": "Cutscene_1_Prolouge_1",
+			"hasNextImage": true,
+			"level": -1,
+			"camera points": "-353,25,332 362,210,312 354,-224,251 0,0,540",
+			"sfx": "2 C1_Beep C1_Vibrate,2 C1_Beep C1_Vibrate,1 C5_ManaGasp"
+		},
+		{
+			"name": "Cutscene_1_Prolouge_2",
+			"texture": "Cutscene_1_Prolouge_2",
+			"hasNextImage": true,
+			"level": -1,
+			"camera points": "-342,208,236 -342,-209,236 206,-27,417 0,0,540",
+			"sfx": "1 C1_Beep,1 C2_HangUpBeep,2 C2_AngryGuitar C2_AngryFire"
+		},
+		{
+			"name": "Cutscene_1_Prolouge_3",
+			"texture": "Cutscene_1_Prolouge_3",
+			"hasNextImage": true,
+			"level": -1,
+			"camera points": "-649,289,172 -273,-9,380 219,-8,416 0,0,540",
+			"sfx": "1 C3_Rummaging,1 C3_DoorOpen,1 CodeB_5_calculating"
+		},
+		{
+			"name": "Cutscene_1_Prolouge_4",
+			"texture": "Cutscene_1_Prolouge_4",
+			"hasNextImage": false,
+			"level": 1,
+			"camera points": "0,0,540",
+			"sfx": "2 C4_RUN Music_Cutscene_Level1|BGM"
+		},
+		{
+			"name": "Cutscene_2_Level1end_1",
+			"texture": "Cutscene_2_Level1end_1",
+			"hasNextImage": true,
+			"level": -1,
+			"camera points": "-367,-42,330 290,199,213 394,-198,262 0,0,540",
+			"sfx": "0,1 C5_CityNoise,1 C5_ManaGasp"
+		},
+		{
+			"name": "Cutscene_2_Level1end_2",
+			"texture": "Cutscene_2_Level1end_2",
+			"hasNextImage": true,
+			"level": -1,
+			"camera points": "-305,-3,368 259,2,380 0,0,540",
+			"sfx": "1 CodeB_2_neutral,1 C6_SubwayIntro"
+		},
+		{
+			"name": "Cutscene_2_Level1end_3",
+			"texture": "Cutscene_2_Level1end_3",
+			"hasNextImage": false,
+			"level": -1,
+			"camera points": "0,0,540",
+			"sfx": "1 C7_RunningFootsteps"
+		},
+		{
+			"name": "Cutscene_3_Level2start_1",
+			"texture": "Cutscene_3_Level2start_1",
+			"hasNextImage": true,
+			"level": -1,
+			"camera points": "0,0,540",
+			"sfx": "1 C6_SubwayIntro"
+		},
+		{
+			"name": "Cutscene_3_Level2start_2",
+			"texture": "Cutscene_3_Level2start_2",
+			"hasNextImage": false,
+			"level": 2,
+			"camera points": "0,0,540",
+			"sfx": "2 C9_FastRunningFootsteps Music_Cutscene_Level2|BGM"
+		},
+		{
+			"name": "Cutscene_3_Level2end_1",
+			"texture": "Cutscene_3_Level2end_1",
+			"hasNextImage": true,
+			"level": -1,
+			"camera points": "-507,148,229 211,6,418 0,0,540",
+			"sfx": "0,1 C10_ManaCooked"
+		},
+		{
+			"name": "Cutscene_3_Level2end_2",
+			"texture": "Cutscene_3_Level2end_2",
+			"hasNextImage": true,
+			"level": -1,
+			"camera points": "-448,-114,276 225,70,345 0,0,540",
+			"sfx": "1 C7_RunningFootsteps,1 CodeB_4_happychirp"
+		},
+		{
+			"name": "Cutscene_3_Level2end_3",
+			"texture": "Cutscene_3_Level2end_3",
+			"hasNextImage": false,
+			"level": -1,
+			"camera points": "0,0,540",
+			"sfx": "1 CodeB_5_calculating"
+		},
+		{
+			"name": "Cutscene_5_Level3start_1",
+			"texture": "Cutscene_5_Level3start_1",
+			"hasNextImage": true,
+			"level": -1,
+			"camera points": "-236,0,375 498,199,196 498,-196,196 0,0,540",
+			"sfx": "special"
+		},
+		{
+			"name": "Cutscene_5_Level3start_2",
+			"texture": "Cutscene_5_Level3start_2",
+			"hasNextImage": true,
+			"level": -1,
+			"camera points": "-261,-13,365 487,144,224 503,-204,168 0,0,540",
+			"sfx": "1 C14_YazStop,1 C14_DoorOpen,1 C14_ThumbsUp"
+		},
+		{
+			"name": "Cutscene_5_Level3start_3",
+			"texture": "Cutscene_5_Level3start_3",
+			"hasNextImage": true,
+			"level": -1,
+			"camera points": "-220,-8,416 360,202,258 360,-206,211 0,0,540",
+			"sfx": "1 C15_YazHuggyy,0,1 CodeB_4_happychirp"
+		},
+		{
+			"name": "Cutscene_5_Level3start_4",
+			"texture": "Cutscene_5_Level3start_4",
+			"hasNextImage": false,
+			"level": 3,
+			"camera points": "-286,-1,375 276,-9,382 0,0,540",
+			"sfx": "1 CodeB_4_calculating,1 C14_ThumbsUp"
+		},
+		{
+			"name": "Finall",
+			"texture": "Finall",
+			"hasNextImage": true,
+			"level": -1,
+			"camera points": "0,0,540",
+			"sfx": "3 Music_Cutscene_Level3_Band|BGM Music_Cutscene_Level3_Drums|BGM Music_Cutscene_Level3_Guitar|BGM"
+		},
+		{
+			"name": "UI_Credits",
+			"texture": "UI_Credits",
+			"hasNextImage": false,
+			"level": -1,
+			"camera points": "0,0,540",
+			"sfx": "1 C17_YattaMusic"
+		}
+	]
+}

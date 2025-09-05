@@ -1,0 +1,14 @@
+{
+    "level fade in time": 0.6,
+    "result delay": 3.0,
+    "speed const": 50.0,
+    "note activate time": 3.0,
+    "base offset": 0.0,
+    "fever progress modifier": 0.2,
+    "music delay": 3.0,
+    "start time": 0.0,
+    "perfect threshold": 0.05,
+    "great threshold": 0.12,
+    "meh threshold": 0.24,
+    "press threshold": 0.1
+}

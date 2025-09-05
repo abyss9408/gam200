@@ -1,0 +1,12 @@
+{
+	"engine version": "v0.5.2 | 2025-04-01",
+	"app version": "v0.5.2 | 2025-04-01",
+	"window width": 1600,
+	"window height": 900,
+	"maximized": true,
+	"v-sync": false,
+	"safe mode": true,
+	"last scene": "Assets/Scenes/Track1.scene",
+	"start scene": "Assets/Scenes/MainMenu.scene",
+	"verbose": false
+}

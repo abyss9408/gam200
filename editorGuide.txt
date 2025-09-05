@@ -1,0 +1,99 @@
+File
+-----
+- Located at the top left, able to load, add, and save scenes
+
+
+Hierarchy Section
+-----------------
+- Add entity by clicking the "Add Entity" button
+- Click on any current entities to show components of the entity in the inspector tab
+- Entities can now be made root again by dragging/dropping into the box at the top of the entity list
+
+Asset Store
+------------
+- Click on the respective asset type to display the files in the asset folder
+
+Layer
+------
+- Click on "Add Layer" to add a layer
+- Able to change the order of rendering; order '0' is rendered first 
+- Able to delete layer under "Actions"
+
+Layer Assignment
+----------------
+- Assign the entity to its respective layer
+
+Scene
+-----
+- Mouse scroll to zoom in and out
+- Hold the mouse middle/right button to pan the camera
+- Use the left mouse button to select an entity in the scene viewport
+- Use the toolbar to select the ImGuizmo to be used on the selected entity
+
+Game
+-----
+- Able to play, pause, and stop the gameplay
+- Able to zoom and move the game camera
+
+Inspector
+----------
+- Able to add component(text, script or audio)
+- Able to edit component's data
+- Audio components can be paused, stopped and played via buttons. Different soundtracks can be played.
+- Animation component can be played and stopped, animation state can be changed.
+- Able to edit script variables in the inspector for logic components.
+- Added search bar at the top of textures drop-down list in RenderComponent editor.
+
+Prefab Editor
+-------------
+- Able to add component(text, script or audio)
+- Able to edit component's data
+- Changes to a prefab's components data (except for transform) will reflect to instances across multiple scenes
+
+Console
+-------
+- Shows the debug and info statements
+
+Performance Viewer
+-------------------
+- Shows performance for engine and different system
+
+Performance Testing
+--------------------
+- Add and clear entity 
+
+Chart Editor
+-------------
+- Divided into 4 portions, files & audio loading (top portion), description (second portion), timeline (third portion), and chart editor (bottom portion)
+- Top portion:
+	- Can set bpm and time signature
+	- Can create a new chart based on an audio source (.wav only)
+	- Can save chart
+	- Can load existing charts (.grookey files)
+	- Able to play audio and stop audio using the play and stop button
+- Second portion:
+	- Description on the types of notes that can be placed in the chart editor.
+- Third portion:
+	- Timeline to see which portion of the audio is playing.
+-Bottom portion:
+	- Chart editor is divided into 3 lanes, and has divisions for the sub beats and beats.                                                   
+   	- Click on the timeline for a "tap" note
+    	- Press "shift" and click and drag cursor on the timeline for a "hold" note
+	- Right click mouse button to delete the note
+
+
+Undo/Redo/ Change detection
+----------------------------
+- Able to undo with the menu button at the top of the editor or "Ctrl z"
+- Able to redo with the menu button at the top of the editor or "Ctrl shift z"
+- Detect changes (can be used to show unsaved changes etc)
+- Works for supported components and entities
+
+Auto-save
+----------
+- Saves every 5 minutes to a temp file
+
+Mono Hot Reload
+----------------
+- "Reload Mono" button is at the top of the editor.
+- Enables script edits while the engine is running.

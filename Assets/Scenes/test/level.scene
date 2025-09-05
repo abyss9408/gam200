@@ -1,0 +1,599 @@
+{
+    "entities": [
+        {
+            "id": 0,
+            "tag": "Player",
+            "layer": "GamePlay",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": -481.44921875,
+                    "y": -157.5848388671875
+                },
+                "scale": {
+                    "x": 200.0,
+                    "y": 200.0
+                },
+                "rotation": 0.0
+            },
+            "rigidbody": {
+                "isActive": true,
+                "velocity": {
+                    "x": 0.09032963961362839,
+                    "y": 0.0
+                },
+                "acceleration": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "force": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "mass": 1.0,
+                "useGravity": false,
+                "gravityScale": 1.0,
+                "dragCoefficient": 2.0
+            },
+            "boxcollider": {
+                "isActive": true,
+                "size": {
+                    "x": 200.0,
+                    "y": 200.0
+                },
+                "offset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "isTrigger": true,
+                "isEnabled": true
+            },
+            "render": {
+                "isActive": true,
+                "mesh": 1,
+                "shader_name": "default_shader",
+                "texture_name": "main-character",
+                "use_instancing": false,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0
+            },
+            "logic": {
+                "isActive": true,
+                "name": "BassNKick::Test",
+                "scriptLang": 1,
+                "bools": {},
+                "ints": {},
+                "floats": {},
+                "doubles": {},
+                "chars": {},
+                "strings": {},
+                "entities": {},
+                "scripts": {},
+                "boolLists": {},
+                "intLists": {},
+                "floatLists": {},
+                "doubleLists": {},
+                "charLists": {},
+                "stringLists": {},
+                "entityLists": {},
+                "scriptLists": {}
+            }
+        },
+        {
+            "id": 1,
+            "tag": "player-left",
+            "layer": "GamePlay",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": -485.5641174316406,
+                    "y": -158.435302734375
+                },
+                "scale": {
+                    "x": 200.0,
+                    "y": 200.0
+                },
+                "rotation": 0.0
+            },
+            "rigidbody": {
+                "isActive": true,
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "acceleration": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "force": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "mass": 1.0,
+                "useGravity": false,
+                "gravityScale": 1.0,
+                "dragCoefficient": 2.0
+            },
+            "boxcollider": {
+                "isActive": true,
+                "size": {
+                    "x": 150.0,
+                    "y": 150.0
+                },
+                "offset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "isTrigger": true,
+                "isEnabled": true
+            },
+            "render": {
+                "isActive": true,
+                "mesh": 1,
+                "shader_name": "animation_shader",
+                "texture_name": "Animation_Mana_Spritesheet",
+                "use_instancing": false,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 0.8
+            },
+            "animation": {
+                "isActive": true,
+                "sprite_sheet_size": {
+                    "width": 2258.0,
+                    "height": 1988.0
+                },
+                "animation_state": {
+                    "idle": {
+                        "start_frame": {
+                            "x": 0,
+                            "y": 6
+                        },
+                        "end_frame": {
+                            "x": 4,
+                            "y": 6
+                        },
+                        "frame_size": {
+                            "width": 283.0,
+                            "height": 284.0
+                        },
+                        "animation_speed": 0.23999999463558198
+                    },
+                    "run": {
+                        "start_frame": {
+                            "x": 0,
+                            "y": 3
+                        },
+                        "end_frame": {
+                            "x": 7,
+                            "y": 3
+                        },
+                        "frame_size": {
+                            "width": 282.0,
+                            "height": 284.0
+                        },
+                        "animation_speed": 0.23999999463558198
+                    },
+                    "attack": {
+                        "start_frame": {
+                            "x": 0,
+                            "y": 2
+                        },
+                        "end_frame": {
+                            "x": 5,
+                            "y": 2
+                        },
+                        "frame_size": {
+                            "width": 284.0,
+                            "height": 282.0
+                        },
+                        "animation_speed": 0.23999999463558198
+                    }
+                }
+            },
+            "logic": {
+                "isActive": true,
+                "name": "BassNKick::TestInspector",
+                "scriptLang": 1,
+                "bools": {
+                    "testBool": true
+                },
+                "ints": {
+                    "testInt": 3
+                },
+                "floats": {
+                    "testFloat": 2.0999999046325685
+                },
+                "doubles": {
+                    "testDouble": 5.3
+                },
+                "chars": {
+                    "testChar": "C"
+                },
+                "strings": {
+                    "testString": "Hello"
+                },
+                "entities": {
+                    "testEntity": -1
+                },
+                "scripts": {},
+                "boolLists": {
+                    "testBoolArr": {
+                        "0": true,
+                        "1": true
+                    }
+                },
+                "intLists": {
+                    "testIntArr": {
+                        "0": 1,
+                        "1": 2
+                    }
+                },
+                "floatLists": {
+                    "testFloatArr": {
+                        "0": 2.0999999046325685,
+                        "1": 5.599999904632568
+                    }
+                },
+                "doubleLists": {
+                    "testDoubleArr": {
+                        "0": 5.3,
+                        "1": 2.3,
+                        "2": 5.44432
+                    }
+                },
+                "charLists": {
+                    "testCharArr": {
+                        "0": "A",
+                        "1": "L"
+                    }
+                },
+                "stringLists": {
+                    "testStringArr": {
+                        "0": "Frick",
+                        "1": "Oof",
+                        "2": "Dang"
+                    }
+                },
+                "entityLists": {
+                    "testEntityArr": {
+                        "0": -1,
+                        "1": 0,
+                        "2": 3,
+                        "3": 2
+                    }
+                },
+                "scriptLists": {}
+            }
+        },
+        {
+            "id": 2,
+            "tag": "player1",
+            "layer": "GamePlay",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 204.43093872070313,
+                    "y": 86.46524047851563
+                },
+                "scale": {
+                    "x": 200.0,
+                    "y": 100.0
+                },
+                "rotation": 0.0
+            },
+            "render": {
+                "isActive": true,
+                "mesh": 1,
+                "shader_name": "animation_shader",
+                "texture_name": "Animation_Mana_Spritesheet",
+                "use_instancing": false,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0
+            },
+            "animation": {
+                "isActive": true,
+                "sprite_sheet_size": {
+                    "width": 2258.0,
+                    "height": 1988.0
+                },
+                "animation_state": {
+                    "test1": {
+                        "start_frame": {
+                            "x": 0,
+                            "y": 4
+                        },
+                        "end_frame": {
+                            "x": 4,
+                            "y": 4
+                        },
+                        "frame_size": {
+                            "width": 284.0,
+                            "height": 284.0
+                        },
+                        "animation_speed": 0.11999999731779099
+                    },
+                    "test2": {
+                        "start_frame": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "end_frame": {
+                            "x": 4,
+                            "y": 0
+                        },
+                        "frame_size": {
+                            "width": 324.0,
+                            "height": 284.0
+                        },
+                        "animation_speed": 0.07999999821186066
+                    }
+                }
+            },
+            "audio": {
+                "isActive": true,
+                "name": "track",
+                "volume": 1.0,
+                "mute": false,
+                "loop": false,
+                "bpm": 0.0,
+                "timeSig": {
+                    "top": 0,
+                    "bot": 0
+                },
+                "playOnAwake": false,
+                "grp": 0
+            },
+            "logic": {
+                "isActive": true,
+                "name": "BassNKick::Test1",
+                "scriptLang": 0,
+                "bools": {},
+                "ints": {},
+                "floats": {},
+                "doubles": {},
+                "chars": {},
+                "strings": {},
+                "entities": {},
+                "scripts": {},
+                "boolLists": {},
+                "intLists": {},
+                "floatLists": {},
+                "doubleLists": {},
+                "charLists": {},
+                "stringLists": {},
+                "entityLists": {},
+                "scriptLists": {}
+            }
+        },
+        {
+            "id": 3,
+            "tag": "Background-Inner-1",
+            "layer": "Background-Inner",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 350.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 2000.0,
+                    "y": 900.0
+                },
+                "rotation": 0.0
+            },
+            "render": {
+                "isActive": true,
+                "mesh": 1,
+                "shader_name": "default_shader",
+                "texture_name": "Environment_City_S0_Background_0",
+                "use_instancing": false,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0
+            }
+        },
+        {
+            "id": 4,
+            "tag": "Text",
+            "layer": "UI",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": -68.52630615234375,
+                    "y": -27.538604736328126
+                },
+                "scale": {
+                    "x": 365.0,
+                    "y": 252.0
+                },
+                "rotation": 0.0
+            },
+            "text": {
+                "isActive": true,
+                "text": "HelloBryan",
+                "font_name": "immortal",
+                "alpha": 1.0
+            },
+            "audio": {
+                "isActive": true,
+                "name": "",
+                "volume": 1.0,
+                "mute": false,
+                "loop": false,
+                "bpm": 0.0,
+                "timeSig": {
+                    "top": 0,
+                    "bot": 0
+                },
+                "playOnAwake": false,
+                "grp": 0
+            }
+        },
+        {
+            "id": 5,
+            "tag": "Background-Outer-1",
+            "layer": "Background-Outer",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 350.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 2000.0,
+                    "y": 900.0
+                },
+                "rotation": 0.0
+            },
+            "render": {
+                "isActive": true,
+                "mesh": 1,
+                "shader_name": "default_shader",
+                "texture_name": "Environment_City_S0_Foreground",
+                "use_instancing": false,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0
+            }
+        },
+        {
+            "id": 6,
+            "tag": "Background-Middle-1",
+            "layer": "Background-Middle",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 350.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 2000.0,
+                    "y": 900.0
+                },
+                "rotation": 0.0
+            },
+            "render": {
+                "isActive": true,
+                "mesh": 1,
+                "shader_name": "default_shader",
+                "texture_name": "Environment_City_S1_Midground_1",
+                "use_instancing": false,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0
+            }
+        }
+    ],
+    "child_relationships": [],
+    "layers": [
+        {
+            "name": "Background-Inner",
+            "order": 0,
+            "active": true,
+            "entities": [
+                3
+            ]
+        },
+        {
+            "name": "Background-Middle",
+            "order": 1,
+            "active": true,
+            "entities": [
+                6
+            ]
+        },
+        {
+            "name": "Background-Outer",
+            "order": 2,
+            "active": true,
+            "entities": [
+                5
+            ]
+        },
+        {
+            "name": "GamePlay",
+            "order": 3,
+            "active": true,
+            "entities": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "name": "UI",
+            "order": 4,
+            "active": true,
+            "entities": [
+                4
+            ]
+        }
+    ],
+    "layer_interactions": {
+        "GamePlay": {
+            "Background-Inner": true,
+            "Background-Middle": true,
+            "UI": true,
+            "Background-Outer": true
+        },
+        "Background-Middle": {
+            "Background-Inner": true,
+            "UI": true,
+            "Background-Outer": true,
+            "GamePlay": true
+        },
+        "Background-Inner": {
+            "GamePlay": true,
+            "Background-Middle": true,
+            "UI": true,
+            "Background-Outer": true
+        },
+        "UI": {
+            "Background-Inner": true,
+            "Background-Middle": true,
+            "GamePlay": true,
+            "Background-Outer": true
+        },
+        "Background-Outer": {
+            "Background-Inner": true,
+            "GamePlay": true,
+            "Background-Middle": true,
+            "UI": true
+        }
+    }
+}

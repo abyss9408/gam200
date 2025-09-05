@@ -1,0 +1,4551 @@
+{
+    "name": "track3",
+    "duration": 123.0,
+    "bpm": 160.0,
+    "time sig top": 4,
+    "time sig bot": 4,
+    "audio file path": "EyeOfTheDJ-160bpm(v2)",
+    "save file path": "D:\\Personal\\School\\SIT\\Repos\\team_popplio_f24\\SOURCE\\bin\\Release-x64\\Assets\\Charts/",
+    "notes": [
+        {
+            "id": 0,
+            "bar": 0,
+            "beat": 1.0,
+            "beatlength": 1.5,
+            "lane": 0,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 1,
+            "bar": 1,
+            "beat": 1.0,
+            "beatlength": 1.5,
+            "lane": 0,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 2,
+            "bar": 2,
+            "beat": 1.0,
+            "beatlength": 1.5,
+            "lane": 0,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 3,
+            "bar": 3,
+            "beat": 1.0,
+            "beatlength": 1.5,
+            "lane": 0,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 4,
+            "bar": 4,
+            "beat": 1.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 5,
+            "bar": 4,
+            "beat": 2.0,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 6,
+            "bar": 4,
+            "beat": 2.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 3,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 7,
+            "bar": 5,
+            "beat": 1.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 8,
+            "bar": 5,
+            "beat": 2.0,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 9,
+            "bar": 5,
+            "beat": 2.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 3,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 10,
+            "bar": 6,
+            "beat": 1.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 11,
+            "bar": 6,
+            "beat": 2.0,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 12,
+            "bar": 6,
+            "beat": 2.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 3,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 13,
+            "bar": 7,
+            "beat": 0.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 14,
+            "bar": 7,
+            "beat": 1.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 15,
+            "bar": 7,
+            "beat": 1.0,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 16,
+            "bar": 7,
+            "beat": 2.0,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 17,
+            "bar": 7,
+            "beat": 2.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 18,
+            "bar": 7,
+            "beat": 2.75,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 19,
+            "bar": 7,
+            "beat": 3.0,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 20,
+            "bar": 7,
+            "beat": 3.25,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 21,
+            "bar": 7,
+            "beat": 3.5,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 22,
+            "bar": 8,
+            "beat": 0.0,
+            "beatlength": 1.0,
+            "lane": 2,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 23,
+            "bar": 8,
+            "beat": 2.0,
+            "beatlength": 1.0,
+            "lane": 0,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 24,
+            "bar": 9,
+            "beat": 0.0,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 25,
+            "bar": 9,
+            "beat": 0.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 26,
+            "bar": 9,
+            "beat": 1.5,
+            "beatlength": 0.75,
+            "lane": 2,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 27,
+            "bar": 9,
+            "beat": 3.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 28,
+            "bar": 10,
+            "beat": 0.0,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 29,
+            "bar": 11,
+            "beat": 0.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 30,
+            "bar": 11,
+            "beat": 0.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 31,
+            "bar": 11,
+            "beat": 1.0,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 32,
+            "bar": 11,
+            "beat": 1.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 33,
+            "bar": 11,
+            "beat": 2.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 34,
+            "bar": 11,
+            "beat": 2.5,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 35,
+            "bar": 12,
+            "beat": 0.0,
+            "beatlength": 1.0,
+            "lane": 2,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 36,
+            "bar": 12,
+            "beat": 2.0,
+            "beatlength": 1.0,
+            "lane": 0,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 37,
+            "bar": 13,
+            "beat": 0.0,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 38,
+            "bar": 13,
+            "beat": 0.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 39,
+            "bar": 13,
+            "beat": 1.5,
+            "beatlength": 0.75,
+            "lane": 2,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 40,
+            "bar": 13,
+            "beat": 3.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 41,
+            "bar": 14,
+            "beat": 0.0,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 42,
+            "bar": 15,
+            "beat": 0.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 43,
+            "bar": 15,
+            "beat": 0.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 44,
+            "bar": 15,
+            "beat": 1.0,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": true,
+            "spriteid": 0
+        },
+        {
+            "id": 45,
+            "bar": 15,
+            "beat": 1.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 46,
+            "bar": 15,
+            "beat": 2.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 47,
+            "bar": 15,
+            "beat": 2.5,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": true,
+            "spriteid": 0
+        },
+        {
+            "id": 48,
+            "bar": 16,
+            "beat": 0.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 49,
+            "bar": 16,
+            "beat": 1.0,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 50,
+            "bar": 16,
+            "beat": 1.5,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 2,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 51,
+            "bar": 16,
+            "beat": 2.5,
+            "beatlength": 0.5,
+            "lane": 2,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 52,
+            "bar": 17,
+            "beat": 0.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 53,
+            "bar": 17,
+            "beat": 0.25,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 54,
+            "bar": 17,
+            "beat": 0.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 55,
+            "bar": 17,
+            "beat": 1.0,
+            "beatlength": 0.5,
+            "lane": 0,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 56,
+            "bar": 17,
+            "beat": 2.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 57,
+            "bar": 17,
+            "beat": 2.5,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 58,
+            "bar": 18,
+            "beat": 0.0,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 59,
+            "bar": 18,
+            "beat": 1.0,
+            "beatlength": 0.5,
+            "lane": 2,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 60,
+            "bar": 18,
+            "beat": 2.0,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 61,
+            "bar": 18,
+            "beat": 2.5,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 62,
+            "bar": 18,
+            "beat": 3.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 63,
+            "bar": 19,
+            "beat": 0.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 64,
+            "bar": 19,
+            "beat": 0.5,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 65,
+            "bar": 19,
+            "beat": 1.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 66,
+            "bar": 19,
+            "beat": 1.5,
+            "beatlength": 0.5,
+            "lane": 0,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 67,
+            "bar": 19,
+            "beat": 2.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 68,
+            "bar": 20,
+            "beat": 0.0,
+            "beatlength": 1.0,
+            "lane": 2,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 69,
+            "bar": 20,
+            "beat": 2.0,
+            "beatlength": 1.0,
+            "lane": 0,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 70,
+            "bar": 21,
+            "beat": 0.0,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 71,
+            "bar": 21,
+            "beat": 0.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": true,
+            "spriteid": 0
+        },
+        {
+            "id": 72,
+            "bar": 21,
+            "beat": 1.5,
+            "beatlength": 0.75,
+            "lane": 1,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 73,
+            "bar": 21,
+            "beat": 3.5,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 74,
+            "bar": 22,
+            "beat": 0.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": true,
+            "spriteid": 0
+        },
+        {
+            "id": 75,
+            "bar": 23,
+            "beat": 0.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 76,
+            "bar": 23,
+            "beat": 0.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 77,
+            "bar": 23,
+            "beat": 1.0,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": true,
+            "spriteid": 0
+        },
+        {
+            "id": 78,
+            "bar": 23,
+            "beat": 1.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 79,
+            "bar": 23,
+            "beat": 2.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 80,
+            "bar": 23,
+            "beat": 2.5,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": true,
+            "spriteid": 0
+        },
+        {
+            "id": 81,
+            "bar": 24,
+            "beat": 1.0,
+            "beatlength": 1.0,
+            "lane": 0,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 82,
+            "bar": 24,
+            "beat": 1.0,
+            "beatlength": 1.0,
+            "lane": 2,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 83,
+            "bar": 24,
+            "beat": 2.5,
+            "beatlength": 1.0,
+            "lane": 0,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 84,
+            "bar": 24,
+            "beat": 2.5,
+            "beatlength": 1.0,
+            "lane": 2,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 85,
+            "bar": 25,
+            "beat": 1.0,
+            "beatlength": 1.0,
+            "lane": 0,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 86,
+            "bar": 25,
+            "beat": 1.0,
+            "beatlength": 1.0,
+            "lane": 1,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 87,
+            "bar": 25,
+            "beat": 2.5,
+            "beatlength": 1.0,
+            "lane": 0,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 88,
+            "bar": 25,
+            "beat": 2.5,
+            "beatlength": 1.0,
+            "lane": 1,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 89,
+            "bar": 26,
+            "beat": 1.0,
+            "beatlength": 1.0,
+            "lane": 0,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 90,
+            "bar": 26,
+            "beat": 1.0,
+            "beatlength": 1.0,
+            "lane": 2,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 91,
+            "bar": 26,
+            "beat": 2.5,
+            "beatlength": 1.0,
+            "lane": 0,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 92,
+            "bar": 26,
+            "beat": 2.5,
+            "beatlength": 1.0,
+            "lane": 2,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 93,
+            "bar": 27,
+            "beat": 1.0,
+            "beatlength": 1.0,
+            "lane": 0,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 94,
+            "bar": 27,
+            "beat": 1.0,
+            "beatlength": 1.0,
+            "lane": 1,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 95,
+            "bar": 27,
+            "beat": 2.5,
+            "beatlength": 1.0,
+            "lane": 0,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 96,
+            "bar": 27,
+            "beat": 2.5,
+            "beatlength": 1.0,
+            "lane": 1,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 97,
+            "bar": 28,
+            "beat": 0.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 98,
+            "bar": 28,
+            "beat": 0.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 99,
+            "bar": 28,
+            "beat": 1.0,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 100,
+            "bar": 28,
+            "beat": 1.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 101,
+            "bar": 28,
+            "beat": 2.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 102,
+            "bar": 28,
+            "beat": 2.5,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 103,
+            "bar": 28,
+            "beat": 3.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 104,
+            "bar": 28,
+            "beat": 3.5,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 105,
+            "bar": 29,
+            "beat": 0.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 106,
+            "bar": 29,
+            "beat": 0.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 107,
+            "bar": 29,
+            "beat": 1.0,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 108,
+            "bar": 29,
+            "beat": 1.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 109,
+            "bar": 29,
+            "beat": 2.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 110,
+            "bar": 29,
+            "beat": 2.5,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 111,
+            "bar": 29,
+            "beat": 3.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 112,
+            "bar": 29,
+            "beat": 3.5,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 113,
+            "bar": 30,
+            "beat": 0.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 114,
+            "bar": 30,
+            "beat": 0.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 115,
+            "bar": 30,
+            "beat": 1.0,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 116,
+            "bar": 30,
+            "beat": 1.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 117,
+            "bar": 30,
+            "beat": 2.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 118,
+            "bar": 30,
+            "beat": 2.5,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 119,
+            "bar": 30,
+            "beat": 3.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 120,
+            "bar": 30,
+            "beat": 3.5,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 121,
+            "bar": 31,
+            "beat": 0.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 122,
+            "bar": 31,
+            "beat": 0.5,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 123,
+            "bar": 31,
+            "beat": 1.0,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 124,
+            "bar": 31,
+            "beat": 1.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 125,
+            "bar": 31,
+            "beat": 2.0,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 126,
+            "bar": 31,
+            "beat": 2.5,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 127,
+            "bar": 31,
+            "beat": 3.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": true,
+            "spriteid": 0
+        },
+        {
+            "id": 128,
+            "bar": 31,
+            "beat": 3.25,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": true,
+            "spriteid": 0
+        },
+        {
+            "id": 129,
+            "bar": 31,
+            "beat": 3.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": true,
+            "spriteid": 0
+        },
+        {
+            "id": 130,
+            "bar": 31,
+            "beat": 3.75,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": true,
+            "spriteid": 0
+        },
+        {
+            "id": 131,
+            "bar": 33,
+            "beat": 0.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 132,
+            "bar": 33,
+            "beat": 0.0,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 133,
+            "bar": 33,
+            "beat": 1.0,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 134,
+            "bar": 33,
+            "beat": 1.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 135,
+            "bar": 33,
+            "beat": 2.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 136,
+            "bar": 33,
+            "beat": 2.0,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 137,
+            "bar": 33,
+            "beat": 2.75,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 138,
+            "bar": 33,
+            "beat": 3.0,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 139,
+            "bar": 33,
+            "beat": 3.25,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 140,
+            "bar": 33,
+            "beat": 3.5,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 141,
+            "bar": 34,
+            "beat": 0.0,
+            "beatlength": 1.0,
+            "lane": 2,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 142,
+            "bar": 34,
+            "beat": 2.0,
+            "beatlength": 1.0,
+            "lane": 1,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 143,
+            "bar": 35,
+            "beat": 0.0,
+            "beatlength": 0.5,
+            "lane": 2,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 144,
+            "bar": 35,
+            "beat": 1.5,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 145,
+            "bar": 35,
+            "beat": 2.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 146,
+            "bar": 35,
+            "beat": 2.5,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 147,
+            "bar": 35,
+            "beat": 3.0,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 148,
+            "bar": 35,
+            "beat": 3.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 149,
+            "bar": 35,
+            "beat": 3.75,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 150,
+            "bar": 36,
+            "beat": 0.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 151,
+            "bar": 36,
+            "beat": 1.0,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 152,
+            "bar": 36,
+            "beat": 2.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 153,
+            "bar": 36,
+            "beat": 2.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 154,
+            "bar": 37,
+            "beat": 0.0,
+            "beatlength": 1.0,
+            "lane": 1,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 155,
+            "bar": 37,
+            "beat": 2.0,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 156,
+            "bar": 37,
+            "beat": 2.5,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 157,
+            "bar": 37,
+            "beat": 3.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 158,
+            "bar": 37,
+            "beat": 3.5,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 159,
+            "bar": 38,
+            "beat": 0.0,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": true,
+            "spriteid": 0
+        },
+        {
+            "id": 160,
+            "bar": 38,
+            "beat": 0.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": true,
+            "spriteid": 0
+        },
+        {
+            "id": 161,
+            "bar": 38,
+            "beat": 1.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 162,
+            "bar": 38,
+            "beat": 1.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 163,
+            "bar": 38,
+            "beat": 2.0,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 164,
+            "bar": 38,
+            "beat": 2.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 165,
+            "bar": 39,
+            "beat": 0.0,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 166,
+            "bar": 39,
+            "beat": 0.5,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 167,
+            "bar": 39,
+            "beat": 1.0,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 168,
+            "bar": 39,
+            "beat": 1.5,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 169,
+            "bar": 39,
+            "beat": 2.0,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 170,
+            "bar": 39,
+            "beat": 2.5,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 171,
+            "bar": 39,
+            "beat": 3.5,
+            "beatlength": 0.5,
+            "lane": 1,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 172,
+            "bar": 40,
+            "beat": 0.0,
+            "beatlength": 0.75,
+            "lane": 2,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 173,
+            "bar": 40,
+            "beat": 1.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 174,
+            "bar": 40,
+            "beat": 1.0,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 175,
+            "bar": 40,
+            "beat": 1.5,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 176,
+            "bar": 40,
+            "beat": 2.0,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 177,
+            "bar": 40,
+            "beat": 2.5,
+            "beatlength": 0.75,
+            "lane": 2,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 178,
+            "bar": 41,
+            "beat": 0.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 179,
+            "bar": 41,
+            "beat": 0.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 180,
+            "bar": 41,
+            "beat": 1.0,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 181,
+            "bar": 41,
+            "beat": 1.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 182,
+            "bar": 41,
+            "beat": 2.0,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 183,
+            "bar": 41,
+            "beat": 2.5,
+            "beatlength": 0.75,
+            "lane": 2,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 184,
+            "bar": 42,
+            "beat": 0.0,
+            "beatlength": 0.75,
+            "lane": 2,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 185,
+            "bar": 42,
+            "beat": 0.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 3,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 186,
+            "bar": 42,
+            "beat": 1.75,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 3,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 187,
+            "bar": 42,
+            "beat": 2.0,
+            "beatlength": 1.0,
+            "lane": 1,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 188,
+            "bar": 42,
+            "beat": 2.25,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 3,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 189,
+            "bar": 42,
+            "beat": 3.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 3,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 190,
+            "bar": 43,
+            "beat": 0.0,
+            "beatlength": 0.5,
+            "lane": 2,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 191,
+            "bar": 43,
+            "beat": 0.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 3,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 192,
+            "bar": 43,
+            "beat": 1.75,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 3,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 193,
+            "bar": 43,
+            "beat": 2.0,
+            "beatlength": 1.0,
+            "lane": 1,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 194,
+            "bar": 43,
+            "beat": 2.25,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 3,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 195,
+            "bar": 44,
+            "beat": 0.5,
+            "beatlength": 0.25,
+            "lane": 0,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 196,
+            "bar": 44,
+            "beat": 1.0,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 197,
+            "bar": 44,
+            "beat": 1.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 198,
+            "bar": 44,
+            "beat": 2.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 199,
+            "bar": 44,
+            "beat": 2.25,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 200,
+            "bar": 44,
+            "beat": 2.5,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 201,
+            "bar": 44,
+            "beat": 2.75,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 202,
+            "bar": 44,
+            "beat": 3.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 203,
+            "bar": 44,
+            "beat": 3.25,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 204,
+            "bar": 44,
+            "beat": 3.5,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 205,
+            "bar": 45,
+            "beat": 0.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 206,
+            "bar": 45,
+            "beat": 0.5,
+            "beatlength": 0.25,
+            "lane": 0,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 207,
+            "bar": 45,
+            "beat": 1.0,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 208,
+            "bar": 45,
+            "beat": 1.5,
+            "beatlength": 0.25,
+            "lane": 0,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 209,
+            "bar": 45,
+            "beat": 2.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 210,
+            "bar": 45,
+            "beat": 2.25,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 211,
+            "bar": 45,
+            "beat": 2.5,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 212,
+            "bar": 45,
+            "beat": 2.75,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 213,
+            "bar": 45,
+            "beat": 3.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 214,
+            "bar": 45,
+            "beat": 3.25,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 215,
+            "bar": 45,
+            "beat": 3.5,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 216,
+            "bar": 46,
+            "beat": 0.0,
+            "beatlength": 1.0,
+            "lane": 2,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 217,
+            "bar": 46,
+            "beat": 1.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 218,
+            "bar": 46,
+            "beat": 2.0,
+            "beatlength": 1.0,
+            "lane": 1,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 219,
+            "bar": 46,
+            "beat": 3.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 220,
+            "bar": 47,
+            "beat": 0.0,
+            "beatlength": 0.5,
+            "lane": 2,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 221,
+            "bar": 47,
+            "beat": 0.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 222,
+            "bar": 47,
+            "beat": 1.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 223,
+            "bar": 47,
+            "beat": 2.5,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 224,
+            "bar": 48,
+            "beat": 0.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 225,
+            "bar": 48,
+            "beat": 0.25,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 226,
+            "bar": 48,
+            "beat": 0.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 227,
+            "bar": 48,
+            "beat": 1.0,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 228,
+            "bar": 48,
+            "beat": 1.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 229,
+            "bar": 48,
+            "beat": 2.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 230,
+            "bar": 48,
+            "beat": 2.25,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 231,
+            "bar": 48,
+            "beat": 2.5,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 232,
+            "bar": 48,
+            "beat": 2.75,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 233,
+            "bar": 48,
+            "beat": 3.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 234,
+            "bar": 48,
+            "beat": 3.25,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 235,
+            "bar": 48,
+            "beat": 3.5,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 236,
+            "bar": 49,
+            "beat": 0.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 237,
+            "bar": 49,
+            "beat": 0.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 238,
+            "bar": 49,
+            "beat": 0.75,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 239,
+            "bar": 49,
+            "beat": 1.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 240,
+            "bar": 49,
+            "beat": 1.5,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 241,
+            "bar": 49,
+            "beat": 2.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 242,
+            "bar": 49,
+            "beat": 2.25,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 243,
+            "bar": 49,
+            "beat": 2.5,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 244,
+            "bar": 49,
+            "beat": 2.75,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 245,
+            "bar": 49,
+            "beat": 3.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 246,
+            "bar": 49,
+            "beat": 3.25,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 247,
+            "bar": 49,
+            "beat": 3.5,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 248,
+            "bar": 50,
+            "beat": 0.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 249,
+            "bar": 50,
+            "beat": 1.0,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 250,
+            "bar": 50,
+            "beat": 1.5,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 251,
+            "bar": 50,
+            "beat": 2.5,
+            "beatlength": 0.5,
+            "lane": 2,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 252,
+            "bar": 51,
+            "beat": 0.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 253,
+            "bar": 51,
+            "beat": 0.25,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 254,
+            "bar": 51,
+            "beat": 0.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 255,
+            "bar": 51,
+            "beat": 1.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 256,
+            "bar": 51,
+            "beat": 1.5,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 257,
+            "bar": 51,
+            "beat": 2.0,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 258,
+            "bar": 51,
+            "beat": 2.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 259,
+            "bar": 52,
+            "beat": 0.0,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 260,
+            "bar": 52,
+            "beat": 0.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 261,
+            "bar": 52,
+            "beat": 1.0,
+            "beatlength": 0.5,
+            "lane": 1,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 262,
+            "bar": 52,
+            "beat": 2.0,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 263,
+            "bar": 52,
+            "beat": 2.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 264,
+            "bar": 52,
+            "beat": 3.5,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 265,
+            "bar": 52,
+            "beat": 3.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 266,
+            "bar": 53,
+            "beat": 0.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 267,
+            "bar": 53,
+            "beat": 0.25,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 268,
+            "bar": 53,
+            "beat": 0.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 269,
+            "bar": 53,
+            "beat": 1.0,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 270,
+            "bar": 53,
+            "beat": 1.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 271,
+            "bar": 53,
+            "beat": 2.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 272,
+            "bar": 53,
+            "beat": 2.25,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 273,
+            "bar": 53,
+            "beat": 2.5,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 274,
+            "bar": 53,
+            "beat": 2.75,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 275,
+            "bar": 53,
+            "beat": 3.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 276,
+            "bar": 53,
+            "beat": 3.25,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 277,
+            "bar": 53,
+            "beat": 3.5,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 278,
+            "bar": 54,
+            "beat": 0.0,
+            "beatlength": 1.0,
+            "lane": 0,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 279,
+            "bar": 54,
+            "beat": 0.0,
+            "beatlength": 1.0,
+            "lane": 2,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 280,
+            "bar": 54,
+            "beat": 2.0,
+            "beatlength": 1.0,
+            "lane": 1,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 281,
+            "bar": 54,
+            "beat": 2.0,
+            "beatlength": 1.0,
+            "lane": 0,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 282,
+            "bar": 55,
+            "beat": 0.0,
+            "beatlength": 0.5,
+            "lane": 2,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 283,
+            "bar": 55,
+            "beat": 0.5,
+            "beatlength": 0.5,
+            "lane": 1,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 284,
+            "bar": 55,
+            "beat": 1.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 285,
+            "bar": 55,
+            "beat": 2.5,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 286,
+            "bar": 55,
+            "beat": 3.0,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 287,
+            "bar": 55,
+            "beat": 3.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 288,
+            "bar": 56,
+            "beat": 0.0,
+            "beatlength": 0.75,
+            "lane": 2,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 289,
+            "bar": 56,
+            "beat": 0.0,
+            "beatlength": 0.75,
+            "lane": 0,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 290,
+            "bar": 56,
+            "beat": 1.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 291,
+            "bar": 56,
+            "beat": 1.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 292,
+            "bar": 56,
+            "beat": 2.0,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 293,
+            "bar": 56,
+            "beat": 2.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 294,
+            "bar": 56,
+            "beat": 3.0,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 295,
+            "bar": 56,
+            "beat": 3.5,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 296,
+            "bar": 57,
+            "beat": 0.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 297,
+            "bar": 57,
+            "beat": 0.25,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 298,
+            "bar": 57,
+            "beat": 0.5,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 299,
+            "bar": 57,
+            "beat": 0.75,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 300,
+            "bar": 57,
+            "beat": 1.0,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 301,
+            "bar": 57,
+            "beat": 1.25,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 302,
+            "bar": 57,
+            "beat": 1.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 303,
+            "bar": 57,
+            "beat": 1.75,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 304,
+            "bar": 57,
+            "beat": 2.0,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 305,
+            "bar": 57,
+            "beat": 2.25,
+            "beatlength": 1.75,
+            "lane": 2,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 306,
+            "bar": 58,
+            "beat": 0.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 307,
+            "bar": 58,
+            "beat": 1.0,
+            "beatlength": 0.75,
+            "lane": 1,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 308,
+            "bar": 58,
+            "beat": 1.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 309,
+            "bar": 58,
+            "beat": 1.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 310,
+            "bar": 58,
+            "beat": 2.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 311,
+            "bar": 58,
+            "beat": 2.5,
+            "beatlength": 0.75,
+            "lane": 2,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 312,
+            "bar": 58,
+            "beat": 2.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 313,
+            "bar": 58,
+            "beat": 3.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 314,
+            "bar": 58,
+            "beat": 3.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 315,
+            "bar": 59,
+            "beat": 0.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 316,
+            "bar": 59,
+            "beat": 0.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 317,
+            "bar": 59,
+            "beat": 1.0,
+            "beatlength": 0.75,
+            "lane": 2,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 318,
+            "bar": 59,
+            "beat": 1.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 319,
+            "bar": 59,
+            "beat": 1.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 320,
+            "bar": 59,
+            "beat": 2.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 321,
+            "bar": 59,
+            "beat": 2.5,
+            "beatlength": 0.75,
+            "lane": 1,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 322,
+            "bar": 59,
+            "beat": 2.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 323,
+            "bar": 59,
+            "beat": 3.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 324,
+            "bar": 59,
+            "beat": 3.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 325,
+            "bar": 60,
+            "beat": 0.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 326,
+            "bar": 60,
+            "beat": 0.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 327,
+            "bar": 60,
+            "beat": 1.0,
+            "beatlength": 0.75,
+            "lane": 1,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 328,
+            "bar": 60,
+            "beat": 1.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 329,
+            "bar": 60,
+            "beat": 1.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 330,
+            "bar": 60,
+            "beat": 2.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 331,
+            "bar": 60,
+            "beat": 2.5,
+            "beatlength": 0.75,
+            "lane": 2,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 332,
+            "bar": 60,
+            "beat": 2.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 333,
+            "bar": 60,
+            "beat": 3.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 334,
+            "bar": 60,
+            "beat": 3.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 335,
+            "bar": 61,
+            "beat": 0.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 336,
+            "bar": 61,
+            "beat": 0.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 337,
+            "bar": 61,
+            "beat": 1.0,
+            "beatlength": 0.75,
+            "lane": 1,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 338,
+            "bar": 61,
+            "beat": 1.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 339,
+            "bar": 61,
+            "beat": 1.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 340,
+            "bar": 61,
+            "beat": 2.5,
+            "beatlength": 0.75,
+            "lane": 0,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 341,
+            "bar": 61,
+            "beat": 2.5,
+            "beatlength": 0.75,
+            "lane": 2,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 342,
+            "bar": 62,
+            "beat": 0.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 343,
+            "bar": 62,
+            "beat": 0.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 344,
+            "bar": 62,
+            "beat": 0.75,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 345,
+            "bar": 62,
+            "beat": 1.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 346,
+            "bar": 62,
+            "beat": 1.5,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 347,
+            "bar": 62,
+            "beat": 2.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 348,
+            "bar": 62,
+            "beat": 2.25,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 349,
+            "bar": 62,
+            "beat": 2.5,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 350,
+            "bar": 62,
+            "beat": 2.75,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 351,
+            "bar": 62,
+            "beat": 3.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 352,
+            "bar": 62,
+            "beat": 3.25,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 353,
+            "bar": 62,
+            "beat": 3.5,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 354,
+            "bar": 63,
+            "beat": 0.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 355,
+            "bar": 63,
+            "beat": 0.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 356,
+            "bar": 63,
+            "beat": 0.75,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 357,
+            "bar": 63,
+            "beat": 1.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 358,
+            "bar": 63,
+            "beat": 1.5,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 359,
+            "bar": 63,
+            "beat": 2.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 360,
+            "bar": 63,
+            "beat": 2.25,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 361,
+            "bar": 63,
+            "beat": 2.5,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 362,
+            "bar": 63,
+            "beat": 2.75,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 363,
+            "bar": 63,
+            "beat": 3.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 364,
+            "bar": 63,
+            "beat": 3.25,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 365,
+            "bar": 63,
+            "beat": 3.5,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 366,
+            "bar": 64,
+            "beat": 0.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 367,
+            "bar": 64,
+            "beat": 0.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 368,
+            "bar": 64,
+            "beat": 0.75,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 369,
+            "bar": 64,
+            "beat": 1.25,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 370,
+            "bar": 64,
+            "beat": 1.75,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 371,
+            "bar": 64,
+            "beat": 2.0,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 372,
+            "bar": 64,
+            "beat": 2.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 373,
+            "bar": 64,
+            "beat": 3.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 374,
+            "bar": 64,
+            "beat": 3.25,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 375,
+            "bar": 64,
+            "beat": 3.5,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 376,
+            "bar": 65,
+            "beat": 0.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 377,
+            "bar": 65,
+            "beat": 0.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 378,
+            "bar": 65,
+            "beat": 0.75,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 379,
+            "bar": 65,
+            "beat": 1.25,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 380,
+            "bar": 65,
+            "beat": 1.75,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 381,
+            "bar": 65,
+            "beat": 2.0,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 382,
+            "bar": 65,
+            "beat": 2.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 383,
+            "bar": 65,
+            "beat": 3.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 384,
+            "bar": 65,
+            "beat": 3.25,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 385,
+            "bar": 65,
+            "beat": 3.5,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 386,
+            "bar": 65,
+            "beat": 3.75,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 387,
+            "bar": 67,
+            "beat": 0.0,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 388,
+            "bar": 67,
+            "beat": 1.0,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 389,
+            "bar": 67,
+            "beat": 2.0,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 390,
+            "bar": 67,
+            "beat": 3.0,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 391,
+            "bar": 67,
+            "beat": 3.5,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 392,
+            "bar": 68,
+            "beat": 0.0,
+            "beatlength": 0.75,
+            "lane": 2,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 393,
+            "bar": 68,
+            "beat": 2.0,
+            "beatlength": 0.75,
+            "lane": 0,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 394,
+            "bar": 69,
+            "beat": 0.0,
+            "beatlength": 0.25,
+            "lane": 2,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 395,
+            "bar": 69,
+            "beat": 0.5,
+            "beatlength": 0.5,
+            "lane": 1,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 396,
+            "bar": 69,
+            "beat": 1.5,
+            "beatlength": 1.0,
+            "lane": 2,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 397,
+            "bar": 69,
+            "beat": 3.5,
+            "beatlength": 0.5,
+            "lane": 2,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 398,
+            "bar": 70,
+            "beat": 0.0,
+            "beatlength": 1.0,
+            "lane": 1,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 399,
+            "bar": 70,
+            "beat": 1.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 400,
+            "bar": 70,
+            "beat": 1.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 401,
+            "bar": 70,
+            "beat": 2.0,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 402,
+            "bar": 70,
+            "beat": 2.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 403,
+            "bar": 71,
+            "beat": 0.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 404,
+            "bar": 71,
+            "beat": 0.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 405,
+            "bar": 71,
+            "beat": 1.0,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 406,
+            "bar": 71,
+            "beat": 1.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 407,
+            "bar": 71,
+            "beat": 2.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 408,
+            "bar": 71,
+            "beat": 2.5,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 409,
+            "bar": 72,
+            "beat": 0.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 410,
+            "bar": 72,
+            "beat": 0.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 411,
+            "bar": 72,
+            "beat": 0.75,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 412,
+            "bar": 72,
+            "beat": 1.25,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 413,
+            "bar": 72,
+            "beat": 1.75,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 414,
+            "bar": 72,
+            "beat": 2.0,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 415,
+            "bar": 72,
+            "beat": 2.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 416,
+            "bar": 72,
+            "beat": 3.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 417,
+            "bar": 72,
+            "beat": 3.25,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 418,
+            "bar": 72,
+            "beat": 3.5,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 419,
+            "bar": 72,
+            "beat": 3.75,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 420,
+            "bar": 73,
+            "beat": 0.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 421,
+            "bar": 73,
+            "beat": 0.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 422,
+            "bar": 73,
+            "beat": 0.75,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 423,
+            "bar": 73,
+            "beat": 1.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 424,
+            "bar": 73,
+            "beat": 1.5,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 2,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 425,
+            "bar": 73,
+            "beat": 1.75,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 3,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 426,
+            "bar": 73,
+            "beat": 2.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 3,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 427,
+            "bar": 73,
+            "beat": 2.25,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 2,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 428,
+            "bar": 73,
+            "beat": 2.5,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 2,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 429,
+            "bar": 73,
+            "beat": 2.75,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 3,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 430,
+            "bar": 73,
+            "beat": 3.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 3,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 431,
+            "bar": 74,
+            "beat": 0.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 432,
+            "bar": 74,
+            "beat": 0.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 433,
+            "bar": 74,
+            "beat": 0.75,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 434,
+            "bar": 74,
+            "beat": 1.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 435,
+            "bar": 74,
+            "beat": 1.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 436,
+            "bar": 74,
+            "beat": 2.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 437,
+            "bar": 74,
+            "beat": 2.25,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 438,
+            "bar": 74,
+            "beat": 2.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 439,
+            "bar": 74,
+            "beat": 3.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 440,
+            "bar": 74,
+            "beat": 3.25,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 441,
+            "bar": 74,
+            "beat": 3.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 442,
+            "bar": 75,
+            "beat": 0.0,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 0,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 443,
+            "bar": 75,
+            "beat": 0.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 3,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 444,
+            "bar": 75,
+            "beat": 0.75,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 2,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 445,
+            "bar": 75,
+            "beat": 1.0,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 2,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 446,
+            "bar": 75,
+            "beat": 1.25,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 3,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 447,
+            "bar": 75,
+            "beat": 1.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 3,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 448,
+            "bar": 75,
+            "beat": 1.75,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 2,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 449,
+            "bar": 75,
+            "beat": 2.0,
+            "beatlength": 0.0,
+            "lane": 2,
+            "notetype": 2,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 450,
+            "bar": 75,
+            "beat": 2.25,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 3,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 451,
+            "bar": 75,
+            "beat": 2.5,
+            "beatlength": 0.0,
+            "lane": 0,
+            "notetype": 3,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 452,
+            "bar": 75,
+            "beat": 2.75,
+            "beatlength": 0.0,
+            "lane": 1,
+            "notetype": 2,
+            "rainbow": false,
+            "spriteid": 0
+        },
+        {
+            "id": 453,
+            "bar": 76,
+            "beat": 0.0,
+            "beatlength": 8.0,
+            "lane": 1,
+            "notetype": 1,
+            "rainbow": false,
+            "spriteid": 0
+        }
+    ]
+}

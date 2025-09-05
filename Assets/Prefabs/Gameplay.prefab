@@ -1,0 +1,543 @@
+{
+    "prefab": {
+        "name": "Gameplay",
+        "components": {
+            "id": 2,
+            "tag": "Gameplay",
+            "layer": "GamePlay",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": true,
+                "parentId": -1
+            }
+        },
+        "children": [
+            {
+                "tag": "player",
+                "components": {
+                    "id": 0,
+                    "tag": "player",
+                    "group": "mechanics",
+                    "layer": "GamePlay",
+                    "active": {
+                        "isActive": true
+                    },
+                    "transform": {
+                        "position": {
+                            "x": -465.0,
+                            "y": -150.0
+                        },
+                        "scale": {
+                            "x": 282.0,
+                            "y": 284.0
+                        },
+                        "rotation": 0.0
+                    },
+                    "rigidbody": {
+                        "isActive": true,
+                        "velocity": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "acceleration": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "force": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "mass": 1.0,
+                        "useGravity": true,
+                        "gravityScale": 1.0,
+                        "dragCoefficient": 2.0
+                    },
+                    "boxcollider": {
+                        "isActive": true,
+                        "size": {
+                            "x": 200.0,
+                            "y": 180.0
+                        },
+                        "offset": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "isTrigger": false,
+                        "isEnabled": true
+                    },
+                    "render": {
+                        "isActive": true,
+                        "mesh": 1,
+                        "shader_name": "animation_shader",
+                        "texture_name": "Animation_Mana_Spritesheet",
+                        "use_instancing": false,
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0
+                        },
+                        "alpha": 1.0
+                    },
+                    "animation": {
+                        "isActive": true,
+                        "sprite_sheet_size": {
+                            "width": 2258.0,
+                            "height": 1988.0
+                        },
+                        "animation_state": {
+                            "idle": {
+                                "start_frame": {
+                                    "x": 0,
+                                    "y": 6
+                                },
+                                "end_frame": {
+                                    "x": 4,
+                                    "y": 6
+                                },
+                                "frame_size": {
+                                    "width": 283.0,
+                                    "height": 284.0
+                                },
+                                "animation_speed": 0.23999999463558198
+                            },
+                            "run": {
+                                "start_frame": {
+                                    "x": 0,
+                                    "y": 3
+                                },
+                                "end_frame": {
+                                    "x": 7,
+                                    "y": 3
+                                },
+                                "frame_size": {
+                                    "width": 282.0,
+                                    "height": 284.0
+                                },
+                                "animation_speed": 0.23999999463558198
+                            },
+                            "attack": {
+                                "start_frame": {
+                                    "x": 0,
+                                    "y": 2
+                                },
+                                "end_frame": {
+                                    "x": 5,
+                                    "y": 2
+                                },
+                                "frame_size": {
+                                    "width": 284.0,
+                                    "height": 282.0
+                                },
+                                "animation_speed": 0.23999999463558198
+                            }
+                        }
+                    },
+                    "logic": {
+                        "isActive": true,
+                        "name": "BassNKick::Player",
+                        "scriptLang": 1,
+                        "bools": {},
+                        "ints": {},
+                        "floats": {},
+                        "doubles": {},
+                        "chars": {},
+                        "strings": {
+                            "noteGrp": "",
+                            "groundGrp": ""
+                        },
+                        "entities": {
+                            "lane1": -1,
+                            "lane2": -1,
+                            "lane3": -1
+                        },
+                        "prefabs": {},
+                        "scripts": {},
+                        "boolLists": {},
+                        "intLists": {},
+                        "floatLists": {},
+                        "doubleLists": {},
+                        "charLists": {},
+                        "stringLists": {},
+                        "entityLists": {},
+                        "prefabLists": {},
+                        "scriptLists": {}
+                    },
+                    "parent": {
+                        "inheritActive": true,
+                        "inheritTransform": true,
+                        "parentId": 2
+                    }
+                }
+            },
+            {
+                "tag": "Judgement",
+                "components": {
+                    "id": 3,
+                    "tag": "Judgement",
+                    "group": "mechanics",
+                    "layer": "GamePlay",
+                    "active": {
+                        "isActive": true
+                    },
+                    "transform": {
+                        "position": {
+                            "x": -250.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "rotation": 0.0
+                    },
+                    "render": {
+                        "isActive": false,
+                        "mesh": 1,
+                        "shader_name": "instanced_shader",
+                        "texture_name": "Square",
+                        "use_instancing": true,
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0
+                        },
+                        "alpha": 1.0
+                    },
+                    "logic": {
+                        "isActive": true,
+                        "name": "BassNKick::JudgementInput",
+                        "scriptLang": 1,
+                        "bools": {},
+                        "ints": {},
+                        "floats": {
+                            "perfectThreshold": 0.07999999821186066,
+                            "greatThreshold": 0.18000000715255738,
+                            "mehThreshold": 0.30000001192092898,
+                            "pressThreshold": 0.10000000149011612
+                        },
+                        "doubles": {},
+                        "chars": {},
+                        "strings": {},
+                        "entities": {
+                            "trackObj": 6,
+                            "playerObj": 0
+                        },
+                        "prefabs": {},
+                        "scripts": {},
+                        "boolLists": {},
+                        "intLists": {},
+                        "floatLists": {},
+                        "doubleLists": {},
+                        "charLists": {},
+                        "stringLists": {},
+                        "entityLists": {},
+                        "prefabLists": {},
+                        "scriptLists": {}
+                    },
+                    "parent": {
+                        "inheritActive": true,
+                        "inheritTransform": true,
+                        "parentId": 2
+                    }
+                }
+            },
+            {
+                "tag": "GroundCheck",
+                "components": {
+                    "id": 4,
+                    "tag": "GroundCheck",
+                    "group": "Ground",
+                    "layer": "GamePlay",
+                    "active": {
+                        "isActive": true
+                    },
+                    "transform": {
+                        "position": {
+                            "x": -465.0,
+                            "y": -300.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "rotation": 0.0
+                    },
+                    "boxcollider": {
+                        "isActive": true,
+                        "size": {
+                            "x": 200.0,
+                            "y": 50.0
+                        },
+                        "offset": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "isTrigger": true,
+                        "isEnabled": true
+                    },
+                    "parent": {
+                        "inheritActive": true,
+                        "inheritTransform": true,
+                        "parentId": 2
+                    }
+                }
+            },
+            {
+                "tag": "Platform",
+                "components": {
+                    "id": 5,
+                    "tag": "Platform",
+                    "group": "Ground",
+                    "layer": "GamePlay",
+                    "active": {
+                        "isActive": true
+                    },
+                    "transform": {
+                        "position": {
+                            "x": -465.0,
+                            "y": -350.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "rotation": 0.0
+                    },
+                    "rigidbody": {
+                        "isActive": true,
+                        "velocity": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "acceleration": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "force": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "mass": 0.0,
+                        "useGravity": false,
+                        "gravityScale": 0.0,
+                        "dragCoefficient": 0.10000000149011612
+                    },
+                    "boxcollider": {
+                        "isActive": true,
+                        "size": {
+                            "x": 200.0,
+                            "y": 50.0
+                        },
+                        "offset": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "isTrigger": false,
+                        "isEnabled": true
+                    },
+                    "parent": {
+                        "inheritActive": true,
+                        "inheritTransform": true,
+                        "parentId": 2
+                    }
+                }
+            },
+            {
+                "tag": "Track",
+                "components": {
+                    "id": 6,
+                    "tag": "Track",
+                    "group": "mechanics",
+                    "layer": "GamePlay",
+                    "active": {
+                        "isActive": true
+                    },
+                    "transform": {
+                        "position": {
+                            "x": -250.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "rotation": 0.0
+                    },
+                    "logic": {
+                        "isActive": true,
+                        "name": "BassNKick::Track",
+                        "scriptLang": 1,
+                        "bools": {},
+                        "ints": {},
+                        "floats": {
+                            "customSpeed": 10.0,
+                            "customOffset": 0.05000000074505806,
+                            "customAudioOffset": -0.05000000074505806,
+                            "speedConst": 1.0,
+                            "muteTime": 3.0
+                        },
+                        "doubles": {},
+                        "chars": {},
+                        "strings": {},
+                        "entities": {
+                            "audioManagerObj": 14,
+                            "gameManagerObj": 15,
+                            "judgementObj": 3,
+                            "scoreObj": 1,
+                            "notes": 16,
+                            "lane1": 17,
+                            "lane2": 18,
+                            "lane3": 19,
+                            "noteFeedback": -1,
+                            "canvas": 10,
+                            "feverObj": 36
+                        },
+                        "prefabs": {},
+                        "scripts": {},
+                        "boolLists": {},
+                        "intLists": {},
+                        "floatLists": {},
+                        "doubleLists": {},
+                        "charLists": {},
+                        "stringLists": {},
+                        "entityLists": {},
+                        "prefabLists": {},
+                        "scriptLists": {}
+                    },
+                    "parent": {
+                        "inheritActive": true,
+                        "inheritTransform": true,
+                        "parentId": 2
+                    }
+                },
+                "children": [
+                    {
+                        "tag": "Notes",
+                        "components": {
+                            "id": 16,
+                            "tag": "Notes",
+                            "group": "mechanics",
+                            "layer": "GamePlay",
+                            "active": {
+                                "isActive": true
+                            },
+                            "transform": {
+                                "position": {
+                                    "x": -250.0,
+                                    "y": 0.0
+                                },
+                                "scale": {
+                                    "x": 1.0,
+                                    "y": 1.0
+                                },
+                                "rotation": 0.0
+                            },
+                            "parent": {
+                                "inheritActive": true,
+                                "inheritTransform": true,
+                                "parentId": 6
+                            }
+                        },
+                        "children": [
+                            {
+                                "tag": "1",
+                                "components": {
+                                    "id": 17,
+                                    "tag": "1",
+                                    "layer": "GamePlay",
+                                    "active": {
+                                        "isActive": true
+                                    },
+                                    "transform": {
+                                        "position": {
+                                            "x": -250.0,
+                                            "y": 200.0
+                                        },
+                                        "scale": {
+                                            "x": 1.0,
+                                            "y": 1.0
+                                        },
+                                        "rotation": 0.0
+                                    },
+                                    "parent": {
+                                        "inheritActive": true,
+                                        "inheritTransform": true,
+                                        "parentId": 16
+                                    }
+                                }
+                            },
+                            {
+                                "tag": "2",
+                                "components": {
+                                    "id": 18,
+                                    "tag": "2",
+                                    "layer": "GamePlay",
+                                    "active": {
+                                        "isActive": true
+                                    },
+                                    "transform": {
+                                        "position": {
+                                            "x": -250.0,
+                                            "y": 0.0
+                                        },
+                                        "scale": {
+                                            "x": 1.0,
+                                            "y": 1.0
+                                        },
+                                        "rotation": 0.0
+                                    },
+                                    "parent": {
+                                        "inheritActive": true,
+                                        "inheritTransform": true,
+                                        "parentId": 16
+                                    }
+                                }
+                            },
+                            {
+                                "tag": "3",
+                                "components": {
+                                    "id": 19,
+                                    "tag": "3",
+                                    "layer": "GamePlay",
+                                    "active": {
+                                        "isActive": true
+                                    },
+                                    "transform": {
+                                        "position": {
+                                            "x": -250.0,
+                                            "y": -200.0
+                                        },
+                                        "scale": {
+                                            "x": 1.0,
+                                            "y": 1.0
+                                        },
+                                        "rotation": 0.0
+                                    },
+                                    "parent": {
+                                        "inheritActive": true,
+                                        "inheritTransform": true,
+                                        "parentId": 16
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

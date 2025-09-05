@@ -1,0 +1,588 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net4.7.2</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>BassNKick</RootNamespace>
+    <RunPostBuildEvent>Always</RunPostBuildEvent>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <PlatformTarget>x64</PlatformTarget>
+    <Platforms>x64</Platforms>
+    <Configurations>Debug;Release;Release-Game</Configurations>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release-Game|x64'">
+    <Optimize>True</Optimize>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <!-- Enable hot reload -->
+    <HotReloadEnabled>true</HotReloadEnabled>
+    
+    <!-- Optional: Configure hot reload watch options -->
+    <WatchTopLevelFiles>true</WatchTopLevelFiles>
+    
+    <!-- Ensure debug symbols for hot reload -->
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>portable</DebugType>
+  </PropertyGroup>
+
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="xcopy &quot;$(ProjectDir)bin\$(Platform)\$(Configuration)\net4.7.2\Team_Popplio_Script.dll&quot; &quot;$(SolutionDir)bin\$(Configuration)-$(Platform)&quot; /d /y" />
+  </Target>
+
+  <ItemGroup>
+    <Compile Remove="bassnkick\unityref\**" />
+    <EmbeddedResource Remove="bassnkick\unityref\**" />
+    <None Remove="bassnkick\unityref\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Accessibility">
+      <HintPath>..\extern\mono\lib\4.5\Accessibility.dll</HintPath>
+    </Reference>
+    <Reference Include="al">
+      <HintPath>..\extern\mono\lib\4.5\al.exe</HintPath>
+    </Reference>
+    <Reference Include="aprofutil">
+      <HintPath>..\extern\mono\lib\4.5\aprofutil.exe</HintPath>
+    </Reference>
+    <Reference Include="browsercaps-updater">
+      <HintPath>..\extern\mono\lib\4.5\browsercaps-updater.exe</HintPath>
+    </Reference>
+    <Reference Include="caspol">
+      <HintPath>..\extern\mono\lib\4.5\caspol.exe</HintPath>
+    </Reference>
+    <Reference Include="cccheck">
+      <HintPath>..\extern\mono\lib\4.5\cccheck.exe</HintPath>
+    </Reference>
+    <Reference Include="ccrewrite">
+      <HintPath>..\extern\mono\lib\4.5\ccrewrite.exe</HintPath>
+    </Reference>
+    <Reference Include="cert-sync">
+      <HintPath>..\extern\mono\lib\4.5\cert-sync.exe</HintPath>
+    </Reference>
+    <Reference Include="cert2spc">
+      <HintPath>..\extern\mono\lib\4.5\cert2spc.exe</HintPath>
+    </Reference>
+    <Reference Include="certmgr">
+      <HintPath>..\extern\mono\lib\4.5\certmgr.exe</HintPath>
+    </Reference>
+    <Reference Include="chktrust">
+      <HintPath>..\extern\mono\lib\4.5\chktrust.exe</HintPath>
+    </Reference>
+    <Reference Include="Commons.Xml.Relaxng">
+      <HintPath>..\extern\mono\lib\4.5\Commons.Xml.Relaxng.dll</HintPath>
+    </Reference>
+    <Reference Include="crlupdate">
+      <HintPath>..\extern\mono\lib\4.5\crlupdate.exe</HintPath>
+    </Reference>
+    <Reference Include="csc">
+      <HintPath>..\extern\mono\lib\4.5\csc.exe</HintPath>
+    </Reference>
+    <Reference Include="cscompmgd">
+      <HintPath>..\extern\mono\lib\4.5\cscompmgd.dll</HintPath>
+    </Reference>
+    <Reference Include="csharp">
+      <HintPath>..\extern\mono\lib\4.5\csharp.exe</HintPath>
+    </Reference>
+    <Reference Include="csi">
+      <HintPath>..\extern\mono\lib\4.5\csi.exe</HintPath>
+    </Reference>
+    <Reference Include="culevel">
+      <HintPath>..\extern\mono\lib\4.5\culevel.exe</HintPath>
+    </Reference>
+    <Reference Include="CustomMarshalers">
+      <HintPath>..\extern\mono\lib\4.5\CustomMarshalers.dll</HintPath>
+    </Reference>
+    <Reference Include="disco">
+      <HintPath>..\extern\mono\lib\4.5\disco.exe</HintPath>
+    </Reference>
+    <Reference Include="dtd2rng">
+      <HintPath>..\extern\mono\lib\4.5\dtd2rng.exe</HintPath>
+    </Reference>
+    <Reference Include="dtd2xsd">
+      <HintPath>..\extern\mono\lib\4.5\dtd2xsd.exe</HintPath>
+    </Reference>
+    <Reference Include="fastcgi-mono-server4">
+      <HintPath>..\extern\mono\lib\4.5\fastcgi-mono-server4.exe</HintPath>
+    </Reference>
+    <Reference Include="gacutil">
+      <HintPath>..\extern\mono\lib\4.5\gacutil.exe</HintPath>
+    </Reference>
+    <Reference Include="genxs">
+      <HintPath>..\extern\mono\lib\4.5\genxs.exe</HintPath>
+    </Reference>
+    <Reference Include="httpcfg">
+      <HintPath>..\extern\mono\lib\4.5\httpcfg.exe</HintPath>
+    </Reference>
+    <Reference Include="I18N">
+      <HintPath>..\extern\mono\lib\4.5\I18N.dll</HintPath>
+    </Reference>
+    <Reference Include="I18N.CJK">
+      <HintPath>..\extern\mono\lib\4.5\I18N.CJK.dll</HintPath>
+    </Reference>
+    <Reference Include="I18N.MidEast">
+      <HintPath>..\extern\mono\lib\4.5\I18N.MidEast.dll</HintPath>
+    </Reference>
+    <Reference Include="I18N.Other">
+      <HintPath>..\extern\mono\lib\4.5\I18N.Other.dll</HintPath>
+    </Reference>
+    <Reference Include="I18N.Rare">
+      <HintPath>..\extern\mono\lib\4.5\I18N.Rare.dll</HintPath>
+    </Reference>
+    <Reference Include="I18N.West">
+      <HintPath>..\extern\mono\lib\4.5\I18N.West.dll</HintPath>
+    </Reference>
+    <Reference Include="IBM.Data.DB2">
+      <HintPath>..\extern\mono\lib\4.5\IBM.Data.DB2.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>..\extern\mono\lib\4.5\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="ictool">
+      <HintPath>..\extern\mono\lib\4.5\ictool.exe</HintPath>
+    </Reference>
+    <Reference Include="ikdasm">
+      <HintPath>..\extern\mono\lib\4.5\ikdasm.exe</HintPath>
+    </Reference>
+    <Reference Include="ilasm">
+      <HintPath>..\extern\mono\lib\4.5\ilasm.exe</HintPath>
+    </Reference>
+    <Reference Include="illinkanalyzer">
+      <HintPath>..\extern\mono\lib\4.5\illinkanalyzer.exe</HintPath>
+    </Reference>
+    <Reference Include="installutil">
+      <HintPath>..\extern\mono\lib\4.5\installutil.exe</HintPath>
+    </Reference>
+    <Reference Include="installvst">
+      <HintPath>..\extern\mono\lib\4.5\installvst.exe</HintPath>
+    </Reference>
+    <Reference Include="ISymWrapper" />
+    <Reference Include="lc">
+      <HintPath>..\extern\mono\lib\4.5\lc.exe</HintPath>
+    </Reference>
+    <Reference Include="macpack">
+      <HintPath>..\extern\mono\lib\4.5\macpack.exe</HintPath>
+    </Reference>
+    <Reference Include="makecert">
+      <HintPath>..\extern\mono\lib\4.5\makecert.exe</HintPath>
+    </Reference>
+    <Reference Include="mconfig">
+      <HintPath>..\extern\mono\lib\4.5\mconfig.exe</HintPath>
+    </Reference>
+    <Reference Include="mcs">
+      <HintPath>..\extern\mono\lib\4.5\mcs.exe</HintPath>
+    </Reference>
+    <Reference Include="mdbrebase">
+      <HintPath>..\extern\mono\lib\4.5\mdbrebase.exe</HintPath>
+    </Reference>
+    <Reference Include="mdoc">
+      <HintPath>..\extern\mono\lib\4.5\mdoc.exe</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Activities.Build" />
+    <Reference Include="Microsoft.Build" />
+    <Reference Include="Microsoft.Build.Conversion.v4.0" />
+    <Reference Include="Microsoft.Build.Engine">
+      <HintPath>..\extern\mono\lib\4.5\Microsoft.Build.Engine.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Build.Framework" />
+    <Reference Include="Microsoft.Build.Tasks.v4.0">
+      <HintPath>..\extern\mono\lib\4.5\Microsoft.Build.Tasks.v4.0.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Build.Utilities.v4.0" />
+    <Reference Include="Microsoft.CodeAnalysis">
+      <HintPath>..\extern\mono\lib\4.5\Microsoft.CodeAnalysis.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeAnalysis.CSharp">
+      <HintPath>..\extern\mono\lib\4.5\Microsoft.CodeAnalysis.CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeAnalysis.CSharp.Scripting">
+      <HintPath>..\extern\mono\lib\4.5\Microsoft.CodeAnalysis.CSharp.Scripting.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeAnalysis.Scripting">
+      <HintPath>..\extern\mono\lib\4.5\Microsoft.CodeAnalysis.Scripting.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeAnalysis.VisualBasic">
+      <HintPath>..\extern\mono\lib\4.5\Microsoft.CodeAnalysis.VisualBasic.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.Compatibility" />
+    <Reference Include="Microsoft.VisualBasic.Compatibility.Data" />
+    <Reference Include="Microsoft.VisualC">
+      <HintPath>..\extern\mono\lib\4.5\Microsoft.VisualC.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualC.STLCLR" />
+    <Reference Include="Microsoft.Web.Infrastructure">
+      <HintPath>..\extern\mono\lib\4.5\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="mkbundle">
+      <HintPath>..\extern\mono\lib\4.5\mkbundle.exe</HintPath>
+    </Reference>
+    <Reference Include="mod">
+      <HintPath>..\extern\mono\lib\4.5\mod.exe</HintPath>
+    </Reference>
+    <Reference Include="mod-mono-server4">
+      <HintPath>..\extern\mono\lib\4.5\mod-mono-server4.exe</HintPath>
+    </Reference>
+    <Reference Include="mono-api-diff">
+      <HintPath>..\extern\mono\lib\4.5\mono-api-diff.exe</HintPath>
+    </Reference>
+    <Reference Include="mono-api-html">
+      <HintPath>..\extern\mono\lib\4.5\mono-api-html.exe</HintPath>
+    </Reference>
+    <Reference Include="mono-api-info">
+      <HintPath>..\extern\mono\lib\4.5\mono-api-info.exe</HintPath>
+    </Reference>
+    <Reference Include="mono-cil-strip">
+      <HintPath>..\extern\mono\lib\4.5\mono-cil-strip.exe</HintPath>
+    </Reference>
+    <Reference Include="mono-fpm">
+      <HintPath>..\extern\mono\lib\4.5\mono-fpm.exe</HintPath>
+    </Reference>
+    <Reference Include="mono-service">
+      <HintPath>..\extern\mono\lib\4.5\mono-service.exe</HintPath>
+    </Reference>
+    <Reference Include="mono-shlib-cop">
+      <HintPath>..\extern\mono\lib\4.5\mono-shlib-cop.exe</HintPath>
+    </Reference>
+    <Reference Include="mono-symbolicate">
+      <HintPath>..\extern\mono\lib\4.5\mono-symbolicate.exe</HintPath>
+    </Reference>
+    <Reference Include="mono-xmltool">
+      <HintPath>..\extern\mono\lib\4.5\mono-xmltool.exe</HintPath>
+    </Reference>
+    <Reference Include="Mono.Btls.Interface">
+      <HintPath>..\extern\mono\lib\4.5\Mono.Btls.Interface.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cairo">
+      <HintPath>..\extern\mono\lib\4.5\Mono.Cairo.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil.VB">
+      <HintPath>..\extern\mono\lib\4.5\Mono.Cecil.VB.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil.VB.Mdb">
+      <HintPath>..\extern\mono\lib\4.5\Mono.Cecil.VB.Mdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil.VB.Pdb">
+      <HintPath>..\extern\mono\lib\4.5\Mono.Cecil.VB.Pdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.CodeContracts">
+      <HintPath>..\extern\mono\lib\4.5\Mono.CodeContracts.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.CompilerServices.SymbolWriter">
+      <HintPath>..\extern\mono\lib\4.5\Mono.CompilerServices.SymbolWriter.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.CSharp">
+      <HintPath>..\extern\mono\lib\4.5\Mono.CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Data.Sqlite">
+      <HintPath>..\extern\mono\lib\4.5\Mono.Data.Sqlite.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Data.Tds">
+      <HintPath>..\extern\mono\lib\4.5\Mono.Data.Tds.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Debugger.Soft">
+      <HintPath>..\extern\mono\lib\4.5\Mono.Debugger.Soft.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Http">
+      <HintPath>..\extern\mono\lib\4.5\Mono.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Management">
+      <HintPath>..\extern\mono\lib\4.5\Mono.Management.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Messaging">
+      <HintPath>..\extern\mono\lib\4.5\Mono.Messaging.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Messaging.RabbitMQ">
+      <HintPath>..\extern\mono\lib\4.5\Mono.Messaging.RabbitMQ.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Parallel">
+      <HintPath>..\extern\mono\lib\4.5\Mono.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Posix">
+      <HintPath>..\extern\mono\lib\4.5\Mono.Posix.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Profiler.Log">
+      <HintPath>..\extern\mono\lib\4.5\Mono.Profiler.Log.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Security">
+      <HintPath>..\extern\mono\lib\4.5\Mono.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Security.Win32">
+      <HintPath>..\extern\mono\lib\4.5\Mono.Security.Win32.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Simd">
+      <HintPath>..\extern\mono\lib\4.5\Mono.Simd.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Tasklets">
+      <HintPath>..\extern\mono\lib\4.5\Mono.Tasklets.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.WebBrowser">
+      <HintPath>..\extern\mono\lib\4.5\Mono.WebBrowser.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.WebServer2">
+      <HintPath>..\extern\mono\lib\4.5\Mono.WebServer2.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.XBuild.Tasks">
+      <HintPath>..\extern\mono\lib\4.5\Mono.XBuild.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="monolinker">
+      <HintPath>..\extern\mono\lib\4.5\monolinker.exe</HintPath>
+    </Reference>
+    <Reference Include="monop">
+      <HintPath>..\extern\mono\lib\4.5\monop.exe</HintPath>
+    </Reference>
+    <Reference Include="mozroots">
+      <HintPath>..\extern\mono\lib\4.5\mozroots.exe</HintPath>
+    </Reference>
+    <Reference Include="Novell.Directory.Ldap">
+      <HintPath>..\extern\mono\lib\4.5\Novell.Directory.Ldap.dll</HintPath>
+    </Reference>
+    <Reference Include="pdb2mdb">
+      <HintPath>..\extern\mono\lib\4.5\pdb2mdb.exe</HintPath>
+    </Reference>
+    <Reference Include="PEAPI">
+      <HintPath>..\extern\mono\lib\4.5\PEAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="permview">
+      <HintPath>..\extern\mono\lib\4.5\permview.exe</HintPath>
+    </Reference>
+    <Reference Include="RabbitMQ.Client">
+      <HintPath>..\extern\mono\lib\4.5\RabbitMQ.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="RabbitMQ.Client.Apigen">
+      <HintPath>..\extern\mono\lib\4.5\RabbitMQ.Client.Apigen.exe</HintPath>
+    </Reference>
+    <Reference Include="resgen">
+      <HintPath>..\extern\mono\lib\4.5\resgen.exe</HintPath>
+    </Reference>
+    <Reference Include="secutil">
+      <HintPath>..\extern\mono\lib\4.5\secutil.exe</HintPath>
+    </Reference>
+    <Reference Include="setreg">
+      <HintPath>..\extern\mono\lib\4.5\setreg.exe</HintPath>
+    </Reference>
+    <Reference Include="sgen">
+      <HintPath>..\extern\mono\lib\4.5\sgen.exe</HintPath>
+    </Reference>
+    <Reference Include="signcode">
+      <HintPath>..\extern\mono\lib\4.5\signcode.exe</HintPath>
+    </Reference>
+    <Reference Include="SMDiagnostics">
+      <HintPath>..\extern\mono\lib\4.5\SMDiagnostics.dll</HintPath>
+    </Reference>
+    <Reference Include="sn">
+      <HintPath>..\extern\mono\lib\4.5\sn.exe</HintPath>
+    </Reference>
+    <Reference Include="soapsuds">
+      <HintPath>..\extern\mono\lib\4.5\soapsuds.exe</HintPath>
+    </Reference>
+    <Reference Include="sqlmetal">
+      <HintPath>..\extern\mono\lib\4.5\sqlmetal.exe</HintPath>
+    </Reference>
+    <Reference Include="sqlsharp">
+      <HintPath>..\extern\mono\lib\4.5\sqlsharp.exe</HintPath>
+    </Reference>
+    <Reference Include="svcutil">
+      <HintPath>..\extern\mono\lib\4.5\svcutil.exe</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition">
+      <HintPath>..\extern\mono\lib\4.5\System.ComponentModel.Composition.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration.Install">
+      <HintPath>..\extern\mono\lib\4.5\System.Configuration.Install.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Entity">
+      <HintPath>..\extern\mono\lib\4.5\System.Data.Entity.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.Entity.Design" />
+    <Reference Include="System.Data.Linq">
+      <HintPath>..\extern\mono\lib\4.5\System.Data.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.OracleClient">
+      <HintPath>..\extern\mono\lib\4.5\System.Data.OracleClient.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.Services">
+      <HintPath>..\extern\mono\lib\4.5\System.Data.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.Services.Client">
+      <HintPath>..\extern\mono\lib\4.5\System.Data.Services.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Deployment">
+      <HintPath>..\extern\mono\lib\4.5\System.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Design">
+      <HintPath>..\extern\mono\lib\4.5\System.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="System.DirectoryServices">
+      <HintPath>..\extern\mono\lib\4.5\System.DirectoryServices.dll</HintPath>
+    </Reference>
+    <Reference Include="System.DirectoryServices.Protocols">
+      <HintPath>..\extern\mono\lib\4.5\System.DirectoryServices.Protocols.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing.Design">
+      <HintPath>..\extern\mono\lib\4.5\System.Drawing.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Dynamic">
+      <HintPath>..\extern\mono\lib\4.5\System.Dynamic.dll</HintPath>
+    </Reference>
+    <Reference Include="System.EnterpriseServices">
+      <HintPath>..\extern\mono\lib\4.5\System.EnterpriseServices.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IdentityModel">
+      <HintPath>..\extern\mono\lib\4.5\System.IdentityModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IdentityModel.Selectors">
+      <HintPath>..\extern\mono\lib\4.5\System.IdentityModel.Selectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.IO.Log" />
+    <Reference Include="System.Json">
+      <HintPath>..\extern\mono\lib\4.5\System.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Json.Microsoft">
+      <HintPath>..\extern\mono\lib\4.5\System.Json.Microsoft.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management">
+      <HintPath>..\extern\mono\lib\4.5\System.Management.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Messaging">
+      <HintPath>..\extern\mono\lib\4.5\System.Messaging.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net" />
+    <Reference Include="System.Net.Http.Formatting">
+      <HintPath>..\extern\mono\lib\4.5\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+      <HintPath>..\extern\mono\lib\4.5\System.Net.Http.WebRequest.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Printing" />
+    <Reference Include="System.Reactive.Core">
+      <HintPath>..\extern\mono\lib\4.5\System.Reactive.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reactive.Debugger">
+      <HintPath>..\extern\mono\lib\4.5\System.Reactive.Debugger.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reactive.Experimental">
+      <HintPath>..\extern\mono\lib\4.5\System.Reactive.Experimental.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reactive.Interfaces">
+      <HintPath>..\extern\mono\lib\4.5\System.Reactive.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reactive.Linq">
+      <HintPath>..\extern\mono\lib\4.5\System.Reactive.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reactive.Observable.Aliases">
+      <HintPath>..\extern\mono\lib\4.5\System.Reactive.Observable.Aliases.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reactive.Providers">
+      <HintPath>..\extern\mono\lib\4.5\System.Reactive.Providers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reactive.Windows.Forms">
+      <HintPath>..\extern\mono\lib\4.5\System.Reactive.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Context" />
+    <Reference Include="System.Runtime.Caching" />
+    <Reference Include="System.Runtime.DurableInstancing" />
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.ServiceModel.Discovery">
+      <HintPath>..\extern\mono\lib\4.5\System.ServiceModel.Discovery.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Internals">
+      <HintPath>..\extern\mono\lib\4.5\System.ServiceModel.Internals.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.ApplicationServices">
+      <HintPath>..\extern\mono\lib\4.5\System.Web.ApplicationServices.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData">
+      <HintPath>..\extern\mono\lib\4.5\System.Web.DynamicData.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <HintPath>..\extern\mono\lib\4.5\System.Web.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Extensions.Design">
+      <HintPath>..\extern\mono\lib\4.5\System.Web.Extensions.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http">
+      <HintPath>..\extern\mono\lib\4.5\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.SelfHost">
+      <HintPath>..\extern\mono\lib\4.5\System.Web.Http.SelfHost.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost">
+      <HintPath>..\extern\mono\lib\4.5\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mobile">
+      <HintPath>..\extern\mono\lib\4.5\System.Web.Mobile.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc">
+      <HintPath>..\extern\mono\lib\4.5\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor">
+      <HintPath>..\extern\mono\lib\4.5\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.RegularExpressions">
+      <HintPath>..\extern\mono\lib\4.5\System.Web.RegularExpressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Routing">
+      <HintPath>..\extern\mono\lib\4.5\System.Web.Routing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Services">
+      <HintPath>..\extern\mono\lib\4.5\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages">
+      <HintPath>..\extern\mono\lib\4.5\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment">
+      <HintPath>..\extern\mono\lib\4.5\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor">
+      <HintPath>..\extern\mono\lib\4.5\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows" />
+    <Reference Include="System.Windows.Forms.DataVisualization">
+      <HintPath>..\extern\mono\lib\4.5\System.Windows.Forms.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Workflow.Activities">
+      <HintPath>..\extern\mono\lib\4.5\System.Workflow.Activities.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Workflow.Runtime">
+      <HintPath>..\extern\mono\lib\4.5\System.Workflow.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xaml">
+      <HintPath>..\extern\mono\lib\4.5\System.Xaml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Serialization" />
+    <Reference Include="vbc">
+      <HintPath>..\extern\mono\lib\4.5\vbc.exe</HintPath>
+    </Reference>
+    <Reference Include="VBCSCompiler">
+      <HintPath>..\extern\mono\lib\4.5\VBCSCompiler.exe</HintPath>
+    </Reference>
+    <Reference Include="vbnc">
+      <HintPath>..\extern\mono\lib\4.5\vbnc.exe</HintPath>
+    </Reference>
+    <Reference Include="WebMatrix.Data">
+      <HintPath>..\extern\mono\lib\4.5\WebMatrix.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="wsdl">
+      <HintPath>..\extern\mono\lib\4.5\wsdl.exe</HintPath>
+    </Reference>
+    <Reference Include="xbuild">
+      <HintPath>..\extern\mono\lib\4.5\xbuild.exe</HintPath>
+    </Reference>
+    <Reference Include="xsd">
+      <HintPath>..\extern\mono\lib\4.5\xsd.exe</HintPath>
+    </Reference>
+    <Reference Include="xsp4">
+      <HintPath>..\extern\mono\lib\4.5\xsp4.exe</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

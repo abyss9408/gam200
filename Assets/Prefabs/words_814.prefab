@@ -1,0 +1,42 @@
+{
+    "prefab": {
+        "name": "words_814",
+        "components": {
+            "id": 814,
+            "tag": "words {2}",
+            "group": "",
+            "layer": "GamePlay",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": -550.0
+                },
+                "scale": {
+                    "x": 2500.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "text": {
+                "isActive": true,
+                "text": "PERFECTPERFECTPERFECTPERFECTPERFECTPERFECTPERFECTPERFECTPERFECT",
+                "font_name": "Closeness-Bold",
+                "size": 64,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 0.5
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": true,
+                "parentId": 812
+            }
+        }
+    }
+}

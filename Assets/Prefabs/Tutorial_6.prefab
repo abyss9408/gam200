@@ -1,0 +1,67 @@
+{
+    "prefab": {
+        "name": "Tutorial_6",
+        "components": {
+            "id": 6,
+            "tag": "tutorial_left",
+            "layer": "buttons",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": -900.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 74.0,
+                    "y": 84.0
+                },
+                "rotation": 0.0
+            },
+            "render": {
+                "isActive": true,
+                "mesh": 1,
+                "shader_name": "animation_shader",
+                "texture_name": "UI_HowToPlay_LeftArrow_spritesheet",
+                "use_instancing": false,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0,
+                "texture_width": 148,
+                "texture_height": 84,
+                "enable_nine_slice": false,
+                "nine_slice_borders": {
+                    "left": 1.0,
+                    "right": 1.0,
+                    "top": 1.0,
+                    "bottom": 1.0
+                }
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": false,
+                "parentId": 0
+            },
+            "ui": {
+                "isActive": true,
+                "uiType": "BUTTON",
+                "onClickActions": [
+                    "None"
+                ],
+                "hasHoverEffect": true,
+                "frameX": 0,
+                "frameY": 0,
+                "hoverFrameX": 1,
+                "hoverFrameY": 0,
+                "totalColumns": 2,
+                "totalRows": 1,
+                "sheetWidth": 148.0,
+                "sheetHeight": 84.0
+            }
+        }
+    }
+}

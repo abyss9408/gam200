@@ -1,0 +1,88 @@
+{
+    "Texture": [
+		"Assets/Textures/Environment_City_Plane_Midground.png",
+		"Assets/Textures/Environment_City_S2.5_Midground_2.png",
+		"Assets/Textures/Environment_City_S0_Background_0.png",
+		"Assets/Textures/Environment_City_S0_Foreground.png",
+		"Assets/Textures/Environment_City_S1_Background_1.png",
+		"Assets/Textures/Environment_City_S1_Midground_0.png",
+		"Assets/Textures/Environment_City_S1_Midground_1.png",
+		"Assets/Textures/Environment_City_S1_Midground_2.png",
+		"Assets/Textures/Environment_City_S1_Midground_3.png",
+		"Assets/Textures/Environment_City_S2_Background_1.png",
+		"Assets/Textures/Environment_City_S2_Midground_0.png",
+		"Assets/Textures/Environment_City_S2_Midground_1.png",
+		"Assets/Textures/Environment_City_S2_Midground_2.png",
+		"Assets/Textures/Environment_City_S2_Midground_3.png",
+		"Assets/Textures/Environment_City_S3_Background_1.png",
+		"Assets/Textures/Environment_City_S3_Midground_0.png",
+		"Assets/Textures/Environment_City_S3_Midground_1.png",
+		"Assets/Textures/Environment_City_S3_Midground_2.png",
+		"Assets/Textures/Environment_City_S3_Midground_3.png",
+		"Assets/Textures/Environment_City_S4_Background_1.png",
+		"Assets/Textures/Environment_City_S4_Midground_0.png",
+		"Assets/Textures/Environment_City_S4_Midground_1.png",
+		"Assets/Textures/Environment_City_S4_Midground_2.png",
+		"Assets/Textures/Environment_City_S4_Midground_3.png",
+        "Assets/Textures/main-character.png",
+        "Assets/Textures/Animation_Mana_Spritesheet.png"
+    ],
+    "Shader": [
+        "Assets/Shaders/default_shader",
+        "Assets/Shaders/debug_shader",
+        "Assets/Shaders/font_shader",
+        "Assets/Shaders/instanced_shader",
+        "Assets/Shaders/animation_shader"
+    ],
+    "Font":[
+        {
+            "path": "Assets/Fonts/StickyGlue.ttf",
+            "sizes": [8, 12, 16, 24, 32, 48, 72, 96]
+        },
+        {
+            "path": "Assets/Fonts/immortal.ttf",
+            "sizes": [8, 12, 16, 24, 32, 48, 72, 96]
+        }
+
+    ],
+    "Audio": [
+        {
+            "path": "Assets/Audio/track.wav",
+            "key": "SOUND_TRACK",
+            "channelGroup": 1,
+            "beatsPM": 75.0,
+            "timeSignature": [ 4, 4 ]
+        },
+        {
+            "path": "Assets/Audio/clap.wav",
+            "key": "SOUND_CLAP",
+            "channelGroup": 2
+        },
+        {
+            "path": "Assets/Audio/clap_meta.wav",
+            "key": "SOUND_CLAP2",
+            "channelGroup": 2
+        },
+        {
+            "path": "Assets/Audio/hit_meta.wav",
+            "key": "SOUND_HIT",
+            "channelGroup": 2
+        },
+        {
+            "path": "Assets/Audio/metalhit_meta.wav",
+            "key": "SOUND_METAL",
+            "channelGroup": 2
+        }
+    ],
+    "Logic": [
+        {
+            "class": "BassNKick::Test1"
+        },
+        {
+            "class": "BassNKick::TemplateScript"
+        }
+    ],
+	"Prefab": [
+		"Assets/Prefabs/Player.prefab"
+	]
+}

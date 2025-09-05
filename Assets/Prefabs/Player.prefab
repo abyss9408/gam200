@@ -1,0 +1,92 @@
+{
+    "prefab": {
+        "name": "Player",
+        "components": {
+            "id": 0,
+            "tag": "Player",
+            "layer": "GamePlay",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": -481.44921875,
+                    "y": -157.5848388671875
+                },
+                "scale": {
+                    "x": 200.0,
+                    "y": 200.0
+                },
+                "rotation": 0.0
+            },
+            "rigidbody": {
+                "isActive": true,
+                "velocity": {
+                    "x": 0.09032963961362839,
+                    "y": 0.0
+                },
+                "acceleration": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "force": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "mass": 1.0,
+                "useGravity": false,
+                "gravityScale": 1.0,
+                "dragCoefficient": 2.0
+            },
+            "boxcollider": {
+                "isActive": true,
+                "size": {
+                    "x": 200.0,
+                    "y": 200.0
+                },
+                "offset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "isTrigger": true,
+                "isEnabled": true
+            },
+            "render": {
+                "isActive": true,
+                "mesh": 1,
+                "shader_name": "default_shader",
+                "texture_name": "main-character",
+                "use_instancing": false,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0
+            },
+            "logic": {
+                "isActive": true,
+                "name": "BassNKick::Test",
+                "scriptLang": 1,
+                "bools": {},
+                "ints": {},
+                "floats": {},
+                "doubles": {},
+                "chars": {},
+                "strings": {},
+                "entities": {},
+                "prefabs": {},
+                "scripts": {},
+                "boolLists": {},
+                "intLists": {},
+                "floatLists": {},
+                "doubleLists": {},
+                "charLists": {},
+                "stringLists": {},
+                "entityLists": {},
+                "prefabLists": {},
+                "scriptLists": {}
+            }
+        }
+    }
+}

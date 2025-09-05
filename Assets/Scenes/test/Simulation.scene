@@ -1,0 +1,234 @@
+{
+    "entities": [
+        {
+            "id": 0,
+            "tag": "player",
+            "layer": "Player",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": -98.41549682617188,
+                    "y": 91.2646484375
+                },
+                "scale": {
+                    "x": 182.0,
+                    "y": 108.51596069335938
+                },
+                "rotation": 0.0
+            },
+            "rigidbody": {
+                "isActive": true,
+                "velocity": {
+                    "x": 0.0,
+                    "y": -14.166664123535157
+                },
+                "acceleration": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "force": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "mass": 1.0,
+                "useGravity": false,
+                "gravityScale": 0.20000000298023225,
+                "dragCoefficient": 0.10000000149011612
+            },
+            "boxcollider": {
+                "isActive": true,
+                "size": {
+                    "x": 200.0,
+                    "y": 200.0
+                },
+                "offset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "isTrigger": false,
+                "isEnabled": true
+            },
+            "render": {
+                "isActive": true,
+                "mesh": 1,
+                "shader_name": "default_shader",
+                "texture_name": "main-character",
+                "use_instancing": false,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                }
+            }
+        },
+        {
+            "id": 1,
+            "tag": "enemy",
+            "layer": "Player",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": -92.4112777709961,
+                    "y": -108.299560546875
+                },
+                "scale": {
+                    "x": 182.0,
+                    "y": 108.51596069335938
+                },
+                "rotation": 0.0
+            },
+            "rigidbody": {
+                "isActive": true,
+                "velocity": {
+                    "x": 0.0,
+                    "y": -14.166664123535157
+                },
+                "acceleration": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "force": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "mass": 1.0,
+                "useGravity": false,
+                "gravityScale": 0.20000000298023225,
+                "dragCoefficient": 0.10000000149011612
+            },
+            "boxcollider": {
+                "isActive": true,
+                "size": {
+                    "x": 200.0,
+                    "y": 200.0
+                },
+                "offset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "isTrigger": false,
+                "isEnabled": true
+            },
+            "render": {
+                "isActive": true,
+                "mesh": 1,
+                "shader_name": "default_shader",
+                "texture_name": "main-character",
+                "use_instancing": false,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                }
+            }
+        },
+        {
+            "id": 2,
+            "tag": "Floor",
+            "layer": "Player",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": -102.52178955078125,
+                    "y": -308.1067199707031
+                },
+                "scale": {
+                    "x": 465.7768249511719,
+                    "y": 165.00230407714845
+                },
+                "rotation": 0.0
+            },
+            "rigidbody": {
+                "isActive": true,
+                "velocity": {
+                    "x": 0.0,
+                    "y": -14.166664123535157
+                },
+                "acceleration": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "force": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "mass": 2.0,
+                "useGravity": false,
+                "gravityScale": 0.0,
+                "dragCoefficient": 0.10000000149011612
+            },
+            "boxcollider": {
+                "isActive": true,
+                "size": {
+                    "x": 500.0,
+                    "y": 200.0
+                },
+                "offset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "isTrigger": false,
+                "isEnabled": true
+            }
+        }
+    ],
+    "child_relationships": [],
+    "layers": [
+        {
+            "name": "Background",
+            "order": 0,
+            "active": true,
+            "entities": []
+        },
+        {
+            "name": "Player",
+            "order": 1,
+            "active": true,
+            "entities": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "name": "Enemy",
+            "order": 2,
+            "active": true,
+            "entities": []
+        },
+        {
+            "name": "UI",
+            "order": 3,
+            "active": true,
+            "entities": []
+        }
+    ],
+    "layer_interactions": {
+        "Player": {
+            "Background": false,
+            "UI": false,
+            "Enemy": true
+        },
+        "Background": {
+            "Player": false,
+            "UI": false,
+            "Enemy": false
+        },
+        "UI": {
+            "Background": false,
+            "Player": false,
+            "Enemy": false
+        },
+        "Enemy": {
+            "Background": false,
+            "Player": true,
+            "UI": false
+        }
+    }
+}

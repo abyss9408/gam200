@@ -1,0 +1,1347 @@
+{
+    "entities": [
+        {
+            "id": 0,
+            "tag": "Bg",
+            "layer": "bg",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 1920.0,
+                    "y": 1080.0
+                },
+                "rotation": 0.0
+            },
+            "render": {
+                "isActive": true,
+                "mesh": 1,
+                "shader_name": "default_shader",
+                "texture_name": "UI_Main Menu_background_0",
+                "use_instancing": false,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0,
+                "texture_width": 1920,
+                "texture_height": 1080,
+                "enable_nine_slice": false,
+                "nine_slice_borders": {
+                    "left": 0.0,
+                    "right": 0.0,
+                    "top": 0.0,
+                    "bottom": 0.0
+                }
+            }
+        },
+        {
+            "id": 1,
+            "tag": "menuButtons",
+            "group": "buttons",
+            "layer": "buttons",
+            "active": {
+                "isActive": false
+            },
+            "transform": {
+                "position": {
+                    "x": -350.0,
+                    "y": -260.0
+                },
+                "scale": {
+                    "x": 1108.0,
+                    "y": 544.0
+                },
+                "rotation": 0.0
+            },
+            "render": {
+                "isActive": true,
+                "mesh": 1,
+                "shader_name": "default_shader",
+                "texture_name": "UI_MainMenu_Button_spritesheet",
+                "use_instancing": false,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0,
+                "texture_width": 1108,
+                "texture_height": 544,
+                "enable_nine_slice": false,
+                "nine_slice_borders": {
+                    "left": 0.0,
+                    "right": 0.0,
+                    "top": 0.0,
+                    "bottom": 0.0
+                }
+            },
+            "logic": {
+                "isActive": true,
+                "name": "BassNKick::MainMenuUI",
+                "scriptLang": 1,
+                "bools": {},
+                "ints": {},
+                "floats": {},
+                "doubles": {},
+                "chars": {},
+                "strings": {},
+                "entities": {},
+                "prefabs": {},
+                "components": {},
+                "boolLists": {},
+                "intLists": {},
+                "floatLists": {},
+                "doubleLists": {},
+                "charLists": {},
+                "stringLists": {},
+                "entityLists": {},
+                "prefabLists": {},
+                "componentLists": {}
+            },
+            "ui": {
+                "isActive": true,
+                "uiType": "BUTTON",
+                "onClickActions": [
+                    "CLICKED ALRDY"
+                ],
+                "hasHoverEffect": true,
+                "frameX": 2,
+                "frameY": 2,
+                "hoverFrameX": 1,
+                "hoverFrameY": 0,
+                "totalColumns": 2,
+                "totalRows": 3,
+                "sheetWidth": 1108.0,
+                "sheetHeight": 554.0
+            }
+        },
+        {
+            "id": 2,
+            "tag": "playButton",
+            "group": "buttons",
+            "layer": "buttons",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": -545.0,
+                    "y": -130.0
+                },
+                "scale": {
+                    "x": 500.0,
+                    "y": 166.0
+                },
+                "rotation": 0.0
+            },
+            "render": {
+                "isActive": true,
+                "mesh": 1,
+                "shader_name": "animation_shader",
+                "texture_name": "UI_MainMenu_Button_spritesheet",
+                "use_instancing": false,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0,
+                "texture_width": 1108,
+                "texture_height": 544,
+                "enable_nine_slice": false,
+                "nine_slice_borders": {
+                    "left": 0.0,
+                    "right": 0.0,
+                    "top": 0.0,
+                    "bottom": 0.0
+                }
+            },
+            "logic": {
+                "isActive": true,
+                "name": "BassNKick::MainMenuUI",
+                "scriptLang": 1,
+                "bools": {},
+                "ints": {},
+                "floats": {},
+                "doubles": {},
+                "chars": {},
+                "strings": {},
+                "entities": {
+                    "buttonSFX": 19
+                },
+                "prefabs": {},
+                "components": {},
+                "boolLists": {},
+                "intLists": {},
+                "floatLists": {},
+                "doubleLists": {},
+                "charLists": {},
+                "stringLists": {},
+                "entityLists": {},
+                "prefabLists": {},
+                "componentLists": {}
+            },
+            "ui": {
+                "isActive": true,
+                "uiType": "BUTTON",
+                "onClickActions": [
+                    "Start_Game"
+                ],
+                "hasHoverEffect": true,
+                "frameX": 0,
+                "frameY": 2,
+                "hoverFrameX": 1,
+                "hoverFrameY": 2,
+                "totalColumns": 2,
+                "totalRows": 3,
+                "sheetWidth": 1108.0,
+                "sheetHeight": 554.0
+            }
+        },
+        {
+            "id": 3,
+            "tag": "fpscounter",
+            "group": "ui",
+            "layer": "buttons",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 880.0,
+                    "y": 490.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "text": {
+                "isActive": true,
+                "text": "FPS: 00",
+                "font_name": "Closeness",
+                "size": 32,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0
+            },
+            "logic": {
+                "isActive": true,
+                "name": "BassNKick::FPSCounter",
+                "scriptLang": 1,
+                "bools": {},
+                "ints": {},
+                "floats": {},
+                "doubles": {},
+                "chars": {},
+                "strings": {},
+                "entities": {
+                    "fpsObj": -1
+                },
+                "prefabs": {},
+                "components": {},
+                "boolLists": {},
+                "intLists": {},
+                "floatLists": {},
+                "doubleLists": {},
+                "charLists": {},
+                "stringLists": {},
+                "entityLists": {},
+                "prefabLists": {},
+                "componentLists": {}
+            }
+        },
+        {
+            "id": 4,
+            "tag": "cutsceneOpen",
+            "layer": "cutscene",
+            "active": {
+                "isActive": false
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 1920.0,
+                    "y": 1080.0
+                },
+                "rotation": 0.0
+            },
+            "render": {
+                "isActive": true,
+                "mesh": 1,
+                "shader_name": "default_shader",
+                "texture_name": "Cutscene_Concept",
+                "use_instancing": false,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 0.0,
+                "texture_width": 1920,
+                "texture_height": 1080,
+                "enable_nine_slice": false,
+                "nine_slice_borders": {
+                    "left": 0.0,
+                    "right": 0.0,
+                    "top": 0.0,
+                    "bottom": 0.0
+                }
+            },
+            "logic": {
+                "isActive": true,
+                "name": "BassNKick::Cutscene",
+                "scriptLang": 1,
+                "bools": {},
+                "ints": {},
+                "floats": {},
+                "doubles": {},
+                "chars": {},
+                "strings": {},
+                "entities": {
+                    "openCutsceneObj": 4
+                },
+                "prefabs": {},
+                "components": {},
+                "boolLists": {},
+                "intLists": {},
+                "floatLists": {},
+                "doubleLists": {},
+                "charLists": {},
+                "stringLists": {},
+                "entityLists": {},
+                "prefabLists": {},
+                "componentLists": {}
+            }
+        },
+        {
+            "id": 5,
+            "tag": "Audio",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "audio": {
+                "isActive": true,
+                "name": "pindrop",
+                "volume": 1.0,
+                "mute": false,
+                "loop": true,
+                "bpm": 0.0,
+                "timeSig": {
+                    "top": 0,
+                    "bot": 0
+                },
+                "playOnAwake": true,
+                "grp": 1
+            }
+        },
+        {
+            "id": 6,
+            "tag": "quitButton",
+            "group": "buttons",
+            "layer": "buttons",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": -545.0,
+                    "y": -438.0
+                },
+                "scale": {
+                    "x": 500.0,
+                    "y": 166.0
+                },
+                "rotation": 0.0
+            },
+            "render": {
+                "isActive": true,
+                "mesh": 1,
+                "shader_name": "animation_shader",
+                "texture_name": "UI_MainMenu_Button_spritesheet",
+                "use_instancing": false,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0,
+                "texture_width": 1108,
+                "texture_height": 544,
+                "enable_nine_slice": false,
+                "nine_slice_borders": {
+                    "left": 0.0,
+                    "right": 0.0,
+                    "top": 0.0,
+                    "bottom": 0.0
+                }
+            },
+            "logic": {
+                "isActive": true,
+                "name": "BassNKick::MainMenuUI",
+                "scriptLang": 1,
+                "bools": {},
+                "ints": {},
+                "floats": {},
+                "doubles": {},
+                "chars": {},
+                "strings": {},
+                "entities": {
+                    "buttonSFX": 19
+                },
+                "prefabs": {},
+                "components": {},
+                "boolLists": {},
+                "intLists": {},
+                "floatLists": {},
+                "doubleLists": {},
+                "charLists": {},
+                "stringLists": {},
+                "entityLists": {},
+                "prefabLists": {},
+                "componentLists": {}
+            },
+            "ui": {
+                "isActive": true,
+                "uiType": "BUTTON",
+                "onClickActions": [
+                    "QUIT"
+                ],
+                "hasHoverEffect": true,
+                "frameX": 0,
+                "frameY": 0,
+                "hoverFrameX": 1,
+                "hoverFrameY": 0,
+                "totalColumns": 2,
+                "totalRows": 3,
+                "sheetWidth": 1108.0,
+                "sheetHeight": 554.0
+            }
+        },
+        {
+            "id": 7,
+            "tag": "GameSystem",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "logic": {
+                "isActive": true,
+                "name": "BassNKick::GameSystem",
+                "scriptLang": 1,
+                "bools": {},
+                "ints": {},
+                "floats": {},
+                "doubles": {},
+                "chars": {},
+                "strings": {},
+                "entities": {
+                    "settingObj": -1
+                },
+                "prefabs": {},
+                "components": {},
+                "boolLists": {},
+                "intLists": {},
+                "floatLists": {},
+                "doubleLists": {},
+                "charLists": {},
+                "stringLists": {},
+                "entityLists": {},
+                "prefabLists": {},
+                "componentLists": {}
+            }
+        },
+        {
+            "id": 8,
+            "tag": "Fore",
+            "group": "",
+            "layer": "ground",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": -420.0
+                },
+                "scale": {
+                    "x": 1940.0,
+                    "y": 246.0
+                },
+                "rotation": 0.0
+            },
+            "render": {
+                "isActive": true,
+                "mesh": 1,
+                "shader_name": "default_shader",
+                "texture_name": "UI_Main Menu_background_1",
+                "use_instancing": false,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0,
+                "texture_width": 1912,
+                "texture_height": 242,
+                "enable_nine_slice": false,
+                "nine_slice_borders": {
+                    "left": 0.0,
+                    "right": 0.0,
+                    "top": 0.0,
+                    "bottom": 0.0
+                }
+            }
+        },
+        {
+            "id": 9,
+            "tag": "mana",
+            "layer": "buttons",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 550.0,
+                    "y": -50.0
+                },
+                "scale": {
+                    "x": 770.0,
+                    "y": 850.0
+                },
+                "rotation": 0.0
+            },
+            "render": {
+                "isActive": true,
+                "mesh": 1,
+                "shader_name": "animation_shader",
+                "texture_name": "UI_MainMenu_Animation_Mana_Spritesheet",
+                "use_instancing": false,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0,
+                "texture_width": 3080,
+                "texture_height": 3400,
+                "enable_nine_slice": false,
+                "nine_slice_borders": {
+                    "left": 1.0,
+                    "right": 1.0,
+                    "top": 1.0,
+                    "bottom": 1.0
+                }
+            },
+            "animation": {
+                "isActive": true,
+                "sprite_sheet_size": {
+                    "width": 3080.0,
+                    "height": 3400.0
+                },
+                "playOnce": false,
+                "animation_state": {
+                    "anim": {
+                        "start_frame": {
+                            "x": 0,
+                            "y": 3
+                        },
+                        "end_frame": {
+                            "x": 3,
+                            "y": 0
+                        },
+                        "frame_size": {
+                            "width": 770.0,
+                            "height": 850.0
+                        },
+                        "animation_speed": 0.0833333358168602
+                    }
+                }
+            }
+        },
+        {
+            "id": 10,
+            "tag": "sonar",
+            "layer": "bg",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 400.0,
+                    "y": 70.0
+                },
+                "scale": {
+                    "x": 970.0,
+                    "y": 970.0
+                },
+                "rotation": 0.0
+            },
+            "render": {
+                "isActive": true,
+                "mesh": 1,
+                "shader_name": "animation_shader",
+                "texture_name": "UI_MainMenu_Animation_Sonar_Spritesheet",
+                "use_instancing": false,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0,
+                "texture_width": 3800,
+                "texture_height": 2850,
+                "enable_nine_slice": false,
+                "nine_slice_borders": {
+                    "left": 1.0,
+                    "right": 1.0,
+                    "top": 1.0,
+                    "bottom": 1.0
+                }
+            },
+            "animation": {
+                "isActive": true,
+                "sprite_sheet_size": {
+                    "width": 3800.0,
+                    "height": 2850.0
+                },
+                "playOnce": false,
+                "animation_state": {
+                    "anim": {
+                        "start_frame": {
+                            "x": 0,
+                            "y": 2
+                        },
+                        "end_frame": {
+                            "x": 3,
+                            "y": 0
+                        },
+                        "frame_size": {
+                            "width": 950.0,
+                            "height": 950.0
+                        },
+                        "animation_speed": 0.0833333358168602
+                    }
+                }
+            }
+        },
+        {
+            "id": 11,
+            "tag": "optionButton",
+            "group": "buttons",
+            "layer": "buttons",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": -545.0,
+                    "y": -290.0
+                },
+                "scale": {
+                    "x": 500.0,
+                    "y": 146.0
+                },
+                "rotation": 0.0
+            },
+            "render": {
+                "isActive": true,
+                "mesh": 1,
+                "shader_name": "animation_shader",
+                "texture_name": "MainMenu_Button_Options_spritesheet",
+                "use_instancing": false,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0,
+                "texture_width": 1108,
+                "texture_height": 162,
+                "enable_nine_slice": false,
+                "nine_slice_borders": {
+                    "left": 0.0,
+                    "right": 0.0,
+                    "top": 0.0,
+                    "bottom": 0.0
+                }
+            },
+            "logic": {
+                "isActive": true,
+                "name": "BassNKick::MainMenuUI",
+                "scriptLang": 1,
+                "bools": {},
+                "ints": {},
+                "floats": {},
+                "doubles": {},
+                "chars": {},
+                "strings": {},
+                "entities": {
+                    "buttonSFX": 19
+                },
+                "prefabs": {},
+                "components": {},
+                "boolLists": {},
+                "intLists": {},
+                "floatLists": {},
+                "doubleLists": {},
+                "charLists": {},
+                "stringLists": {},
+                "entityLists": {},
+                "prefabLists": {},
+                "componentLists": {}
+            },
+            "ui": {
+                "isActive": true,
+                "uiType": "BUTTON",
+                "onClickActions": [
+                    "OPEN_SETTINGS"
+                ],
+                "hasHoverEffect": true,
+                "frameX": 0,
+                "frameY": 0,
+                "hoverFrameX": 1,
+                "hoverFrameY": 0,
+                "totalColumns": 2,
+                "totalRows": 1,
+                "sheetWidth": 1108.0,
+                "sheetHeight": 162.0
+            }
+        },
+        {
+            "id": 12,
+            "tag": "Spotlights",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "prefab_instance": {
+                "prefab_name": "Spotlights",
+                "sync_prefab": false
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": true,
+                "parentId": 284
+            }
+        },
+        {
+            "id": 13,
+            "tag": "Spotlights_161_Instance_1",
+            "layer": "bg",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": -200.0
+                },
+                "scale": {
+                    "x": 800.0,
+                    "y": 500.0
+                },
+                "rotation": 0.0
+            },
+            "render": {
+                "isActive": true,
+                "mesh": 1,
+                "shader_name": "animation_shader",
+                "texture_name": "Environment_Animation_city_Pink spotlight_spritesheet",
+                "use_instancing": false,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0,
+                "texture_width": 4000,
+                "texture_height": 3000,
+                "enable_nine_slice": false,
+                "nine_slice_borders": {
+                    "left": 0.0,
+                    "right": 0.0,
+                    "top": 0.0,
+                    "bottom": 0.0
+                }
+            },
+            "animation": {
+                "isActive": true,
+                "sprite_sheet_size": {
+                    "width": 4000.0,
+                    "height": 3000.0
+                },
+                "playOnce": false,
+                "animation_state": {
+                    "anim": {
+                        "start_frame": {
+                            "x": 0,
+                            "y": 5
+                        },
+                        "end_frame": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "frame_size": {
+                            "width": 800.0,
+                            "height": 500.0
+                        },
+                        "animation_speed": 0.0833333358168602
+                    }
+                }
+            },
+            "prefab_instance": {
+                "prefab_name": "Spotlights_161",
+                "sync_prefab": false
+            },
+            "parent": {
+                "inheritActive": false,
+                "inheritTransform": true,
+                "parentId": 12
+            }
+        },
+        {
+            "id": 14,
+            "tag": "Spotlights_285_Instance_1",
+            "layer": "bg",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": -200.0
+                },
+                "scale": {
+                    "x": 800.0,
+                    "y": 500.0
+                },
+                "rotation": 0.0
+            },
+            "render": {
+                "isActive": true,
+                "mesh": 1,
+                "shader_name": "animation_shader",
+                "texture_name": "Environment_Animation_city_Yellow spotlight_spritesheet",
+                "use_instancing": false,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0,
+                "texture_width": 3200,
+                "texture_height": 3000,
+                "enable_nine_slice": false,
+                "nine_slice_borders": {
+                    "left": 0.0,
+                    "right": 0.0,
+                    "top": 0.0,
+                    "bottom": 0.0
+                }
+            },
+            "animation": {
+                "isActive": true,
+                "sprite_sheet_size": {
+                    "width": 3200.0,
+                    "height": 3000.0
+                },
+                "playOnce": false,
+                "animation_state": {
+                    "anim": {
+                        "start_frame": {
+                            "x": 0,
+                            "y": 5
+                        },
+                        "end_frame": {
+                            "x": 3,
+                            "y": 0
+                        },
+                        "frame_size": {
+                            "width": 800.0,
+                            "height": 500.0
+                        },
+                        "animation_speed": 0.0833333358168602
+                    }
+                }
+            },
+            "prefab_instance": {
+                "prefab_name": "Spotlights_285",
+                "sync_prefab": false
+            },
+            "parent": {
+                "inheritActive": false,
+                "inheritTransform": true,
+                "parentId": 12
+            }
+        },
+        {
+            "id": 15,
+            "tag": "Spotlights_286_Instance_1",
+            "layer": "bg",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 45.0,
+                    "y": -235.0
+                },
+                "scale": {
+                    "x": 800.0,
+                    "y": 500.0
+                },
+                "rotation": 0.0
+            },
+            "render": {
+                "isActive": true,
+                "mesh": 1,
+                "shader_name": "animation_shader",
+                "texture_name": "Environment_Animation_city_Cyan spotlight_spritesheet",
+                "use_instancing": false,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0,
+                "texture_width": 2400,
+                "texture_height": 500,
+                "enable_nine_slice": false,
+                "nine_slice_borders": {
+                    "left": 0.0,
+                    "right": 0.0,
+                    "top": 0.0,
+                    "bottom": 0.0
+                }
+            },
+            "animation": {
+                "isActive": true,
+                "sprite_sheet_size": {
+                    "width": 4800.0,
+                    "height": 500.0
+                },
+                "playOnce": false,
+                "animation_state": {
+                    "anim": {
+                        "start_frame": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "end_frame": {
+                            "x": 5,
+                            "y": 0
+                        },
+                        "frame_size": {
+                            "width": 800.0,
+                            "height": 500.0
+                        },
+                        "animation_speed": 0.1666666716337204
+                    }
+                }
+            },
+            "prefab_instance": {
+                "prefab_name": "Spotlights_286",
+                "sync_prefab": false
+            },
+            "parent": {
+                "inheritActive": false,
+                "inheritTransform": true,
+                "parentId": 12
+            }
+        },
+        {
+            "id": 16,
+            "tag": "Spotlights_161_Instance_1 {1}",
+            "group": "",
+            "layer": "bg",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 700.0,
+                    "y": -400.0
+                },
+                "scale": {
+                    "x": 800.0,
+                    "y": 500.0
+                },
+                "rotation": -100.0
+            },
+            "render": {
+                "isActive": true,
+                "mesh": 1,
+                "shader_name": "animation_shader",
+                "texture_name": "Environment_Animation_city_Pink spotlight_spritesheet",
+                "use_instancing": false,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0,
+                "texture_width": 4000,
+                "texture_height": 3000,
+                "enable_nine_slice": false,
+                "nine_slice_borders": {
+                    "left": 0.0,
+                    "right": 0.0,
+                    "top": 0.0,
+                    "bottom": 0.0
+                }
+            },
+            "animation": {
+                "isActive": true,
+                "sprite_sheet_size": {
+                    "width": 4000.0,
+                    "height": 3000.0
+                },
+                "playOnce": false,
+                "animation_state": {
+                    "anim": {
+                        "start_frame": {
+                            "x": 0,
+                            "y": 5
+                        },
+                        "end_frame": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "frame_size": {
+                            "width": 800.0,
+                            "height": 500.0
+                        },
+                        "animation_speed": 0.0833333358168602
+                    }
+                }
+            },
+            "prefab_instance": {
+                "prefab_name": "Spotlights_161",
+                "sync_prefab": false
+            },
+            "parent": {
+                "inheritActive": false,
+                "inheritTransform": true,
+                "parentId": 12
+            }
+        },
+        {
+            "id": 17,
+            "tag": "Spotlights_285_Instance_1 {1}",
+            "group": "",
+            "layer": "bg",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 700.0,
+                    "y": -400.0
+                },
+                "scale": {
+                    "x": 800.0,
+                    "y": 500.0
+                },
+                "rotation": -100.0
+            },
+            "render": {
+                "isActive": true,
+                "mesh": 1,
+                "shader_name": "animation_shader",
+                "texture_name": "Environment_Animation_city_Yellow spotlight_spritesheet",
+                "use_instancing": false,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0,
+                "texture_width": 3200,
+                "texture_height": 3000,
+                "enable_nine_slice": false,
+                "nine_slice_borders": {
+                    "left": 0.0,
+                    "right": 0.0,
+                    "top": 0.0,
+                    "bottom": 0.0
+                }
+            },
+            "animation": {
+                "isActive": true,
+                "sprite_sheet_size": {
+                    "width": 3200.0,
+                    "height": 3000.0
+                },
+                "playOnce": false,
+                "animation_state": {
+                    "anim": {
+                        "start_frame": {
+                            "x": 0,
+                            "y": 5
+                        },
+                        "end_frame": {
+                            "x": 3,
+                            "y": 0
+                        },
+                        "frame_size": {
+                            "width": 800.0,
+                            "height": 500.0
+                        },
+                        "animation_speed": 0.0833333358168602
+                    }
+                }
+            },
+            "prefab_instance": {
+                "prefab_name": "Spotlights_285",
+                "sync_prefab": false
+            },
+            "parent": {
+                "inheritActive": false,
+                "inheritTransform": true,
+                "parentId": 12
+            }
+        },
+        {
+            "id": 18,
+            "tag": "Spotlights_286_Instance_1 {1}",
+            "group": "",
+            "layer": "bg",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 700.0,
+                    "y": -235.0
+                },
+                "scale": {
+                    "x": 800.0,
+                    "y": 500.0
+                },
+                "rotation": 0.0
+            },
+            "render": {
+                "isActive": true,
+                "mesh": 1,
+                "shader_name": "animation_shader",
+                "texture_name": "Environment_Animation_city_Cyan spotlight_spritesheet",
+                "use_instancing": false,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0,
+                "texture_width": 2400,
+                "texture_height": 500,
+                "enable_nine_slice": false,
+                "nine_slice_borders": {
+                    "left": 0.0,
+                    "right": 0.0,
+                    "top": 0.0,
+                    "bottom": 0.0
+                }
+            },
+            "animation": {
+                "isActive": true,
+                "sprite_sheet_size": {
+                    "width": 4800.0,
+                    "height": 500.0
+                },
+                "playOnce": false,
+                "animation_state": {
+                    "anim": {
+                        "start_frame": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "end_frame": {
+                            "x": 5,
+                            "y": 0
+                        },
+                        "frame_size": {
+                            "width": 800.0,
+                            "height": 500.0
+                        },
+                        "animation_speed": 0.1666666716337204
+                    }
+                }
+            },
+            "prefab_instance": {
+                "prefab_name": "Spotlights_286",
+                "sync_prefab": false
+            },
+            "parent": {
+                "inheritActive": false,
+                "inheritTransform": true,
+                "parentId": 12
+            }
+        },
+        {
+            "id": 19,
+            "tag": "buttonSFX",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "audio": {
+                "isActive": true,
+                "name": "punchy",
+                "volume": 1.0,
+                "mute": false,
+                "loop": false,
+                "bpm": 0.0,
+                "timeSig": {
+                    "top": 0,
+                    "bot": 0
+                },
+                "playOnAwake": false,
+                "grp": 2
+            }
+        }
+    ],
+    "child_relationships": [
+        {
+            "parentId": 12,
+            "childrenIds": [
+                13,
+                14,
+                15,
+                16,
+                17,
+                18
+            ]
+        }
+    ],
+    "layers": [
+        {
+            "name": "bg",
+            "order": 0,
+            "active": true,
+            "entities": [
+                0,
+                10,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18
+            ]
+        },
+        {
+            "name": "ground",
+            "order": 1,
+            "active": true,
+            "entities": [
+                8
+            ]
+        },
+        {
+            "name": "buttons",
+            "order": 2,
+            "active": true,
+            "entities": [
+                1,
+                2,
+                3,
+                6,
+                9,
+                11
+            ]
+        },
+        {
+            "name": "cutscene",
+            "order": 3,
+            "active": true,
+            "entities": [
+                4
+            ]
+        }
+    ],
+    "layer_interactions": {
+        "ground": {
+            "buttons": true,
+            "bg": true,
+            "cutscene": true
+        },
+        "buttons": {
+            "ground": true,
+            "bg": true,
+            "cutscene": true
+        },
+        "bg": {
+            "buttons": true,
+            "ground": true,
+            "cutscene": true
+        },
+        "cutscene": {
+            "ground": true,
+            "bg": true,
+            "buttons": true
+        }
+    },
+    "camera_settings": {
+        "position": {
+            "x": 0.0,
+            "y": 0.0
+        },
+        "zoom": 540.0
+    }
+}

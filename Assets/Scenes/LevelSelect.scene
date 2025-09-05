@@ -1,0 +1,1515 @@
+{
+    "entities": [
+        {
+            "id": 0,
+            "tag": "Bg",
+            "layer": "bg",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 1920.0,
+                    "y": 1080.0
+                },
+                "rotation": 0.0
+            },
+            "render": {
+                "isActive": true,
+                "mesh": 1,
+                "shader_name": "default_shader",
+                "texture_name": "UI_LevelSelect_BG",
+                "use_instancing": false,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0,
+                "texture_width": 1920,
+                "texture_height": 1080,
+                "enable_nine_slice": false,
+                "nine_slice_borders": {
+                    "left": 0.0,
+                    "right": 0.0,
+                    "top": 0.0,
+                    "bottom": 0.0
+                }
+            }
+        },
+        {
+            "id": 3,
+            "tag": "fpscounter",
+            "group": "ui",
+            "layer": "ui",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 880.0,
+                    "y": 480.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "text": {
+                "isActive": false,
+                "text": "FPS: 00",
+                "font_name": "Closeness",
+                "size": 32,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0
+            },
+            "logic": {
+                "isActive": true,
+                "name": "BassNKick::FPSCounter",
+                "scriptLang": 1,
+                "bools": {},
+                "ints": {},
+                "floats": {},
+                "doubles": {},
+                "chars": {},
+                "strings": {},
+                "entities": {
+                    "fpsObj": -1
+                },
+                "prefabs": {},
+                "components": {},
+                "boolLists": {},
+                "intLists": {},
+                "floatLists": {},
+                "doubleLists": {},
+                "charLists": {},
+                "stringLists": {},
+                "entityLists": {},
+                "prefabLists": {},
+                "componentLists": {}
+            }
+        },
+        {
+            "id": 7,
+            "tag": "GameSystem",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "logic": {
+                "isActive": true,
+                "name": "BassNKick::GameSystem",
+                "scriptLang": 1,
+                "bools": {},
+                "ints": {},
+                "floats": {},
+                "doubles": {},
+                "chars": {},
+                "strings": {},
+                "entities": {
+                    "settingObj": -1
+                },
+                "prefabs": {},
+                "components": {},
+                "boolLists": {},
+                "intLists": {},
+                "floatLists": {},
+                "doubleLists": {},
+                "charLists": {},
+                "stringLists": {},
+                "entityLists": {},
+                "prefabLists": {},
+                "componentLists": {}
+            }
+        },
+        {
+            "id": 10,
+            "tag": "level1",
+            "group": "ui",
+            "layer": "buttons",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": -530.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 463.0,
+                    "y": 462.0
+                },
+                "rotation": 0.0
+            },
+            "render": {
+                "isActive": true,
+                "mesh": 1,
+                "shader_name": "animation_shader",
+                "texture_name": "UI_LevelSelect_City",
+                "use_instancing": false,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0,
+                "texture_width": 463,
+                "texture_height": 462,
+                "enable_nine_slice": false,
+                "nine_slice_borders": {
+                    "left": 0.0,
+                    "right": 0.0,
+                    "top": 0.0,
+                    "bottom": 0.0
+                }
+            },
+            "ui": {
+                "isActive": true,
+                "uiType": "BUTTON",
+                "onClickActions": [
+                    "None",
+                    "Select"
+                ],
+                "hasHoverEffect": true,
+                "frameX": 0,
+                "frameY": 0,
+                "hoverFrameX": 0,
+                "hoverFrameY": 0,
+                "totalColumns": 1,
+                "totalRows": 1,
+                "sheetWidth": 1.0,
+                "sheetHeight": 1.0
+            }
+        },
+        {
+            "id": 9,
+            "tag": "level2",
+            "group": "ui",
+            "layer": "buttons",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 463.0,
+                    "y": 462.0
+                },
+                "rotation": 0.0
+            },
+            "render": {
+                "isActive": true,
+                "mesh": 1,
+                "shader_name": "animation_shader",
+                "texture_name": "UI_LevelSelect_Subway",
+                "use_instancing": false,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0,
+                "texture_width": 463,
+                "texture_height": 462,
+                "enable_nine_slice": false,
+                "nine_slice_borders": {
+                    "left": 0.0,
+                    "right": 0.0,
+                    "top": 0.0,
+                    "bottom": 0.0
+                }
+            },
+            "ui": {
+                "isActive": true,
+                "uiType": "BUTTON",
+                "onClickActions": [
+                    "None",
+                    "Select"
+                ],
+                "hasHoverEffect": true,
+                "frameX": 0,
+                "frameY": 0,
+                "hoverFrameX": 0,
+                "hoverFrameY": 0,
+                "totalColumns": 1,
+                "totalRows": 1,
+                "sheetWidth": 1.0,
+                "sheetHeight": 1.0
+            }
+        },
+        {
+            "id": 8,
+            "tag": "level3",
+            "group": "ui",
+            "layer": "buttons",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 530.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 463.0,
+                    "y": 462.0
+                },
+                "rotation": 0.0
+            },
+            "render": {
+                "isActive": true,
+                "mesh": 1,
+                "shader_name": "animation_shader",
+                "texture_name": "UI_LevelSelect_Stadium",
+                "use_instancing": false,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0,
+                "texture_width": 463,
+                "texture_height": 462,
+                "enable_nine_slice": false,
+                "nine_slice_borders": {
+                    "left": 0.0,
+                    "right": 0.0,
+                    "top": 0.0,
+                    "bottom": 0.0
+                }
+            },
+            "ui": {
+                "isActive": true,
+                "uiType": "BUTTON",
+                "onClickActions": [
+                    "None",
+                    "Select"
+                ],
+                "hasHoverEffect": true,
+                "frameX": 0,
+                "frameY": 0,
+                "hoverFrameX": 0,
+                "hoverFrameY": 0,
+                "totalColumns": 1,
+                "totalRows": 1,
+                "sheetWidth": 1.0,
+                "sheetHeight": 1.0
+            }
+        },
+        {
+            "id": 6,
+            "tag": "level1_diff",
+            "layer": "ui",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": -530.0,
+                    "y": -304.0
+                },
+                "scale": {
+                    "x": 100.0,
+                    "y": 100.0
+                },
+                "rotation": 0.0
+            },
+            "text": {
+                "isActive": true,
+                "text": "Easy",
+                "font_name": "Closeness-Bold-Italic",
+                "size": 45,
+                "color": {
+                    "r": 0.5742983818054199,
+                    "g": 0.8333333134651184,
+                    "b": 0.2042483687400818
+                },
+                "alpha": 1.0
+            }
+        },
+        {
+            "id": 5,
+            "tag": "level2_diff",
+            "group": "",
+            "layer": "ui",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": -304.0
+                },
+                "scale": {
+                    "x": 100.0,
+                    "y": 100.0
+                },
+                "rotation": 0.0
+            },
+            "text": {
+                "isActive": true,
+                "text": "Normal",
+                "font_name": "Closeness-Bold-Italic",
+                "size": 45,
+                "color": {
+                    "r": 0.15727125108242036,
+                    "g": 0.7603206038475037,
+                    "b": 0.9166666865348816
+                },
+                "alpha": 1.0
+            }
+        },
+        {
+            "id": 4,
+            "tag": "level3_diff",
+            "group": "",
+            "layer": "ui",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 530.0,
+                    "y": -304.0
+                },
+                "scale": {
+                    "x": 100.0,
+                    "y": 100.0
+                },
+                "rotation": 0.0
+            },
+            "text": {
+                "isActive": true,
+                "text": "Hard",
+                "font_name": "Closeness-Bold-Italic",
+                "size": 45,
+                "color": {
+                    "r": 0.8725489974021912,
+                    "g": 0.287578821182251,
+                    "b": 0.20958282053470612
+                },
+                "alpha": 1.0
+            }
+        },
+        {
+            "id": 2,
+            "tag": "levelselect",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "logic": {
+                "isActive": true,
+                "name": "BassNKick::LevelSelect",
+                "scriptLang": 1,
+                "bools": {},
+                "ints": {},
+                "floats": {},
+                "doubles": {},
+                "chars": {},
+                "strings": {},
+                "entities": {
+                    "back": 14,
+                    "howtoplay": 17,
+                    "tutorial": 24,
+                    "buttonSFX": 18
+                },
+                "prefabs": {},
+                "components": {},
+                "boolLists": {},
+                "intLists": {},
+                "floatLists": {},
+                "doubleLists": {},
+                "charLists": {},
+                "stringLists": {},
+                "entityLists": {
+                    "levelButtons": {
+                        "0": 10,
+                        "1": 9,
+                        "2": 8
+                    }
+                },
+                "prefabLists": {},
+                "componentLists": {}
+            }
+        },
+        {
+            "id": 1,
+            "tag": "level1_score",
+            "layer": "ui",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": -535.0,
+                    "y": -375.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "text": {
+                "isActive": true,
+                "text": "0",
+                "font_name": "Audiowide-Regular",
+                "size": 40,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": true,
+                "parentId": 12
+            }
+        },
+        {
+            "id": 13,
+            "tag": "level2_score",
+            "group": "",
+            "layer": "ui",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": -375.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "text": {
+                "isActive": true,
+                "text": "0",
+                "font_name": "Audiowide-Regular",
+                "size": 40,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": true,
+                "parentId": 12
+            }
+        },
+        {
+            "id": 11,
+            "tag": "level3_score",
+            "group": "",
+            "layer": "ui",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 535.0,
+                    "y": -375.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "text": {
+                "isActive": true,
+                "text": "0",
+                "font_name": "Audiowide-Regular",
+                "size": 40,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": true,
+                "parentId": 12
+            }
+        },
+        {
+            "id": 12,
+            "tag": "Highscore",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 80.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "logic": {
+                "isActive": true,
+                "name": "BassNKick::HighScore",
+                "scriptLang": 1,
+                "bools": {},
+                "ints": {},
+                "floats": {},
+                "doubles": {},
+                "chars": {},
+                "strings": {},
+                "entities": {},
+                "prefabs": {},
+                "components": {},
+                "boolLists": {},
+                "intLists": {},
+                "floatLists": {},
+                "doubleLists": {},
+                "charLists": {},
+                "stringLists": {},
+                "entityLists": {},
+                "prefabLists": {},
+                "componentLists": {}
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": true,
+                "parentId": -1
+            }
+        },
+        {
+            "id": 14,
+            "tag": "back button",
+            "layer": "buttons",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 184.0,
+                    "y": -477.0
+                },
+                "scale": {
+                    "x": 314.0,
+                    "y": 90.0
+                },
+                "rotation": 0.0
+            },
+            "render": {
+                "isActive": true,
+                "mesh": 1,
+                "shader_name": "animation_shader",
+                "texture_name": "UI_LevelSelect_Button_Back_spritesheet",
+                "use_instancing": false,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0,
+                "texture_width": 908,
+                "texture_height": 130,
+                "enable_nine_slice": false,
+                "nine_slice_borders": {
+                    "left": 1.0,
+                    "right": 1.0,
+                    "top": 1.0,
+                    "bottom": 1.0
+                }
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": true,
+                "parentId": -1
+            },
+            "ui": {
+                "isActive": true,
+                "uiType": "BUTTON",
+                "onClickActions": [
+                    "None"
+                ],
+                "hasHoverEffect": true,
+                "frameX": 0,
+                "frameY": 0,
+                "hoverFrameX": 1,
+                "hoverFrameY": 0,
+                "totalColumns": 2,
+                "totalRows": 1,
+                "sheetWidth": 908.0,
+                "sheetHeight": 130.0
+            }
+        },
+        {
+            "id": 24,
+            "tag": "Tutorial",
+            "layer": "tutorial",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "logic": {
+                "isActive": true,
+                "name": "BassNKick::TutorialUI",
+                "scriptLang": 1,
+                "bools": {
+                    "isTutorialScene": false
+                },
+                "ints": {},
+                "floats": {},
+                "doubles": {},
+                "chars": {},
+                "strings": {
+                    "nextScene": ""
+                },
+                "entities": {
+                    "tutorial": 26,
+                    "button1": 27,
+                    "button2": 28,
+                    "button3": 29,
+                    "buttonLeft": 30,
+                    "buttonRight": 31,
+                    "buttonBack": 32,
+                    "buttonSFX": 18
+                },
+                "prefabs": {},
+                "components": {},
+                "boolLists": {},
+                "intLists": {},
+                "floatLists": {},
+                "doubleLists": {},
+                "charLists": {},
+                "stringLists": {},
+                "entityLists": {},
+                "prefabLists": {},
+                "componentLists": {}
+            },
+            "prefab_instance": {
+                "prefab_name": "Tutorial",
+                "sync_prefab": false
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": true,
+                "parentId": -1
+            }
+        },
+        {
+            "id": 25,
+            "tag": "Tutorial_1_Instance_1",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 1920.0,
+                    "y": 1080.0
+                },
+                "rotation": 0.0
+            },
+            "render": {
+                "isActive": true,
+                "mesh": 1,
+                "shader_name": "default_shader",
+                "texture_name": "UI_HowToPlay_LevelSelect",
+                "use_instancing": false,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0,
+                "texture_width": 1920,
+                "texture_height": 1080,
+                "enable_nine_slice": false,
+                "nine_slice_borders": {
+                    "left": 1.0,
+                    "right": 1.0,
+                    "top": 1.0,
+                    "bottom": 1.0
+                }
+            },
+            "prefab_instance": {
+                "prefab_name": "Tutorial_1",
+                "sync_prefab": false
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": false,
+                "parentId": 24
+            }
+        },
+        {
+            "id": 26,
+            "tag": "Tutorial_2_Instance_1",
+            "layer": "tutorialui",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 1920.0,
+                    "y": 1080.0
+                },
+                "rotation": 0.0
+            },
+            "render": {
+                "isActive": true,
+                "mesh": 1,
+                "shader_name": "default_shader",
+                "texture_name": "UI_HowToPlay_1",
+                "use_instancing": false,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0,
+                "texture_width": 1920,
+                "texture_height": 1080,
+                "enable_nine_slice": false,
+                "nine_slice_borders": {
+                    "left": 1.0,
+                    "right": 1.0,
+                    "top": 1.0,
+                    "bottom": 1.0
+                }
+            },
+            "prefab_instance": {
+                "prefab_name": "Tutorial_2",
+                "sync_prefab": false
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": false,
+                "parentId": 24
+            }
+        },
+        {
+            "id": 27,
+            "tag": "Tutorial_3_Instance_1",
+            "layer": "tutorialui",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": -460.0,
+                    "y": 150.0
+                },
+                "scale": {
+                    "x": 210.0,
+                    "y": 132.0
+                },
+                "rotation": 0.0
+            },
+            "render": {
+                "isActive": true,
+                "mesh": 1,
+                "shader_name": "animation_shader",
+                "texture_name": "UI_HowToPlay_R_spritesheet",
+                "use_instancing": false,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0,
+                "texture_width": 420,
+                "texture_height": 132,
+                "enable_nine_slice": false,
+                "nine_slice_borders": {
+                    "left": 1.0,
+                    "right": 1.0,
+                    "top": 1.0,
+                    "bottom": 1.0
+                }
+            },
+            "animation": {
+                "isActive": true,
+                "sprite_sheet_size": {
+                    "width": 420.0,
+                    "height": 132.0
+                },
+                "playOnce": false,
+                "animation_state": {
+                    "anim": {
+                        "start_frame": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "end_frame": {
+                            "x": 1,
+                            "y": 0
+                        },
+                        "frame_size": {
+                            "width": 210.0,
+                            "height": 132.0
+                        },
+                        "animation_speed": 1.0
+                    }
+                }
+            },
+            "prefab_instance": {
+                "prefab_name": "Tutorial_3",
+                "sync_prefab": false
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": false,
+                "parentId": 24
+            }
+        },
+        {
+            "id": 28,
+            "tag": "Tutorial_4_Instance_1",
+            "layer": "tutorialui",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": -460.0,
+                    "y": -40.0
+                },
+                "scale": {
+                    "x": 210.0,
+                    "y": 132.0
+                },
+                "rotation": 0.0
+            },
+            "render": {
+                "isActive": true,
+                "mesh": 1,
+                "shader_name": "animation_shader",
+                "texture_name": "UI_HowToPlay_F_spritesheet",
+                "use_instancing": false,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0,
+                "texture_width": 420,
+                "texture_height": 132,
+                "enable_nine_slice": false,
+                "nine_slice_borders": {
+                    "left": 1.0,
+                    "right": 1.0,
+                    "top": 1.0,
+                    "bottom": 1.0
+                }
+            },
+            "animation": {
+                "isActive": true,
+                "sprite_sheet_size": {
+                    "width": 420.0,
+                    "height": 132.0
+                },
+                "playOnce": false,
+                "animation_state": {
+                    "anim": {
+                        "start_frame": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "end_frame": {
+                            "x": 1,
+                            "y": 0
+                        },
+                        "frame_size": {
+                            "width": 210.0,
+                            "height": 132.0
+                        },
+                        "animation_speed": 1.0
+                    }
+                }
+            },
+            "prefab_instance": {
+                "prefab_name": "Tutorial_4",
+                "sync_prefab": false
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": false,
+                "parentId": 24
+            }
+        },
+        {
+            "id": 29,
+            "tag": "Tutorial_5_Instance_1",
+            "layer": "tutorialui",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": -460.0,
+                    "y": -230.0
+                },
+                "scale": {
+                    "x": 210.0,
+                    "y": 132.0
+                },
+                "rotation": 0.0
+            },
+            "render": {
+                "isActive": true,
+                "mesh": 1,
+                "shader_name": "animation_shader",
+                "texture_name": "UI_HowToPlay_V_spritesheet",
+                "use_instancing": false,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0,
+                "texture_width": 420,
+                "texture_height": 132,
+                "enable_nine_slice": false,
+                "nine_slice_borders": {
+                    "left": 1.0,
+                    "right": 1.0,
+                    "top": 1.0,
+                    "bottom": 1.0
+                }
+            },
+            "animation": {
+                "isActive": true,
+                "sprite_sheet_size": {
+                    "width": 420.0,
+                    "height": 132.0
+                },
+                "playOnce": false,
+                "animation_state": {
+                    "anim": {
+                        "start_frame": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "end_frame": {
+                            "x": 1,
+                            "y": 0
+                        },
+                        "frame_size": {
+                            "width": 210.0,
+                            "height": 132.0
+                        },
+                        "animation_speed": 1.0
+                    }
+                }
+            },
+            "prefab_instance": {
+                "prefab_name": "Tutorial_5",
+                "sync_prefab": false
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": false,
+                "parentId": 24
+            }
+        },
+        {
+            "id": 30,
+            "tag": "Tutorial_6_Instance_1",
+            "layer": "tutorialui",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": -800.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 74.0,
+                    "y": 84.0
+                },
+                "rotation": 0.0
+            },
+            "render": {
+                "isActive": true,
+                "mesh": 1,
+                "shader_name": "animation_shader",
+                "texture_name": "UI_HowToPlay_LeftArrow_spritesheet",
+                "use_instancing": false,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0,
+                "texture_width": 148,
+                "texture_height": 84,
+                "enable_nine_slice": false,
+                "nine_slice_borders": {
+                    "left": 1.0,
+                    "right": 1.0,
+                    "top": 1.0,
+                    "bottom": 1.0
+                }
+            },
+            "prefab_instance": {
+                "prefab_name": "Tutorial_6",
+                "sync_prefab": false
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": false,
+                "parentId": 24
+            },
+            "ui": {
+                "isActive": true,
+                "uiType": "BUTTON",
+                "onClickActions": [
+                    "Left"
+                ],
+                "hasHoverEffect": true,
+                "frameX": 0,
+                "frameY": 0,
+                "hoverFrameX": 1,
+                "hoverFrameY": 0,
+                "totalColumns": 2,
+                "totalRows": 1,
+                "sheetWidth": 148.0,
+                "sheetHeight": 84.0
+            }
+        },
+        {
+            "id": 31,
+            "tag": "Tutorial_7_Instance_1",
+            "layer": "tutorialui",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 800.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 74.0,
+                    "y": 84.0
+                },
+                "rotation": 0.0
+            },
+            "render": {
+                "isActive": true,
+                "mesh": 1,
+                "shader_name": "animation_shader",
+                "texture_name": "UI_HowToPlay_RightArrow_spritesheet",
+                "use_instancing": false,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0,
+                "texture_width": 148,
+                "texture_height": 84,
+                "enable_nine_slice": false,
+                "nine_slice_borders": {
+                    "left": 1.0,
+                    "right": 1.0,
+                    "top": 1.0,
+                    "bottom": 1.0
+                }
+            },
+            "prefab_instance": {
+                "prefab_name": "Tutorial_7",
+                "sync_prefab": false
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": false,
+                "parentId": 24
+            },
+            "ui": {
+                "isActive": true,
+                "uiType": "BUTTON",
+                "onClickActions": [
+                    "Right"
+                ],
+                "hasHoverEffect": true,
+                "frameX": 0,
+                "frameY": 0,
+                "hoverFrameX": 1,
+                "hoverFrameY": 0,
+                "totalColumns": 2,
+                "totalRows": 1,
+                "sheetWidth": 148.0,
+                "sheetHeight": 84.0
+            }
+        },
+        {
+            "id": 32,
+            "tag": "Tutorial_8_Instance_1",
+            "layer": "tutorialui",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": -480.0
+                },
+                "scale": {
+                    "x": 227.0,
+                    "y": 65.0
+                },
+                "rotation": 0.0
+            },
+            "render": {
+                "isActive": true,
+                "mesh": 1,
+                "shader_name": "animation_shader",
+                "texture_name": "UI_Button_Back_spritesheet",
+                "use_instancing": false,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0,
+                "texture_width": 908,
+                "texture_height": 130,
+                "enable_nine_slice": false,
+                "nine_slice_borders": {
+                    "left": 1.0,
+                    "right": 1.0,
+                    "top": 1.0,
+                    "bottom": 1.0
+                }
+            },
+            "prefab_instance": {
+                "prefab_name": "Tutorial_8",
+                "sync_prefab": false
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": false,
+                "parentId": 24
+            },
+            "ui": {
+                "isActive": true,
+                "uiType": "BUTTON",
+                "onClickActions": [
+                    "None"
+                ],
+                "hasHoverEffect": true,
+                "frameX": 0,
+                "frameY": 0,
+                "hoverFrameX": 1,
+                "hoverFrameY": 0,
+                "totalColumns": 2,
+                "totalRows": 1,
+                "sheetWidth": 908.0,
+                "sheetHeight": 130.0
+            }
+        },
+        {
+            "id": 17,
+            "tag": "How to play button",
+            "group": "",
+            "layer": "buttons",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": -184.0,
+                    "y": -477.0
+                },
+                "scale": {
+                    "x": 314.0,
+                    "y": 90.0
+                },
+                "rotation": 0.0
+            },
+            "render": {
+                "isActive": true,
+                "mesh": 1,
+                "shader_name": "animation_shader",
+                "texture_name": "UI_LevelSelect_Button_HowToPlay_spritesheet",
+                "use_instancing": false,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0,
+                "texture_width": 908,
+                "texture_height": 130,
+                "enable_nine_slice": false,
+                "nine_slice_borders": {
+                    "left": 1.0,
+                    "right": 1.0,
+                    "top": 1.0,
+                    "bottom": 1.0
+                }
+            },
+            "ui": {
+                "isActive": true,
+                "uiType": "BUTTON",
+                "onClickActions": [
+                    "None"
+                ],
+                "hasHoverEffect": true,
+                "frameX": 0,
+                "frameY": 0,
+                "hoverFrameX": 1,
+                "hoverFrameY": 0,
+                "totalColumns": 2,
+                "totalRows": 1,
+                "sheetWidth": 908.0,
+                "sheetHeight": 130.0
+            }
+        },
+        {
+            "id": 15,
+            "tag": "bgm",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "audio": {
+                "isActive": true,
+                "name": "pindrop",
+                "volume": 1.0,
+                "mute": false,
+                "loop": true,
+                "bpm": 0.0,
+                "timeSig": {
+                    "top": 0,
+                    "bot": 0
+                },
+                "playOnAwake": true,
+                "grp": 1
+            }
+        },
+        {
+            "id": 18,
+            "tag": "buttonSFX",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "audio": {
+                "isActive": true,
+                "name": "punchy",
+                "volume": 1.0,
+                "mute": false,
+                "loop": false,
+                "bpm": 0.0,
+                "timeSig": {
+                    "top": 0,
+                    "bot": 0
+                },
+                "playOnAwake": false,
+                "grp": 2
+            }
+        }
+    ],
+    "child_relationships": [
+        {
+            "parentId": 12,
+            "childrenIds": [
+                1,
+                13,
+                11
+            ]
+        },
+        {
+            "parentId": 24,
+            "childrenIds": [
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32
+            ]
+        }
+    ],
+    "layers": [
+        {
+            "name": "bg",
+            "order": 0,
+            "active": true,
+            "entities": [
+                0
+            ]
+        },
+        {
+            "name": "ui",
+            "order": 1,
+            "active": true,
+            "entities": [
+                1,
+                3,
+                4,
+                5,
+                6,
+                11,
+                13
+            ]
+        },
+        {
+            "name": "buttons",
+            "order": 2,
+            "active": true,
+            "entities": [
+                8,
+                9,
+                10,
+                14,
+                17
+            ]
+        },
+        {
+            "name": "tutorial",
+            "order": 3,
+            "active": true,
+            "entities": [
+                24
+            ]
+        },
+        {
+            "name": "tutorialui",
+            "order": 4,
+            "active": true,
+            "entities": [
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32
+            ]
+        }
+    ],
+    "layer_interactions": {
+        "ui": {
+            "buttons": true,
+            "bg": true,
+            "tutorial": true,
+            "tutorialui": true
+        },
+        "buttons": {
+            "bg": true,
+            "ui": true,
+            "tutorial": true,
+            "tutorialui": true
+        },
+        "bg": {
+            "ui": true,
+            "buttons": true,
+            "tutorial": true,
+            "tutorialui": true
+        },
+        "tutorial": {
+            "bg": true,
+            "buttons": true,
+            "ui": true,
+            "tutorialui": true
+        },
+        "tutorialui": {
+            "bg": true,
+            "buttons": true,
+            "ui": true,
+            "tutorial": true
+        }
+    },
+    "camera_settings": {
+        "position": {
+            "x": 0.0,
+            "y": 0.0
+        },
+        "zoom": 540.0
+    }
+}

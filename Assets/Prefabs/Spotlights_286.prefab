@@ -1,0 +1,77 @@
+{
+    "prefab": {
+        "name": "Spotlights_286",
+        "components": {
+            "id": 286,
+            "tag": "CyanSpot",
+            "group": "bg",
+            "layer": "bg6",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 1545.0,
+                    "y": -35.0
+                },
+                "scale": {
+                    "x": 800.0,
+                    "y": 500.0
+                },
+                "rotation": 0.0
+            },
+            "render": {
+                "isActive": true,
+                "mesh": 1,
+                "shader_name": "animation_shader",
+                "texture_name": "Environment_Animation_city_Cyan spotlight_spritesheet",
+                "use_instancing": false,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0,
+                "texture_width": 2400,
+                "texture_height": 500,
+                "enable_nine_slice": false,
+                "nine_slice_borders": {
+                    "left": 0.0,
+                    "right": 0.0,
+                    "top": 0.0,
+                    "bottom": 0.0
+                }
+            },
+            "animation": {
+                "isActive": true,
+                "sprite_sheet_size": {
+                    "width": 4800.0,
+                    "height": 500.0
+                },
+                "playOnce": false,
+                "animation_state": {
+                    "anim": {
+                        "start_frame": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "end_frame": {
+                            "x": 5,
+                            "y": 0
+                        },
+                        "frame_size": {
+                            "width": 800.0,
+                            "height": 500.0
+                        },
+                        "animation_speed": 0.0833333358168602
+                    }
+                }
+            },
+            "parent": {
+                "inheritActive": false,
+                "inheritTransform": true,
+                "parentId": 287
+            }
+        }
+    }
+}

@@ -1,0 +1,484 @@
+{
+    "entities": [
+        {
+            "id": 0,
+            "tag": "player",
+            "transform": {
+                "position": {
+                    "x": 700.103515625,
+                    "y": -298.27117919921877
+                },
+                "scale": {
+                    "x": 200.0,
+                    "y": 200.0
+                },
+                "rotation": 0.0
+            },
+            "rigidbody": {
+                "velocity": {
+                    "x": 0.0032580008264631035,
+                    "y": 0.0
+                },
+                "acceleration": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "force": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "mass": 1.0,
+                "useGravity": true,
+                "gravityScale": 1.0,
+                "dragCoefficient": 2.0
+            },
+            "boxcollider": {
+                "size": {
+                    "x": 200.0,
+                    "y": 200.0
+                },
+                "offset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "isTrigger": false,
+                "isEnabled": true
+            },
+            "render": {
+                "mesh": 1,
+                "shader_name": "default-shader",
+                "texture_name": "main-character-texture"
+            }
+        },
+        {
+            "id": 1,
+            "tag": "player-higher",
+            "transform": {
+                "position": {
+                    "x": 700.103515625,
+                    "y": -98.55062866210938
+                },
+                "scale": {
+                    "x": 200.0,
+                    "y": 200.0
+                },
+                "rotation": 0.0
+            },
+            "rigidbody": {
+                "velocity": {
+                    "x": 0.002169062616303563,
+                    "y": 0.0
+                },
+                "acceleration": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "force": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "mass": 1.0,
+                "useGravity": true,
+                "gravityScale": 1.0,
+                "dragCoefficient": 2.0
+            },
+            "boxcollider": {
+                "size": {
+                    "x": 200.0,
+                    "y": 200.0
+                },
+                "offset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "isTrigger": false,
+                "isEnabled": true
+            },
+            "render": {
+                "mesh": 1,
+                "shader_name": "default-shader",
+                "texture_name": "main-character-texture"
+            }
+        },
+        {
+            "id": 2,
+            "tag": "floorplayer",
+            "transform": {
+                "position": {
+                    "x": 701.6973876953125,
+                    "y": -498.27117919921877
+                },
+                "scale": {
+                    "x": 200.0,
+                    "y": 200.0
+                },
+                "rotation": 0.0
+            },
+            "rigidbody": {
+                "velocity": {
+                    "x": 0.10000000149011612,
+                    "y": 0.10000000149011612
+                },
+                "acceleration": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "force": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "mass": 1.0,
+                "useGravity": false,
+                "gravityScale": 1.0,
+                "dragCoefficient": 2.0
+            },
+            "boxcollider": {
+                "size": {
+                    "x": 200.0,
+                    "y": 200.0
+                },
+                "offset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "isTrigger": false,
+                "isEnabled": true
+            },
+            "render": {
+                "mesh": 1,
+                "shader_name": "default-shader",
+                "texture_name": "main-character-texture"
+            }
+        },
+        {
+            "id": 3,
+            "tag": "player-right",
+            "transform": {
+                "position": {
+                    "x": -83.33357238769531,
+                    "y": -300.0
+                },
+                "scale": {
+                    "x": 200.0,
+                    "y": 200.0
+                },
+                "rotation": 0.0
+            },
+            "rigidbody": {
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "acceleration": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "force": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "mass": 1.0,
+                "useGravity": false,
+                "gravityScale": 1.0,
+                "dragCoefficient": 2.0
+            },
+            "boxcollider": {
+                "size": {
+                    "x": 150.0,
+                    "y": 150.0
+                },
+                "offset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "isTrigger": false,
+                "isEnabled": true
+            },
+            "render": {
+                "mesh": 1,
+                "shader_name": "default-shader",
+                "texture_name": "main-character-texture"
+            }
+        },
+        {
+            "id": 4,
+            "tag": "player-left-again",
+            "transform": {
+                "position": {
+                    "x": -216.6670684814453,
+                    "y": -300.0
+                },
+                "scale": {
+                    "x": 200.0,
+                    "y": 200.0
+                },
+                "rotation": 0.0
+            },
+            "rigidbody": {
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "acceleration": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "force": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "mass": 1.0,
+                "useGravity": false,
+                "gravityScale": 1.0,
+                "dragCoefficient": 2.0
+            },
+            "boxcollider": {
+                "size": {
+                    "x": 150.0,
+                    "y": 150.0
+                },
+                "offset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "isTrigger": false,
+                "isEnabled": true
+            },
+            "render": {
+                "mesh": 1,
+                "shader_name": "default-shader",
+                "texture_name": "main-character-texture"
+            }
+        },
+        {
+            "id": 5,
+            "tag": "player-left",
+            "transform": {
+                "position": {
+                    "x": -20.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 200.0,
+                    "y": 200.0
+                },
+                "rotation": 0.0
+            },
+            "rigidbody": {
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "acceleration": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "force": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "mass": 1.0,
+                "useGravity": false,
+                "gravityScale": 1.0,
+                "dragCoefficient": 2.0
+            },
+            "boxcollider": {
+                "size": {
+                    "x": 150.0,
+                    "y": 150.0
+                },
+                "offset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "isTrigger": false,
+                "isEnabled": true
+            },
+            "render": {
+                "mesh": 1,
+                "shader_name": "animation-shader",
+                "texture_name": "animation-main-character-texture"
+            },
+            "animation": {
+                "sprite_sheet_size": {
+                    "width": 2258.0,
+                    "height": 1988.0
+                },
+                "animation_state": {
+                    "idle": {
+                        "start_frame": {
+                            "x": 0,
+                            "y": 6
+                        },
+                        "end_frame": {
+                            "x": 4,
+                            "y": 6
+                        },
+                        "frame_size": {
+                            "width": 284.0,
+                            "height": 284.0
+                        },
+                        "animation_speed": 0.11999999731779099
+                    },
+                    "run": {
+                        "start_frame": {
+                            "x": 0,
+                            "y": 3
+                        },
+                        "end_frame": {
+                            "x": 7,
+                            "y": 3
+                        },
+                        "frame_size": {
+                            "width": 284.0,
+                            "height": 284.0
+                        },
+                        "animation_speed": 0.07999999821186066
+                    },
+                    "attack": {
+                        "start_frame": {
+                            "x": 0,
+                            "y": 2
+                        },
+                        "end_frame": {
+                            "x": 5,
+                            "y": 2
+                        },
+                        "frame_size": {
+                            "width": 284.0,
+                            "height": 284.0
+                        },
+                        "animation_speed": 0.10000000149011612
+                    }
+                }
+            }
+        },
+        {
+            "id": 6,
+            "tag": "player1",
+            "transform": {
+                "position": {
+                    "x": 300.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 200.0,
+                    "y": 200.0
+                },
+                "rotation": 0.0
+            },
+            "render": {
+                "mesh": 1,
+                "shader_name": "animation-shader",
+                "texture_name": "animation-main-character-texture"
+            },
+            "animation": {
+                "sprite_sheet_size": {
+                    "width": 2258.0,
+                    "height": 1988.0
+                },
+                "animation_state": {
+                    "idle": {
+                        "start_frame": {
+                            "x": 0,
+                            "y": 4
+                        },
+                        "end_frame": {
+                            "x": 4,
+                            "y": 4
+                        },
+                        "frame_size": {
+                            "width": 284.0,
+                            "height": 284.0
+                        },
+                        "animation_speed": 0.11999999731779099
+                    },
+                    "test": {
+                        "start_frame": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "end_frame": {
+                            "x": 4,
+                            "y": 0
+                        },
+                        "frame_size": {
+                            "width": 324.0,
+                            "height": 284.0
+                        },
+                        "animation_speed": 0.07999999821186066
+                    }
+                }
+            }
+        },
+        {
+            "id": 7,
+            "tag": "background",
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "render": {
+                "mesh": 3,
+                "shader_name": "background-shader",
+                "texture_name": "windows-background"
+            }
+        },
+        {
+            "id": 8,
+            "tag": "text1",
+            "group": "ui",
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "text": {
+                "text": "Popplio",
+                "font_name": "StickyGlue-font-48",
+                "position": {
+                    "x": 0.30000001192092898,
+                    "y": 0.30000001192092898
+                }
+            }
+        },
+        {
+            "id": 9,
+            "tag": "text2",
+            "group": "ui",
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "text": {
+                "text": "Engine",
+                "font_name": "immortal-font-48",
+                "position": {
+                    "x": 0.5,
+                    "y": 0.5
+                }
+            }
+        }
+    ],
+    "layers": []
+}

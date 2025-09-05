@@ -1,0 +1,104 @@
+{
+    "prefab": {
+        "name": "Spotlights",
+        "components": {
+            "id": 287,
+            "tag": "Spotlights",
+            "group": "bg",
+            "layer": "bg4",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 1500.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "logic": {
+                "isActive": true,
+                "name": "BassNKick::BGMovingEntity",
+                "scriptLang": 1,
+                "bools": {},
+                "ints": {},
+                "floats": {
+                    "speedX": -0.6000000238418579,
+                    "speedY": 0.0,
+                    "loopTime": 40.0,
+                    "randomLoop": 20.0
+                },
+                "doubles": {},
+                "chars": {},
+                "strings": {},
+                "entities": {
+                    "trackObj": 6
+                },
+                "prefabs": {},
+                "components": {},
+                "boolLists": {},
+                "intLists": {},
+                "floatLists": {},
+                "doubleLists": {},
+                "charLists": {},
+                "stringLists": {},
+                "entityLists": {
+                    "entities": {
+                        "0": 161,
+                        "1": 285,
+                        "2": 286
+                    }
+                },
+                "prefabLists": {},
+                "componentLists": {}
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": false,
+                "parentId": 284
+            }
+        },
+        "childPrefabs": [
+            {
+                "path": "Spotlights_161.prefab",
+                "position": {
+                    "x": 1500.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 800.0,
+                    "y": 500.0
+                },
+                "rotation": 0.0
+            },
+            {
+                "path": "Spotlights_285.prefab",
+                "position": {
+                    "x": 1500.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 800.0,
+                    "y": 500.0
+                },
+                "rotation": 0.0
+            },
+            {
+                "path": "Spotlights_286.prefab",
+                "position": {
+                    "x": 1545.0,
+                    "y": -35.0
+                },
+                "scale": {
+                    "x": 800.0,
+                    "y": 500.0
+                },
+                "rotation": 0.0
+            }
+        ]
+    }
+}

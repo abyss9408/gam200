@@ -1,0 +1,77 @@
+{
+    "prefab": {
+        "name": "Tutorial_4",
+        "components": {
+            "id": 4,
+            "tag": "tutorial_F",
+            "group": "",
+            "layer": "buttons",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": -440.0,
+                    "y": -40.0
+                },
+                "scale": {
+                    "x": 210.0,
+                    "y": 132.0
+                },
+                "rotation": 0.0
+            },
+            "render": {
+                "isActive": true,
+                "mesh": 1,
+                "shader_name": "animation_shader",
+                "texture_name": "UI_HowToPlay_F_spritesheet",
+                "use_instancing": false,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0,
+                "texture_width": 420,
+                "texture_height": 132,
+                "enable_nine_slice": false,
+                "nine_slice_borders": {
+                    "left": 1.0,
+                    "right": 1.0,
+                    "top": 1.0,
+                    "bottom": 1.0
+                }
+            },
+            "animation": {
+                "isActive": true,
+                "sprite_sheet_size": {
+                    "width": 420.0,
+                    "height": 132.0
+                },
+                "playOnce": false,
+                "animation_state": {
+                    "anim": {
+                        "start_frame": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "end_frame": {
+                            "x": 1,
+                            "y": 0
+                        },
+                        "frame_size": {
+                            "width": 210.0,
+                            "height": 132.0
+                        },
+                        "animation_speed": 1.0
+                    }
+                }
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": false,
+                "parentId": 0
+            }
+        }
+    }
+}

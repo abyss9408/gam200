@@ -1,0 +1,169 @@
+{
+    "entities": [
+        {
+            "id": 0,
+            "layer": "Game",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": -6.086311340332031,
+                    "y": -212.0848388671875
+                },
+                "scale": {
+                    "x": 93.0,
+                    "y": 136.0
+                },
+                "rotation": 0.0
+            },
+            "rigidbody": {
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "acceleration": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "force": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "mass": 0.0,
+                "useGravity": false,
+                "gravityScale": 0.0,
+                "dragCoefficient": 0.10000000149011612
+            },
+            "render": {
+                "mesh": 1,
+                "shader_name": "default_shader",
+                "texture_name": "main-character",
+                "use_instancing": false,
+                "color": {
+                    "r": 0.11764705181121826,
+                    "g": 1.0,
+                    "b": 0.0
+                }
+            },
+            "prefab_instance": {
+                "prefab_name": "PlayerPrefab",
+                "sync_prefab": true
+            }
+        },
+        {
+            "id": 1,
+            "layer": "Game",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": -7.022666931152344,
+                    "y": 205.53036499023438
+                },
+                "scale": {
+                    "x": 93.0,
+                    "y": 136.0
+                },
+                "rotation": 0.0
+            },
+            "rigidbody": {
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "acceleration": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "force": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "mass": 0.0,
+                "useGravity": false,
+                "gravityScale": 0.0,
+                "dragCoefficient": 0.10000000149011612
+            },
+            "render": {
+                "mesh": 1,
+                "shader_name": "default_shader",
+                "texture_name": "main-character",
+                "use_instancing": false,
+                "color": {
+                    "r": 0.11764705181121826,
+                    "g": 1.0,
+                    "b": 0.0
+                }
+            },
+            "prefab_instance": {
+                "prefab_name": "PlayerPrefab",
+                "sync_prefab": true
+            }
+        },
+        {
+            "id": 2,
+            "layer": "Game",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 93.0,
+                    "y": 136.0
+                },
+                "rotation": 0.0
+            },
+            "rigidbody": {
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "acceleration": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "force": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "mass": 0.0,
+                "useGravity": false,
+                "gravityScale": 0.0,
+                "dragCoefficient": 0.10000000149011612
+            },
+            "render": {
+                "mesh": 1,
+                "shader_name": "default_shader",
+                "texture_name": "main-character",
+                "use_instancing": false,
+                "color": {
+                    "r": 0.11764705181121826,
+                    "g": 1.0,
+                    "b": 0.0
+                }
+            },
+            "prefab_instance": {
+                "prefab_name": "PlayerPrefab",
+                "sync_prefab": true
+            }
+        }
+    ],
+    "layers": [
+        {
+            "name": "Game",
+            "order": 0,
+            "active": true,
+            "entities": [
+                0,
+                1,
+                2
+            ]
+        }
+    ]
+}

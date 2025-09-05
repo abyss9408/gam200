@@ -1,0 +1,90 @@
+{
+    "prefab": {
+        "name": "words",
+        "components": {
+            "id": 812,
+            "tag": "words",
+            "layer": "GamePlay",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": -2460.0,
+                    "y": -550.0
+                },
+                "scale": {
+                    "x": 2500.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "logic": {
+                "isActive": true,
+                "name": "BassNKick::GameBorder",
+                "scriptLang": 1,
+                "bools": {},
+                "ints": {
+                    "minCombo": 0,
+                    "maxCombo": 0
+                },
+                "floats": {
+                    "rotation": 0.0,
+                    "width": 2460.0,
+                    "minspeed": 100.0,
+                    "maxspeed": 100.0,
+                    "acceleration": 0.0,
+                    "deceleration": 0.0
+                },
+                "doubles": {},
+                "chars": {},
+                "strings": {},
+                "entities": {
+                    "scoreObj": 1
+                },
+                "prefabs": {},
+                "components": {},
+                "boolLists": {},
+                "intLists": {},
+                "floatLists": {},
+                "doubleLists": {},
+                "charLists": {},
+                "stringLists": {},
+                "entityLists": {},
+                "prefabLists": {},
+                "componentLists": {}
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": true,
+                "parentId": -1
+            }
+        },
+        "childPrefabs": [
+            {
+                "path": "words_813.prefab",
+                "position": {
+                    "x": -2460.0,
+                    "y": -550.0
+                },
+                "scale": {
+                    "x": 2500.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            {
+                "path": "words_814.prefab",
+                "position": {
+                    "x": 0.0,
+                    "y": -550.0
+                },
+                "scale": {
+                    "x": 2500.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            }
+        ]
+    }
+}
