@@ -92,7 +92,9 @@
                 "doubles": {},
                 "chars": {},
                 "strings": {},
-                "entities": {},
+                "entities": {
+                    "buttonSFX": -1
+                },
                 "prefabs": {},
                 "components": {},
                 "boolLists": {},
@@ -1254,6 +1256,89 @@
                 "playOnAwake": false,
                 "grp": 2
             }
+        },
+        {
+            "id": 20,
+            "tag": "Credits",
+            "group": "buttons",
+            "layer": "buttons",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 775.0,
+                    "y": -450.0
+                },
+                "scale": {
+                    "x": 300.0,
+                    "y": 300.0
+                },
+                "rotation": 0.0
+            },
+            "render": {
+                "isActive": true,
+                "mesh": 1,
+                "shader_name": "animation_shader",
+                "texture_name": "Popplio_TeamLogo",
+                "use_instancing": false,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0,
+                "texture_width": 1500,
+                "texture_height": 1500,
+                "enable_nine_slice": false,
+                "nine_slice_borders": {
+                    "left": 1.0,
+                    "right": 1.0,
+                    "top": 1.0,
+                    "bottom": 1.0
+                }
+            },
+            "logic": {
+                "isActive": true,
+                "name": "BassNKick::MainMenuUI",
+                "scriptLang": 1,
+                "bools": {},
+                "ints": {},
+                "floats": {},
+                "doubles": {},
+                "chars": {},
+                "strings": {},
+                "entities": {
+                    "buttonSFX": 19
+                },
+                "prefabs": {},
+                "components": {},
+                "boolLists": {},
+                "intLists": {},
+                "floatLists": {},
+                "doubleLists": {},
+                "charLists": {},
+                "stringLists": {},
+                "entityLists": {},
+                "prefabLists": {},
+                "componentLists": {}
+            },
+            "ui": {
+                "isActive": true,
+                "uiType": "BUTTON",
+                "onClickActions": [
+                    "CREDITS"
+                ],
+                "hasHoverEffect": true,
+                "frameX": 0,
+                "frameY": 0,
+                "hoverFrameX": 0,
+                "hoverFrameY": 0,
+                "totalColumns": 1,
+                "totalRows": 1,
+                "sheetWidth": 1500.0,
+                "sheetHeight": 1500.0
+            }
         }
     ],
     "child_relationships": [
@@ -1303,7 +1388,8 @@
                 3,
                 6,
                 9,
-                11
+                11,
+                20
             ]
         },
         {

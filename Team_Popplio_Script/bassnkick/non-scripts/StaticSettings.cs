@@ -28,12 +28,12 @@ namespace BassNKick.Lib
 		//public static Entity gameManagerObj = Entity.EntityField();
 		//public static GameManager? gameManager;
 
-		public static string settingsFile = "settings.json";
+		public static string settingsFile = "%POPPLIO%\\BassNKick\\settings.json"; //"settings.json";
 		public static string settingsDefaultFile = "settings_default.json";
 
 		public static string gameSettingsFile = "game.json";
 
-		public static string debugSettingsFile = "debug.json";
+		public static string debugSettingsFile = "%POPPLIO%\\BassNKick\\debug.json"; //"debug.json";
 		public static string debugSettingsDefaultFile = "debug_default.json";
 
 		#region Player
@@ -171,7 +171,12 @@ namespace BassNKick.Lib
 			try
 			{
 				if (Json.LoadJson(debugSettingsFile) == IntPtr.Zero)
-					throw new Exception("Failed to get Json file");
+				{
+					Logger.Info("StaticSettings.cs | Debug Settings not found, attempting to restore from defaults");
+					RestoreDebug();
+					if (Json.LoadJson(debugSettingsFile) == IntPtr.Zero)
+						throw new Exception("Failed to get Json file");
+				}
 				Logger.Critical("StaticSettings.cs | Loading Debug Settings " + debugSettingsFile);
 				showFPS = Json.LoadBool("show fps");
 				// Close json file
@@ -200,16 +205,50 @@ namespace BassNKick.Lib
 			}
 		}
 
+		public static void RestoreDebug()
+		{
+			try
+			{
+				if (Json.LoadJson(debugSettingsDefaultFile) == IntPtr.Zero)
+				{
+					throw new Exception("Failed to get default debug settings file");
+				}
+				Logger.Critical("StaticSettings.cs | Loading Default Debug Settings " + 
+					debugSettingsDefaultFile + " to " + debugSettingsFile);
+
+				showFPS = Json.LoadBool("show fps");
+
+				// Close json file
+				Json.Close();
+				Json.ClearObjs();
+
+				SaveDebug();
+
+				//Load();
+
+				Logger.Critical("StaticSettings.cs | Loaded Default Debug Settings");
+			}
+			catch (Exception e)
+			{
+				Logger.Error("Error saving debug settings: " + e.Message);
+			}
+		}
+
 		public static void Load()
 		{
 			try
 			{
 				if (Json.LoadJson(settingsFile) == IntPtr.Zero)
 				{
-					Logger.Critical("StaticSettings.cs | Settings not found, attempting to initialize to zero");
-					Save();
-					if (Json.LoadJson(settingsFile) == IntPtr.Zero) 
-						throw new Exception("Failed to get Json file");
+					Logger.Info("StaticSettings.cs | Settings not found, attempting to restore from defaults");
+					Restore();
+					if (Json.LoadJson(settingsFile) == IntPtr.Zero)
+					{
+						Logger.Critical("StaticSettings.cs | Restore failed, attempting to initialize to zero");
+						Save();
+						if (Json.LoadJson(settingsFile) == IntPtr.Zero)
+							throw new Exception("Failed to get Json file");
+					}
 				}
 				Logger.Critical("StaticSettings.cs | Loading Settings " + settingsFile);
 				volumeMaster = Json.LoadFloat("volume master");
@@ -286,7 +325,7 @@ namespace BassNKick.Lib
 				{
 					throw new Exception("Failed to get default settings file");
 				}
-				Logger.Critical("StaticSettings.cs | Loading Default Settings " + settingsFile);
+				Logger.Critical("StaticSettings.cs | Loading Default Settings " + settingsDefaultFile + " to " + settingsFile);
 				volumeMaster = Json.LoadFloat("volume master");
 				volumeMusic = Json.LoadFloat("volume music");
 				volumeAllSFX = Json.LoadFloat("volume all sfx");

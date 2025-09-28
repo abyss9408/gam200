@@ -1,0 +1,5 @@
+GNU LESSER GENERAL PUBLIC LICENSE
+Version 2.1, February 1999
+
+[Due to length, only excerpt shown. Full text should be bundled from FSF sources.]
+Full text: https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt

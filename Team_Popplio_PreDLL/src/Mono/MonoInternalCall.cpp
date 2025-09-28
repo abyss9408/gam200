@@ -1320,6 +1320,14 @@ namespace PopplioScriptAPI
                 PopplioUtil::ResetCurrentDirectory();
 
                 PopplioScriptAPI::MonoToString(filename, strMS);
+
+                if (PopplioUtil::String::Contains(strMS, PopplioUtil::userPath))
+                    PopplioUtil::String::Replace(strMS, PopplioUtil::userPath, PopplioUtil::GetAppDataPath());
+                else if (PopplioUtil::String::Contains(strMS, PopplioUtil::popplioPath))
+                    PopplioUtil::String::Replace(strMS, PopplioUtil::popplioPath, PopplioUtil::GetTeamPopplioUserPath());
+
+                if (!PopplioUtil::FileExists(strMS)) PopplioUtil::CreateFile(strMS);
+
                 ifs = std::ifstream(strMS);
                 if (!ifs)
                 {
@@ -1724,7 +1732,16 @@ namespace PopplioScriptAPI
                 if (ofs.is_open()) ofs.close();
 
                 PopplioScriptAPI::MonoToString(filename, strMS);
+
+                if (PopplioUtil::String::Contains(strMS, PopplioUtil::userPath))
+                    PopplioUtil::String::Replace(strMS, PopplioUtil::userPath, PopplioUtil::GetAppDataPath());
+                else if (PopplioUtil::String::Contains(strMS, PopplioUtil::popplioPath))
+                    PopplioUtil::String::Replace(strMS, PopplioUtil::popplioPath, PopplioUtil::GetTeamPopplioUserPath());
+
+                if (!PopplioUtil::FileExists(strMS)) PopplioUtil::CreateFile(strMS);
+
                 ofs = std::ofstream(strMS);
+
                 if (!ofs)
                 {
                     Popplio::Logger::Error("MonoInternalCall.cpp | Failed to open file for writing: " + strMS);
@@ -3445,7 +3462,7 @@ namespace PopplioScriptAPI
                 auto& uiComponent = reg->GetEntityById(instance).GetComponent<Popplio::UIComponent>();
                 const auto& actions = uiComponent.onClickActions;
 
-                Popplio::Logger::Info("[MonoInternalCall] GetOnClickActions Count: " + std::to_string(actions.size()));
+                //Popplio::Logger::Debug("[MonoInternalCall] GetOnClickActions Count: " + std::to_string(actions.size()));
 
                 MonoDomain* domain = mono_domain_get();
                 MonoArray* monoArray = mono_array_new(domain, mono_get_string_class(), static_cast<int>(actions.size()));

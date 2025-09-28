@@ -449,6 +449,7 @@
     <ClCompile Include="src\Utilities\Directory.cpp" />
     <ClCompile Include="src\Utilities\QueueSystem.cpp" />
     <ClCompile Include="src\Utilities\Rand.cpp" />
+    <ClCompile Include="src\Utilities\String.cpp" />
     <ClCompile Include="tests\TestMono.cpp" />
     <ClInclude Include="src\AssetStore\AssetBatchLoader.h" />
     <ClInclude Include="src\LoadingScreen\LoadingScreen.h" />
@@ -569,6 +570,7 @@
     <ClInclude Include="src\Utilities\QueueSystem.h" />
     <ClInclude Include="src\Utilities\Rand.h" />
     <ClInclude Include="src\Math\Polynomial.h" />
+    <ClInclude Include="src\Utilities\String.h" />
     <ClInclude Include="tests\TestMono.h" />
   </ItemGroup>
   <ItemGroup>

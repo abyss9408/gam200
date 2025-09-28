@@ -1,9 +1,341 @@
 {
     "entities": [
         {
-            "id": 1,
-            "tag": "Credits",
-            "layer": "tutorial",
+            "id": 0,
+            "tag": "controller",
+            "layer": "bg",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 1920.0,
+                    "y": 1080.0
+                },
+                "rotation": 0.0
+            },
+            "logic": {
+                "isActive": true,
+                "name": "BassNKick::CreditsUI",
+                "scriptLang": 1,
+                "bools": {},
+                "ints": {},
+                "floats": {},
+                "doubles": {},
+                "chars": {},
+                "strings": {},
+                "entities": {
+                    "buttonLeft": 7,
+                    "buttonRight": 8,
+                    "buttonBack": 3,
+                    "buttonSFX": 5
+                },
+                "prefabs": {},
+                "components": {},
+                "boolLists": {},
+                "intLists": {},
+                "floatLists": {},
+                "doubleLists": {},
+                "charLists": {},
+                "stringLists": {},
+                "entityLists": {
+                    "pages": {
+                        "0": 6,
+                        "1": 1,
+                        "2": 19,
+                        "3": 36
+                    }
+                },
+                "prefabLists": {},
+                "componentLists": {}
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": true,
+                "parentId": -1
+            }
+        },
+        {
+            "id": 2,
+            "tag": "bg",
+            "layer": "bg",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 1920.0,
+                    "y": 1080.0
+                },
+                "rotation": 0.0
+            },
+            "render": {
+                "isActive": true,
+                "mesh": 1,
+                "shader_name": "default_shader",
+                "texture_name": "UI_HowToPlay_LevelSelect",
+                "use_instancing": false,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0,
+                "texture_width": 1920,
+                "texture_height": 1080,
+                "enable_nine_slice": false,
+                "nine_slice_borders": {
+                    "left": 1.0,
+                    "right": 1.0,
+                    "top": 1.0,
+                    "bottom": 1.0
+                }
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": false,
+                "parentId": -1
+            }
+        },
+        {
+            "id": 7,
+            "tag": "left",
+            "layer": "buttons",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": -900.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 74.0,
+                    "y": 84.0
+                },
+                "rotation": 0.0
+            },
+            "render": {
+                "isActive": true,
+                "mesh": 1,
+                "shader_name": "animation_shader",
+                "texture_name": "UI_HowToPlay_LeftArrow_spritesheet",
+                "use_instancing": false,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0,
+                "texture_width": 148,
+                "texture_height": 84,
+                "enable_nine_slice": false,
+                "nine_slice_borders": {
+                    "left": 1.0,
+                    "right": 1.0,
+                    "top": 1.0,
+                    "bottom": 1.0
+                }
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": false,
+                "parentId": 0
+            },
+            "ui": {
+                "isActive": true,
+                "uiType": "BUTTON",
+                "onClickActions": [
+                    "None"
+                ],
+                "hasHoverEffect": true,
+                "frameX": 0,
+                "frameY": 0,
+                "hoverFrameX": 1,
+                "hoverFrameY": 0,
+                "totalColumns": 2,
+                "totalRows": 1,
+                "sheetWidth": 148.0,
+                "sheetHeight": 84.0
+            }
+        },
+        {
+            "id": 8,
+            "tag": "right",
+            "layer": "buttons",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 900.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 74.0,
+                    "y": 84.0
+                },
+                "rotation": 0.0
+            },
+            "render": {
+                "isActive": true,
+                "mesh": 1,
+                "shader_name": "animation_shader",
+                "texture_name": "UI_HowToPlay_RightArrow_spritesheet",
+                "use_instancing": false,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0,
+                "texture_width": 148,
+                "texture_height": 84,
+                "enable_nine_slice": false,
+                "nine_slice_borders": {
+                    "left": 1.0,
+                    "right": 1.0,
+                    "top": 1.0,
+                    "bottom": 1.0
+                }
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": false,
+                "parentId": 0
+            },
+            "ui": {
+                "isActive": true,
+                "uiType": "BUTTON",
+                "onClickActions": [
+                    "None"
+                ],
+                "hasHoverEffect": true,
+                "frameX": 0,
+                "frameY": 0,
+                "hoverFrameX": 1,
+                "hoverFrameY": 0,
+                "totalColumns": 2,
+                "totalRows": 1,
+                "sheetWidth": 148.0,
+                "sheetHeight": 84.0
+            }
+        },
+        {
+            "id": 3,
+            "tag": "Back_Button",
+            "layer": "buttons",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": -473.0
+                },
+                "scale": {
+                    "x": 450.0,
+                    "y": 130.0
+                },
+                "rotation": 0.0
+            },
+            "render": {
+                "isActive": true,
+                "mesh": 1,
+                "shader_name": "animation_shader",
+                "texture_name": "UI_Options_Button_Back_spritesheet_new",
+                "use_instancing": false,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0,
+                "texture_width": 908,
+                "texture_height": 130,
+                "enable_nine_slice": false,
+                "nine_slice_borders": {
+                    "left": 1.0,
+                    "right": 1.0,
+                    "top": 1.0,
+                    "bottom": 1.0
+                }
+            },
+            "animation": {
+                "isActive": true,
+                "sprite_sheet_size": {
+                    "width": 0.0,
+                    "height": 0.0
+                },
+                "playOnce": false,
+                "animation_state": {}
+            },
+            "ui": {
+                "isActive": true,
+                "uiType": "BUTTON",
+                "onClickActions": [
+                    "None"
+                ],
+                "hasHoverEffect": true,
+                "frameX": 0,
+                "frameY": 0,
+                "hoverFrameX": 1,
+                "hoverFrameY": 0,
+                "totalColumns": 2,
+                "totalRows": 1,
+                "sheetWidth": 900.0,
+                "sheetHeight": 130.0
+            }
+        },
+        {
+            "id": 5,
+            "tag": "buttonSFX",
+            "active": {
+                "isActive": true
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "audio": {
+                "isActive": true,
+                "name": "punchy",
+                "volume": 1.0,
+                "mute": false,
+                "loop": false,
+                "bpm": 0.0,
+                "timeSig": {
+                    "top": 0,
+                    "bot": 0
+                },
+                "playOnAwake": false,
+                "grp": 0
+            },
+            "prefab_instance": {
+                "prefab_name": "buttonSFX",
+                "sync_prefab": true
+            }
+        },
+        {
+            "id": 6,
+            "tag": "pg1",
+            "group": "",
+            "layer": "credits",
             "active": {
                 "isActive": true
             },
@@ -45,30 +377,1705 @@
                 "inheritTransform": false,
                 "parentId": -1
             }
+        },
+        {
+            "id": 1,
+            "tag": "pg2",
+            "group": "",
+            "layer": "credits",
+            "active": {
+                "isActive": false
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 1920.0,
+                    "y": 1080.0
+                },
+                "rotation": 0.0
+            },
+            "render": {
+                "isActive": true,
+                "mesh": 1,
+                "shader_name": "default_shader",
+                "texture_name": "UI_Credits_blank",
+                "use_instancing": false,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0,
+                "texture_width": 1920,
+                "texture_height": 1080,
+                "enable_nine_slice": false,
+                "nine_slice_borders": {
+                    "left": 1.0,
+                    "right": 1.0,
+                    "top": 1.0,
+                    "bottom": 1.0
+                }
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": true,
+                "parentId": -1
+            }
+        },
+        {
+            "id": 4,
+            "tag": "digipen",
+            "group": "",
+            "layer": "credits",
+            "active": {
+                "isActive": false
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 100.0
+                },
+                "scale": {
+                    "x": 505.0,
+                    "y": 122.0
+                },
+                "rotation": 0.0
+            },
+            "render": {
+                "isActive": true,
+                "mesh": 1,
+                "shader_name": "default_shader",
+                "texture_name": "DigiPen_RGB_White",
+                "use_instancing": false,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0,
+                "texture_width": 505,
+                "texture_height": 122,
+                "enable_nine_slice": false,
+                "nine_slice_borders": {
+                    "left": 1.0,
+                    "right": 1.0,
+                    "top": 1.0,
+                    "bottom": 1.0
+                }
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": false,
+                "parentId": 1
+            }
+        },
+        {
+            "id": 9,
+            "tag": "SpecialThanks",
+            "group": "",
+            "layer": "credits",
+            "active": {
+                "isActive": false
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": -50.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "text": {
+                "isActive": true,
+                "text": "Special Thanks",
+                "font_name": "Audiowide-Regular",
+                "size": 40,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": false,
+                "parentId": 1
+            }
+        },
+        {
+            "id": 11,
+            "tag": "President",
+            "group": "",
+            "layer": "credits",
+            "active": {
+                "isActive": false
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": -100.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "text": {
+                "isActive": true,
+                "text": "President",
+                "font_name": "Audiowide-Regular",
+                "size": 32,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": false,
+                "parentId": 1
+            }
+        },
+        {
+            "id": 12,
+            "tag": "Claude Comair",
+            "group": "",
+            "layer": "credits",
+            "active": {
+                "isActive": false
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": -135.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "text": {
+                "isActive": true,
+                "text": "Claude Comair",
+                "font_name": "Audiowide-Regular",
+                "size": 28,
+                "color": {
+                    "r": 0.4117647111415863,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": false,
+                "parentId": 1
+            }
+        },
+        {
+            "id": 10,
+            "tag": "Executives",
+            "group": "",
+            "layer": "credits",
+            "active": {
+                "isActive": false
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": -200.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "text": {
+                "isActive": true,
+                "text": "Executives",
+                "font_name": "Audiowide-Regular",
+                "size": 32,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": false,
+                "parentId": 1
+            }
+        },
+        {
+            "id": 13,
+            "tag": "name",
+            "group": "",
+            "layer": "credits",
+            "active": {
+                "isActive": false
+            },
+            "transform": {
+                "position": {
+                    "x": -300.0,
+                    "y": -235.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "text": {
+                "isActive": true,
+                "text": "Jason Chu",
+                "font_name": "Audiowide-Regular",
+                "size": 28,
+                "color": {
+                    "r": 0.4117647111415863,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": false,
+                "parentId": 1
+            }
+        },
+        {
+            "id": 14,
+            "tag": "name {1}",
+            "group": "",
+            "layer": "credits",
+            "active": {
+                "isActive": false
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": -235.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "text": {
+                "isActive": true,
+                "text": "Christopher Comair",
+                "font_name": "Audiowide-Regular",
+                "size": 28,
+                "color": {
+                    "r": 0.4117647111415863,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": false,
+                "parentId": 1
+            }
+        },
+        {
+            "id": 15,
+            "tag": "name {2}",
+            "group": "",
+            "layer": "credits",
+            "active": {
+                "isActive": false
+            },
+            "transform": {
+                "position": {
+                    "x": 300.0,
+                    "y": -235.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "text": {
+                "isActive": true,
+                "text": "Michael Gats",
+                "font_name": "Audiowide-Regular",
+                "size": 28,
+                "color": {
+                    "r": 0.4117647111415863,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": false,
+                "parentId": 1
+            }
+        },
+        {
+            "id": 16,
+            "tag": "name {3}",
+            "group": "",
+            "layer": "credits",
+            "active": {
+                "isActive": false
+            },
+            "transform": {
+                "position": {
+                    "x": -300.0,
+                    "y": -285.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "text": {
+                "isActive": true,
+                "text": "Raymond Yan",
+                "font_name": "Audiowide-Regular",
+                "size": 28,
+                "color": {
+                    "r": 0.4117647111415863,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": false,
+                "parentId": 1
+            }
+        },
+        {
+            "id": 17,
+            "tag": "name {4}",
+            "group": "",
+            "layer": "credits",
+            "active": {
+                "isActive": false
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": -285.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "text": {
+                "isActive": true,
+                "text": "Samir Abou Samra",
+                "font_name": "Audiowide-Regular",
+                "size": 28,
+                "color": {
+                    "r": 0.4117647111415863,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": false,
+                "parentId": 1
+            }
+        },
+        {
+            "id": 18,
+            "tag": "name {5}",
+            "group": "",
+            "layer": "credits",
+            "active": {
+                "isActive": false
+            },
+            "transform": {
+                "position": {
+                    "x": 300.0,
+                    "y": -285.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "text": {
+                "isActive": true,
+                "text": "Prasanna Ghali",
+                "font_name": "Audiowide-Regular",
+                "size": 28,
+                "color": {
+                    "r": 0.4117647111415863,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": false,
+                "parentId": 1
+            }
+        },
+        {
+            "id": 19,
+            "tag": "pg3",
+            "group": "",
+            "layer": "credits",
+            "active": {
+                "isActive": false
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 1920.0,
+                    "y": 1080.0
+                },
+                "rotation": 0.0
+            },
+            "render": {
+                "isActive": true,
+                "mesh": 1,
+                "shader_name": "default_shader",
+                "texture_name": "UI_Credits_blank",
+                "use_instancing": false,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0,
+                "texture_width": 1920,
+                "texture_height": 1080,
+                "enable_nine_slice": false,
+                "nine_slice_borders": {
+                    "left": 1.0,
+                    "right": 1.0,
+                    "top": 1.0,
+                    "bottom": 1.0
+                }
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": true,
+                "parentId": -1
+            }
+        },
+        {
+            "id": 20,
+            "tag": "digipen",
+            "group": "",
+            "layer": "credits",
+            "active": {
+                "isActive": false
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 100.0
+                },
+                "scale": {
+                    "x": 505.0,
+                    "y": 122.0
+                },
+                "rotation": 0.0
+            },
+            "render": {
+                "isActive": true,
+                "mesh": 1,
+                "shader_name": "default_shader",
+                "texture_name": "DigiPen_RGB_White",
+                "use_instancing": false,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0,
+                "texture_width": 505,
+                "texture_height": 122,
+                "enable_nine_slice": false,
+                "nine_slice_borders": {
+                    "left": 1.0,
+                    "right": 1.0,
+                    "top": 1.0,
+                    "bottom": 1.0
+                }
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": false,
+                "parentId": 19
+            }
+        },
+        {
+            "id": 21,
+            "tag": "SpecialThanks",
+            "group": "",
+            "layer": "credits",
+            "active": {
+                "isActive": false
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": -50.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "text": {
+                "isActive": true,
+                "text": "Special Thanks",
+                "font_name": "Audiowide-Regular",
+                "size": 40,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": false,
+                "parentId": 19
+            }
+        },
+        {
+            "id": 22,
+            "tag": "tech",
+            "group": "",
+            "layer": "credits",
+            "active": {
+                "isActive": false
+            },
+            "transform": {
+                "position": {
+                    "x": -350.0,
+                    "y": -100.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "text": {
+                "isActive": true,
+                "text": "Tech Instructors",
+                "font_name": "Audiowide-Regular",
+                "size": 32,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": false,
+                "parentId": 19
+            }
+        },
+        {
+            "id": 23,
+            "tag": "name",
+            "group": "",
+            "layer": "credits",
+            "active": {
+                "isActive": false
+            },
+            "transform": {
+                "position": {
+                    "x": -350.0,
+                    "y": -135.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "text": {
+                "isActive": true,
+                "text": "Parminder Singh",
+                "font_name": "Audiowide-Regular",
+                "size": 28,
+                "color": {
+                    "r": 0.4117647111415863,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": false,
+                "parentId": 19
+            }
+        },
+        {
+            "id": 24,
+            "tag": "Design",
+            "group": "",
+            "layer": "credits",
+            "active": {
+                "isActive": false
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": -100.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "text": {
+                "isActive": true,
+                "text": "Design",
+                "font_name": "Audiowide-Regular",
+                "size": 32,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": false,
+                "parentId": 19
+            }
+        },
+        {
+            "id": 25,
+            "tag": "name",
+            "group": "",
+            "layer": "credits",
+            "active": {
+                "isActive": false
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": -255.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "text": {
+                "isActive": true,
+                "text": "Jing Ying Goh",
+                "font_name": "Audiowide-Regular",
+                "size": 28,
+                "color": {
+                    "r": 0.4117647111415863,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": false,
+                "parentId": 19
+            }
+        },
+        {
+            "id": 26,
+            "tag": "name {1}",
+            "group": "",
+            "layer": "credits",
+            "active": {
+                "isActive": false
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": -135.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "text": {
+                "isActive": true,
+                "text": "Holger Liebnitz",
+                "font_name": "Audiowide-Regular",
+                "size": 28,
+                "color": {
+                    "r": 0.4117647111415863,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": false,
+                "parentId": 19
+            }
+        },
+        {
+            "id": 27,
+            "tag": "name {2}",
+            "group": "",
+            "layer": "credits",
+            "active": {
+                "isActive": false
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": -175.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "text": {
+                "isActive": true,
+                "text": "Raymond Teo",
+                "font_name": "Audiowide-Regular",
+                "size": 28,
+                "color": {
+                    "r": 0.4117647111415863,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": false,
+                "parentId": 19
+            }
+        },
+        {
+            "id": 28,
+            "tag": "name {3}",
+            "group": "",
+            "layer": "credits",
+            "active": {
+                "isActive": false
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": -215.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "text": {
+                "isActive": true,
+                "text": "Danielle Fong",
+                "font_name": "Audiowide-Regular",
+                "size": 28,
+                "color": {
+                    "r": 0.4117647111415863,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": false,
+                "parentId": 19
+            }
+        },
+        {
+            "id": 29,
+            "tag": "name {4}",
+            "group": "",
+            "layer": "credits",
+            "active": {
+                "isActive": false
+            },
+            "transform": {
+                "position": {
+                    "x": 350.0,
+                    "y": -135.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "text": {
+                "isActive": true,
+                "text": "Gavin Parker",
+                "font_name": "Audiowide-Regular",
+                "size": 28,
+                "color": {
+                    "r": 0.4117647111415863,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": false,
+                "parentId": 19
+            }
+        },
+        {
+            "id": 30,
+            "tag": "name {5}",
+            "group": "",
+            "layer": "credits",
+            "active": {
+                "isActive": false
+            },
+            "transform": {
+                "position": {
+                    "x": 350.0,
+                    "y": -175.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "text": {
+                "isActive": true,
+                "text": "Vuk Krakovic",
+                "font_name": "Audiowide-Regular",
+                "size": 28,
+                "color": {
+                    "r": 0.4117647111415863,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": false,
+                "parentId": 19
+            }
+        },
+        {
+            "id": 31,
+            "tag": "name {6}",
+            "group": "",
+            "layer": "credits",
+            "active": {
+                "isActive": false
+            },
+            "transform": {
+                "position": {
+                    "x": -350.0,
+                    "y": -175.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "text": {
+                "isActive": true,
+                "text": "Elie Hosry",
+                "font_name": "Audiowide-Regular",
+                "size": 28,
+                "color": {
+                    "r": 0.4117647111415863,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": false,
+                "parentId": 19
+            }
+        },
+        {
+            "id": 32,
+            "tag": "name {7}",
+            "group": "",
+            "layer": "credits",
+            "active": {
+                "isActive": false
+            },
+            "transform": {
+                "position": {
+                    "x": -350.0,
+                    "y": -215.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "text": {
+                "isActive": true,
+                "text": "Dian Yang Goh",
+                "font_name": "Audiowide-Regular",
+                "size": 28,
+                "color": {
+                    "r": 0.4117647111415863,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": false,
+                "parentId": 19
+            }
+        },
+        {
+            "id": 33,
+            "tag": "Audio",
+            "group": "",
+            "layer": "credits",
+            "active": {
+                "isActive": false
+            },
+            "transform": {
+                "position": {
+                    "x": 350.0,
+                    "y": -100.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "text": {
+                "isActive": true,
+                "text": "Audio",
+                "font_name": "Audiowide-Regular",
+                "size": 32,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": false,
+                "parentId": 19
+            }
+        },
+        {
+            "id": 34,
+            "tag": "Art",
+            "group": "",
+            "layer": "credits",
+            "active": {
+                "isActive": false
+            },
+            "transform": {
+                "position": {
+                    "x": 350.0,
+                    "y": -230.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "text": {
+                "isActive": true,
+                "text": "Art",
+                "font_name": "Audiowide-Regular",
+                "size": 32,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": false,
+                "parentId": 19
+            }
+        },
+        {
+            "id": 35,
+            "tag": "name {8}",
+            "group": "",
+            "layer": "credits",
+            "active": {
+                "isActive": false
+            },
+            "transform": {
+                "position": {
+                    "x": 350.0,
+                    "y": -265.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "text": {
+                "isActive": true,
+                "text": "Choon Wee Keh",
+                "font_name": "Audiowide-Regular",
+                "size": 28,
+                "color": {
+                    "r": 0.4117647111415863,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": false,
+                "parentId": 19
+            }
+        },
+        {
+            "id": 36,
+            "tag": "pg4",
+            "group": "",
+            "layer": "credits",
+            "active": {
+                "isActive": false
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "scale": {
+                    "x": 1920.0,
+                    "y": 1080.0
+                },
+                "rotation": 0.0
+            },
+            "render": {
+                "isActive": true,
+                "mesh": 1,
+                "shader_name": "default_shader",
+                "texture_name": "UI_Credits_blank",
+                "use_instancing": false,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0,
+                "texture_width": 1920,
+                "texture_height": 1080,
+                "enable_nine_slice": false,
+                "nine_slice_borders": {
+                    "left": 1.0,
+                    "right": 1.0,
+                    "top": 1.0,
+                    "bottom": 1.0
+                }
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": true,
+                "parentId": -1
+            }
+        },
+        {
+            "id": 37,
+            "tag": "digipen",
+            "group": "",
+            "layer": "credits",
+            "active": {
+                "isActive": false
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 100.0
+                },
+                "scale": {
+                    "x": 505.0,
+                    "y": 122.0
+                },
+                "rotation": 0.0
+            },
+            "render": {
+                "isActive": true,
+                "mesh": 1,
+                "shader_name": "default_shader",
+                "texture_name": "DigiPen_RGB_White",
+                "use_instancing": false,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0,
+                "texture_width": 505,
+                "texture_height": 122,
+                "enable_nine_slice": false,
+                "nine_slice_borders": {
+                    "left": 1.0,
+                    "right": 1.0,
+                    "top": 1.0,
+                    "bottom": 1.0
+                }
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": false,
+                "parentId": 36
+            }
+        },
+        {
+            "id": 38,
+            "tag": "site",
+            "group": "",
+            "layer": "credits",
+            "active": {
+                "isActive": false
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": -50.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "text": {
+                "isActive": true,
+                "text": "www.digipen.edu",
+                "font_name": "Audiowide-Regular",
+                "size": 40,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": false,
+                "parentId": 36
+            }
+        },
+        {
+            "id": 42,
+            "tag": "cred",
+            "group": "",
+            "layer": "credits",
+            "active": {
+                "isActive": false
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": -100.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "text": {
+                "isActive": true,
+                "text": "All Content (C) Digipen Institute of Technology Singapore.",
+                "font_name": "Audiowide-Regular",
+                "size": 28,
+                "color": {
+                    "r": 0.4117647111415863,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": false,
+                "parentId": 36
+            }
+        },
+        {
+            "id": 52,
+            "tag": "cred {1}",
+            "group": "",
+            "layer": "credits",
+            "active": {
+                "isActive": false
+            },
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": -130.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "text": {
+                "isActive": true,
+                "text": "All Rights Reserved",
+                "font_name": "Audiowide-Regular",
+                "size": 28,
+                "color": {
+                    "r": 0.4117647111415863,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": false,
+                "parentId": 36
+            }
+        },
+        {
+            "id": 51,
+            "tag": "Fonts",
+            "group": "",
+            "layer": "credits",
+            "active": {
+                "isActive": false
+            },
+            "transform": {
+                "position": {
+                    "x": -250.0,
+                    "y": -200.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "text": {
+                "isActive": true,
+                "text": "Fonts",
+                "font_name": "Audiowide-Regular",
+                "size": 40,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": false,
+                "parentId": 36
+            }
+        },
+        {
+            "id": 50,
+            "tag": "cred {2}",
+            "group": "",
+            "layer": "credits",
+            "active": {
+                "isActive": false
+            },
+            "transform": {
+                "position": {
+                    "x": -250.0,
+                    "y": -230.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "text": {
+                "isActive": true,
+                "text": "Closeness by Vladimir Nikolic",
+                "font_name": "Audiowide-Regular",
+                "size": 28,
+                "color": {
+                    "r": 0.4117647111415863,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": false,
+                "parentId": 36
+            }
+        },
+        {
+            "id": 48,
+            "tag": "cred {3}",
+            "group": "",
+            "layer": "credits",
+            "active": {
+                "isActive": false
+            },
+            "transform": {
+                "position": {
+                    "x": -250.0,
+                    "y": -260.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "text": {
+                "isActive": true,
+                "text": "Audiowide by jaylon36",
+                "font_name": "Audiowide-Regular",
+                "size": 28,
+                "color": {
+                    "r": 0.4117647111415863,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": false,
+                "parentId": 36
+            }
+        },
+        {
+            "id": 46,
+            "tag": "cred {4}",
+            "group": "",
+            "layer": "credits",
+            "active": {
+                "isActive": false
+            },
+            "transform": {
+                "position": {
+                    "x": 250.0,
+                    "y": -300.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "text": {
+                "isActive": true,
+                "text": "Made using FMOD Studio",
+                "font_name": "Audiowide-Regular",
+                "size": 28,
+                "color": {
+                    "r": 0.4117647111415863,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": false,
+                "parentId": 36
+            }
+        },
+        {
+            "id": 45,
+            "tag": "cred {5}",
+            "group": "",
+            "layer": "credits",
+            "active": {
+                "isActive": false
+            },
+            "transform": {
+                "position": {
+                    "x": 250.0,
+                    "y": -330.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "rotation": 0.0
+            },
+            "text": {
+                "isActive": true,
+                "text": "by Firelight Technologies Pty Ltd.\n",
+                "font_name": "Audiowide-Regular",
+                "size": 28,
+                "color": {
+                    "r": 0.4117647111415863,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": false,
+                "parentId": 36
+            }
+        },
+        {
+            "id": 44,
+            "tag": "fmod",
+            "group": "",
+            "layer": "credits",
+            "active": {
+                "isActive": false
+            },
+            "transform": {
+                "position": {
+                    "x": 250.0,
+                    "y": -200.0
+                },
+                "scale": {
+                    "x": 364.0,
+                    "y": 96.0
+                },
+                "rotation": 0.0
+            },
+            "render": {
+                "isActive": true,
+                "mesh": 1,
+                "shader_name": "default_shader",
+                "texture_name": "FMOD Logo White - Black Background",
+                "use_instancing": false,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                },
+                "alpha": 1.0,
+                "texture_width": 728,
+                "texture_height": 192,
+                "enable_nine_slice": false,
+                "nine_slice_borders": {
+                    "left": 1.0,
+                    "right": 1.0,
+                    "top": 1.0,
+                    "bottom": 1.0
+                }
+            },
+            "parent": {
+                "inheritActive": true,
+                "inheritTransform": false,
+                "parentId": 36
+            }
         }
     ],
-    "child_relationships": [],
+    "child_relationships": [
+        {
+            "parentId": 0,
+            "childrenIds": [
+                7,
+                8
+            ]
+        },
+        {
+            "parentId": 1,
+            "childrenIds": [
+                4,
+                9,
+                11,
+                12,
+                10,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18
+            ]
+        },
+        {
+            "parentId": 19,
+            "childrenIds": [
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35
+            ]
+        },
+        {
+            "parentId": 36,
+            "childrenIds": [
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49,
+                50,
+                51,
+                52
+            ]
+        }
+    ],
     "layers": [
         {
-            "name": "tutorial",
+            "name": "bg",
             "order": 0,
             "active": true,
             "entities": [
-                1
+                0,
+                2
+            ]
+        },
+        {
+            "name": "credits",
+            "order": 1,
+            "active": true,
+            "entities": [
+                1,
+                4,
+                6,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                42,
+                44,
+                45,
+                46,
+                48,
+                50,
+                51,
+                52
             ]
         },
         {
             "name": "buttons",
-            "order": 1,
+            "order": 2,
             "active": true,
-            "entities": []
+            "entities": [
+                3,
+                7,
+                8
+            ]
         }
     ],
     "layer_interactions": {
-        "buttons": {
-            "tutorial": true
+        "credits": {
+            "buttons": true,
+            "bg": true
         },
-        "tutorial": {
+        "buttons": {
+            "bg": true,
+            "credits": true
+        },
+        "bg": {
+            "credits": true,
             "buttons": true
         }
     },

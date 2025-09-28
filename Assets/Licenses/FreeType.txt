@@ -1,0 +1,1 @@
+FreeType is dual-licensed under the FreeType License (BSD-like) or GNU GPL. Full license texts: https://freetype.org/license.html

@@ -42,6 +42,9 @@ namespace BassNKick
         [Inspector("Button SFX")]
         public Entity buttonSFX = Entity.EntityField();
 
+        private float initX = 0f;
+        private float initY = 0f;
+
         public override void Setup()
         {
             Logger.Info("mainMenuUI.cs | Setup()");
@@ -75,10 +78,14 @@ namespace BassNKick
                 {
                     UI uiComponent = This.GetComponent<UI>();
 
+                    initX = This.Transform2D.Scale.X;
+                    initY = This.Transform2D.Scale.Y;
+
                     // Correct registration (fixes delegate issue)
                     uiComponent.RegisterOnClickCallback("Start_Game", StartFunction);
                     uiComponent.RegisterOnClickCallback("OPEN_SETTINGS", OptionsFunction);
                     uiComponent.RegisterOnClickCallback("BACK_TO_MAINMENU", MainMenuFunction);
+                    uiComponent.RegisterOnClickCallback("CREDITS", CreditsFunction);
 
 
                     Logger.Info("Registered Callbacks Successfully.");
@@ -153,32 +160,51 @@ namespace BassNKick
                 }
             }
 
-            if (uiComponent.Type == UIType.BUTTON && Input.IsMouseButtonDown(Input.MouseButton.Left) && uiComponent.IsHovered)
+            if (uiComponent.Type == UIType.BUTTON && uiComponent.IsHovered)
             {
-                List<string> actions = new List<string>(uiComponent.GetOnClickActions());
-                Logger.Info($"OnClick Actions in Update: {string.Join(", ", actions)}");
+				string[] actions = uiComponent.GetOnClickActions();
 
-                int entityID = uiComponent.GetEntityID(); //
-
-                //play button sound effect
-                PlayButtonSound();
-
-                if (actions.Contains("Start_Game"))
+                if (actions[0] == "CREDITS")
                 {
-                    StartFunction(entityID);
-                }
-                if (actions.Contains("OPEN_SETTINGS"))
-                {
-                    OptionsFunction(entityID);
-                }
-                if (actions.Contains("BACK_TO_MAINMENU"))
-                {
-                    MainMenuFunction(entityID);
-                }
+                    //Logger.Critical("HELP");
+					This.Transform2D.Scale = new Vector2<float>(initX * 1.1f, initY * 1.1f);
+				}
 
+				if (Input.IsMouseButtonDown(Input.MouseButton.Left))
+                {
+                    Logger.Info($"OnClick Actions in Update: {string.Join(", ", actions)}");
+
+                    int entityID = uiComponent.GetEntityID(); //
+
+                    //play button sound effect
+                    PlayButtonSound();
+
+                    if (actions[0] == "Start_Game")
+                    {
+                        StartFunction(entityID);
+                    }
+                    if (actions[0] == "OPEN_SETTINGS")
+                    {
+                        OptionsFunction(entityID);
+                    }
+                    if (actions[0] == "BACK_TO_MAINMENU")
+                    {
+                        MainMenuFunction(entityID);
+                    }
+                    if (actions[0] == "CREDITS")
+                        CreditsFunction(entityID);
+                }
             }
+            else if (uiComponent.Type == UIType.BUTTON && !uiComponent.IsHovered)
+            {
+				string[] actions = uiComponent.GetOnClickActions();
+				if (actions[0] == "CREDITS")
+                {
+					This.Transform2D.Scale = new Vector2<float>(initX, initY);
+				}
+			}
 
-            if (Lib.TempInputFix.IsKeyTriggered(Lib.Keybinds.exit))
+			if (Lib.TempInputFix.IsKeyTriggered(Lib.Keybinds.exit))
                 Engine.AppQuit();
         }
 
@@ -233,6 +259,16 @@ namespace BassNKick
             nextSceneName = "MainMenu";
 
         }
+        public void CreditsFunction(int entityID)
+        {
+			Logger.Info($"button_clicked function triggered for entity ID: {entityID}!");
+
+			This.Transform2D.Scale = new Vector2<float>(initX * 0.9f, initY * 0.9f);
+
+			nextScene = true;
+			countdown = 0.2f;
+			nextSceneName = "Credits";
+		}
     }
 }
 

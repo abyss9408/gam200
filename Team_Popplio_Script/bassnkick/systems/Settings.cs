@@ -19,6 +19,10 @@ Technology is prohibited.
 */
 /******************************************************************************/
 
+////////////////////
+// NOT BEING USED //
+////////////////////
+
 using BassNKick.Lib;
 using Team_Popplio.Extern;
 
@@ -33,14 +37,14 @@ namespace BassNKick
 		GameManager? gameManager;
 
 		[Inspector("Settings File")]
-		public string settingsFile = "settings.json";
+		public string settingsFile = "%POPPLIO%\\BassNKick\\settings.json"; //"settings.json";
 		public string settingsDefaultFile = "settings_default.json";
 
 		[Inspector("Game Settings File")]
 		public string gameSettingsFile = "game.json";
 
 		[Inspector("Debug Settings File")]
-		public string debugSettingsFile = "debug.json";
+		public string debugSettingsFile = "%POPPLIO%\\BassNKick\\debug.json"; //"debug.json";
 		public string debugSettingsDefaultFile = "debug_default.json";
 
 		#region Player

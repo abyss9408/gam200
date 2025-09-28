@@ -31,8 +31,8 @@ namespace BassNKick.Lib
 			public int id;
 			public bool unlocked;
 		};
-		
-		public static string profileFile = "profile.json";
+
+		public static string profileFile = "%POPPLIO%\\BassNKick\\profile.json"; //"profile.json";
 		public static string profileDefaultFile = "profile_default.json";
 
 		#region Player

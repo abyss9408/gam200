@@ -1,14 +1,14 @@
 /******************************************************************************/
 /*!
-\file   Directory.h
+\file   String.h
 \author Team Popplio
 \author Ng Jun Heng Shawn
 \contribution Shawn - 100%
 \par    Course : CSD2401 / UXGD2400 / DAA2402
 \par    Section : A
-\date   2025/03/13 08:55:22 PM (Last Edit)
+\date   2025/09/22 08:55:22 PM (Last Edit)
 \brief
-        This is the header file for filesystem utilities
+        This is the header file for string utilities
 
 Copyright (C) 2024 - 2025 DigiPen Institute of Technology.
 Reproduction or disclosure of this file or its contents
@@ -19,18 +19,9 @@ Technology is prohibited.
 
 #pragma once
 
-namespace PopplioUtil
+namespace PopplioUtil::String
 {
-    const std::string userPath {"%APPDATA%"};
-    const std::string popplioPath {"%POPPLIO%"};
+    bool Contains(std::string const& a, std::string const& b);
 
-    void ResetCurrentDirectory();
-
-    std::string GetAppDataPath();
-
-    std::string GetTeamPopplioUserPath();
-
-    bool CreateFile(std::string const& path);
-
-    bool FileExists(std::string const& path);
+    void Replace(std::string& str, const std::string& from, const std::string& to);
 }

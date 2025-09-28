@@ -357,6 +357,12 @@ namespace Popplio
 			return;
 		}
 
+		// Set fullscreen by default for game build
+#ifdef IMGUI_DISABLE
+		SetFullScreen();
+		fullscreen = true;
+#endif
+
 		// Now that basic GL setup is done, we can initialize the loading screen
 		loadingScreen = std::make_unique<LoadingScreen>(window);
 		if (!loadingScreen->Initialize())
@@ -388,6 +394,8 @@ namespace Popplio
 		// Setup scripts
 		PopplioScriptAPI::SetIntCall(*registry, *layerManager, *eventBus, *prefabManager, *cameraManager);
 		AssetLoader::Setup(registry->GetSystem<AudioSystem>(), registry->GetSystem<LogicSystem>());
+
+		
 
 		// Load assets with progress reporting through the loading screen
 		loadingScreen->LoadAssets([this](const std::function<void(float)>& updateProgress)
@@ -426,11 +434,7 @@ namespace Popplio
 
 		
 
-		// Set fullscreen by default for game build
-#ifdef IMGUI_DISABLE
-		SetFullScreen();
-		fullscreen = true;
-#endif
+
 
 		// Wait for the splash screen to complete if it's active
 		while (!loadingScreen->IsComplete()) {

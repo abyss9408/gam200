@@ -29,6 +29,7 @@ Technology is prohibited.
 #include "Any.h"
 #include "Rand.h"
 #include "Constraints.h"
+#include "String.h"
 
 namespace PopplioUtil
 {

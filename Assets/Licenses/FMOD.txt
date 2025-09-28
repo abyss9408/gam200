@@ -1,0 +1,1 @@
+FMOD is proprietary software. Refer to: https://www.fmod.com/licensing
