@@ -164,8 +164,6 @@ namespace Popplio
 		// Remove from component factories
 		componentFactories.erase(typeIndex);
 
-		ValidatePrefabState();
-
 		Logger::Debug("Removed component type: " + std::string(typeid(T).name()) + " from prefab: " + name, LogDestination::IMGUI_CONSOLE);
 	}
 
